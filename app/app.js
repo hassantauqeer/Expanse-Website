@@ -16,6 +16,16 @@ import { applyRouterMiddleware, Router, browserHistory } from 'react-router';
 import { syncHistoryWithStore } from 'react-router-redux';
 import { useScroll } from 'react-router-scroll';
 import 'sanitize.css/sanitize.css';
+import './css/style.css';
+import './css/animate.css';
+import './css/bootstrap.min.css';
+import './css/main.css';
+import './css/normalize.css';
+import './css/owl.carousel.css';
+import './css/owl.theme.css';
+import './css/owl.transitions.css';
+import './css/responsive.css';
+import './css/slicknav.css';
 
 // Import root app
 import App from 'containers/App';
@@ -44,17 +54,6 @@ import './global-styles';
 // Import root routes
 import createRoutes from './routes';
 
-import 'sanitize.css/sanitize.css';
-import './css/style.css';
-import './css/animate.css';
-import './css/bootstrap.min.css';
-import './css/main.css';
-import './css/normalize.css';
-import './css/owl.carousel.css';
-import './css/owl.theme.css';
-import './css/owl.transitions.css';
-import './css/responsive.css';
-import './css/slicknav.css';
 // Create redux store with history
 // this uses the singleton browserHistory provided by react-router
 // Optionally, this could be changed to leverage a created history

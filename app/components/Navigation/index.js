@@ -1,7 +1,7 @@
 import React from 'react';
 import Scroll  from 'react-scroll';
-import Button from 'react-uikit-button';
-import imgdd from  '../../img/logo.png'
+import About from '../About/index'
+import Home from '../Home';
 
 
 var Link       = Scroll.Link;
@@ -55,8 +55,7 @@ class Navigation extends React.Component {
                                 <div className="col-lg-2 col-md-2 col-sm-3 col-xs-10" id="expanse_logo">
                                     <div className="logo-area">
                                         <a href="#">
-
-
+                                            <img src={require('../../img/logo.png')} />
                                         </a>
                                     </div>
                                 </div>
@@ -66,11 +65,15 @@ class Navigation extends React.Component {
                                         <nav >
                                             <ul className="text-right" id="menu" >
                                                 <li>
-                                                    <Link activeClass="active" to="test2" spy={false} smooth={true} duration={500}>
+                                                    <Link activeClass="active" to="home" spy={true} smooth={true} duration={500}>
                                                         Home
                                                     </Link>
                                                 </li>
-                                                <li><a href="#about">about</a></li>
+                                                <li>
+                                                    <Link activeClass="active" to="about" spy={true} smooth={true} duration={500}>
+                                                        about
+                                                    </Link>
+                                                </li>
 
                                                 <li className="dropdown">
                                                     <a className="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
@@ -103,66 +106,13 @@ class Navigation extends React.Component {
                     </div>
                 </header>
 
-
-
-                <Link activeClass="active" to="test1" spy={false} smooth={true} duration={500} onSetActive={this.handleSetActive}>
-                    Test 1
-                </Link>
-                <Link activeClass="active" to="test2" spy={true} smooth={true} duration={500} onSetActive={this.handleSetActive} >
-                    Test 2 (delay)
-                </Link>
-                <Link className="test6" to="anchor" spy={true} smooth={true} duration={500}>
-
-                </Link>
-
-                <hr/>
-                <Element name="test1" className="element">
-
-                    test 1
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <hr/>
+                <Element name="home" className="element">
+                    <Home />
                 </Element>
 
-                <Element name="test2" className="element">
-                    test 2
-                    asdfasdf
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                <Element name="about" className="element">
+                    <hr/>
+                    <About/>
                 </Element>
 
                 <div id="anchor" className="element">
