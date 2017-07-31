@@ -1,3 +1,3 @@
 window.onload = function(){
-    alert("hassssdsafdsfadsfasdfasfasssaavrberann")
+    alert("123456")
 }
