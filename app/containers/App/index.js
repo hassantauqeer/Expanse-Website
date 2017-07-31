@@ -10,15 +10,14 @@
  * reloading is not a necessity for you then you can refactor it and remove
  * the linting exception.
  */
-
+/* eslint-disable */
 import React from 'react';
-
+// import Script from '../../js/newScript';
 export default class App extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
 
   static propTypes = {
     children: React.PropTypes.node,
   };
-
   render() {
     return (
       <div>
