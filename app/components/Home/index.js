@@ -1,7 +1,10 @@
+/* eslint-disable */
 import React, {Component} from 'react';
 
 export default class extends React.Component {
-
+    constructor(props) {
+        super(props);
+    }
     componentDidMount() {
         const script = document.createElement("script");
         script.src = "http://www.expanse.tech/js/particles.js";
@@ -17,7 +20,6 @@ export default class extends React.Component {
                         <a href="http://www.github.com/expanse-org/mist/releases" className="skill-btn">download wallet</a>
                     </div>
                 </div>
-                <canvas className="particles-js-canvas-el" width="100%" height="1256" ></canvas>
             </div>
         );
     }

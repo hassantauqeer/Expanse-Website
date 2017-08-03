@@ -150,12 +150,12 @@ i {
 /*----------------------------------------------------*/
 
 .main-navigation {
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     background-color: rgba(255, 132, 72, .5);
-    z-index: 11
+    z-index: 11;
 }
 
 
@@ -173,6 +173,12 @@ i {
 
 
 /*2.2.1 mainmenu > .menuabr*/
+
+.menubar ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
 
 .menubar nav ul li {
     display: inline-block;

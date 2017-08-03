@@ -1,8 +1,10 @@
+/* eslint-disable */
+
 import React from 'react';
 import Scroll  from 'react-scroll';
 import About from '../About/index'
 import Home from '../Home';
-
+import ScrollEvent from 'react-onscroll';
 
 var Link       = Scroll.Link;
 var Element    = Scroll.Element;
@@ -12,8 +14,8 @@ var scrollSpy  = Scroll.scrollSpy;
 
 
 class Navigation extends React.Component {
-    componentDidMount() {
 
+    componentDidMount() {
         Events.scrollEvent.register('begin', function(to, element) {
             console.log("begin", arguments);
         });
@@ -44,6 +46,7 @@ class Navigation extends React.Component {
     handleSetActive(to) {
         console.log(to);
     }
+
     render() {
         return (
             <div>
@@ -100,6 +103,24 @@ class Navigation extends React.Component {
 
                                     </div>
 
+                                </div>
+                                <div className="col-lg-1 col-md-1 col-sm-1 col-xs-12" id="expanse_lang">
+                                    <div className="lang-container">
+                                        <div className="btn-group bootstrap-select btn-cta fit-width"><button type="button" className="btn dropdown-toggle btn-new" data-toggle="dropdown" role="button" title="English"><span className="filter-option pull-left"><span className="flag-icon flag-icon-us"></span> English</span>&nbsp;<span className="bs-caret"><span className="caret"></span></span></button><div className="dropdown-menu open" role="combobox"><ul className="dropdown-menu inner" role="listbox" aria-expanded="false"><li data-original-index="0" className="selected"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true"><span className="flag-icon flag-icon-us"></span> English<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="1"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-cn"></span> 中文<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="2"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-jp"></span> 日本語<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="3"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-mx"></span> Español<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="4"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-kr"></span> 한국어<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="5"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-ru"></span> русский<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="6"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-de"></span> Deutsche<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="7"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-fr"></span> français<span className="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select data-style="btn-new" className="selectpicker btn-cta" data-width="fit" onChange="window.location = '?lang='+this.value+''" tabIndex="-98">
+                                            <option value="english" selected="selected" data-content="<span class=&quot;flag-icon flag-icon-us&quot;></span> English">English</option>
+                                            <option value="chinese" data-content="<span className=&quot;flag-icon flag-icon-cn&quot;></span> 中文">中文</option>
+                                            <option value="japanese" data-content="<span className=&quot;flag-icon flag-icon-jp&quot;></span> 日本語">日本語</option>
+                                            <option value="spanish" data-content="<span className=&quot;flag-icon flag-icon-mx&quot;></span> Español">Español</option>
+                                            <option value="korean" data-content="<span className=&quot;flag-icon flag-icon-kr&quot;></span> 한국어">한국어</option>
+                                            <option value="russian" data-content="<span className=&quot;flag-icon flag-icon-ru&quot;></span> русский">русский</option>
+                                            <option value="german" data-content="<span className=&quot;flag-icon flag-icon-de&quot;></span> Deutsche">Deutsche</option>
+                                            <option value="french" data-content="<span className=&quot;flag-icon flag-icon-fr&quot;></span> français">français</option>
+
+
+
+
+                                        </select></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
