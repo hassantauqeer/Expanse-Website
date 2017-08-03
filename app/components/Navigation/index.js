@@ -2,8 +2,13 @@
 
 import React from 'react';
 import Scroll  from 'react-scroll';
-import About from '../About/index'
+import About from '../About/index';
 import Home from '../Home';
+import Services from '../Services';
+import SkillArea from '../SkillArea';
+import Buy from '../Buy';
+import Contact from '../ContactUs';
+import Footer from '../Footer';
 import ScrollEvent from 'react-onscroll';
 
 var Link       = Scroll.Link;
@@ -73,7 +78,7 @@ class Navigation extends React.Component {
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link activeClass="active" to="about" spy={true} smooth={true} duration={500}>
+                                                    <Link to="about" spy={true} smooth={true} duration={500}>
                                                         about
                                                     </Link>
                                                 </li>
@@ -91,11 +96,19 @@ class Navigation extends React.Component {
                                                     </ul>
                                                 </li>
 
-                                                <li><a href="#exchanges">buy</a></li>
+                                                <li>
+                                                    <Link to="buy" spy={true} smooth={true} duration={500}>
+                                                        buy
+                                                    </Link>
+                                                </li>
                                                 <li><a href="http://explorer.expanse.tech">explore</a></li>
                                                 <li><a href="http://docs.expanse.tech">docs</a></li>
                                                 <li><a href="http://blog.expanse.tech">news</a></li>
-                                                <li><a href="#contact">contact</a></li>
+                                                <li>
+                                                    <Link to="contact" spy={true} smooth={true} duration={500}>
+                                                        contact
+                                                    </Link>
+                                                </li>
 
 
                                             </ul>
@@ -132,39 +145,27 @@ class Navigation extends React.Component {
                 </Element>
 
                 <Element name="about" className="element">
-                    <hr/>
+
                     <About/>
+                    <Services/>
+                    <SkillArea/>
                 </Element>
+                <Element name="buy" className="element">
+                    <Buy/>
+                </Element>
+                <Element name="contact" className="element">
+                    <Contact/>
+                </Element>
+                <Footer/>
 
-                <div id="anchor" className="element">
-                    test 6 (anchor)
-                </div>
+                {/*<div id="scrollUp"><a onClick={this.scrollToTop}>To the top!</a></div>*/}
 
-
-                <Link to="firstInsideContainer" containerId="containerElement">
-                    Go to first element inside container
-                </Link>
-
-                <Link to="secondInsideContainer" containerId="containerElement">
-                    Go to second element inside container
-                </Link>
-                <div className="element" id="containerElement">
-                    <Element name="firstInsideContainer">
-                        first element inside container
-                    </Element>
-
-                    <Element name="secondInsideContainer">
-                        second element inside container
-                    </Element>
-                </div>
-
-                <a onClick={this.scrollToTop}>To the top!</a>
-                <br/>
+                {/*<br/>
                 <a onClick={this.scrollToBottom}>To the bottom!</a>
                 <br/>
                 <a onClick={this.scrollTo}>Scroll to 100px from the top</a>
                 <br/>
-                <a onClick={this.scrollMore}>Scroll 100px more from the current position!</a>
+                <a onClick={this.scrollMore}>Scroll 100px more from the current position!</a>*/}
             </div>
         );
     }

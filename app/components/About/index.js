@@ -30,7 +30,7 @@ class About extends React.Component { // eslint-disable-line react/prefer-statel
                   <div className="about-text">
                       {/*     <!--section heading area-text-->*/}
                     <div className="portion-heading wow fadeInUp" data-wow-delay="0.1s">
-                      <h3>our story></h3>
+                      <h3>our story</h3>
                     </div>
                     <div className="portion-content">
                       <p>
@@ -80,6 +80,16 @@ class About extends React.Component { // eslint-disable-line react/prefer-statel
                         <br/><br/><br/>
                         <h3>our partners</h3>
                       </div>
+                      {/*<div className="client-carousel owl-partners">
+                        <div><img src={require('../../img/partners/azure.jpg')} alt="image"/></div>
+                        <div><img src={require('../../img/partners/bizspark.jpg')} alt="image"/></div>
+                        <div><img src={require('../../img/partners/centurylink.jpg')} alt="image"/></div>
+                        <div><img src={require('../../img/partners/changelly.jpg')} alt="image"/></div>
+                        <div><img src={require('../../img/partners/chankura.jpg')} alt="image"/></div>
+                        <div><img src={require('../../img/partners/hcblockchain.jpg')} alt="image"/></div>
+                        <div><img src={require('../../img/partners/game-board.jpg')} alt="image"/></div>
+                        <div><img src={require('../../img/partners/jaxx.jpg')} alt="image"/></div>
+                      </div>*/}
 
                     </div>
                   </div>
