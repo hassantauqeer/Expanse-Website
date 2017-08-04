@@ -19,7 +19,7 @@ class Buy extends React.Component { // eslint-disable-line react/prefer-stateles
                 <div className="col-lg-12 col-md-12">
                   <div className="section-title wow fadeInUp" data-wow-delay="0.1s">
                     <h4>Exchanges</h4>
-                    <div align="center">
+                    <div>
                       <a href="https://www.coinmarketcap.com/currencies/expanse/"><img src={require('../../img/chart.png')}/></a>
                     </div>
                   </div>
