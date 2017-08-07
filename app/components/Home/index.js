@@ -1,14 +1,17 @@
 /* eslint-disable */
 import React, {Component} from 'react';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'; // ES6
 
 export default class extends React.Component {
     constructor(props) {
         super(props);
+        this.tick = this.tick.bind(this)
     }
     componentDidMount() {
-      //  const script = document.createElement("script");
-     //   script.src = "particles.js";
-    //    document.body.appendChild(script);
+        this.tick()
+    }
+    tick(){
+        setInterval(console.log("a"), 100)
     }
     render() {
         return (
