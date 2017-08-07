@@ -6,9 +6,9 @@ export default class extends React.Component {
         super(props);
     }
     componentDidMount() {
-        const script = document.createElement("script");
-        script.src = "http://www.expanse.tech/js/particles.js";
-        document.body.appendChild(script);
+      //  const script = document.createElement("script");
+     //   script.src = "particles.js";
+    //    document.body.appendChild(script);
     }
     render() {
         return (

@@ -10,6 +10,7 @@ import Buy from '../Buy';
 import Contact from '../ContactUs';
 import Footer from '../Footer';
 import ScrollEvent from 'react-onscroll';
+import Team from '../Team';
 
 var Link       = Scroll.Link;
 var Element    = Scroll.Element;
@@ -30,6 +31,8 @@ class Navigation extends React.Component {
         });
 
         scrollSpy.update();
+
+
 
     }
     componentWillUnmount() {
@@ -53,6 +56,7 @@ class Navigation extends React.Component {
     }
 
     render() {
+       // (generaterParticles())
         return (
             <div>
                 <header id="home">
@@ -152,6 +156,7 @@ class Navigation extends React.Component {
                 </Element>
                 <Element name="buy" className="element">
                     <Buy/>
+                    <Team/>
                 </Element>
                 <Element name="contact" className="element">
                     <Contact/>

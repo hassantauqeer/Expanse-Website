@@ -8,13 +8,22 @@
 import React from 'react';
 // import styled from 'styled-components';
 import ReactSlider from 'react-slider'
-
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
 class About extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
+      var settings = {
+          dots: true,
+          infinite: true,
+          slidesToShow: 4,
+
+          slidesToScroll: 4,
+          autoplay: true,
+          autoplaySpeed: 2000
+      }
     return (
         <section id="about">
-          <ReactSlider defaultValue={[0, 33, 67, 100]} withBars />
 
           <div className="about-area">
             <div className="container">
@@ -80,16 +89,19 @@ class About extends React.Component { // eslint-disable-line react/prefer-statel
                         <br/><br/><br/>
                         <h3>our partners</h3>
                       </div>
-                      {/*<div className="client-carousel owl-partners">
-                        <div><img src={require('../../img/partners/azure.jpg')} alt="image"/></div>
-                        <div><img src={require('../../img/partners/bizspark.jpg')} alt="image"/></div>
-                        <div><img src={require('../../img/partners/centurylink.jpg')} alt="image"/></div>
-                        <div><img src={require('../../img/partners/changelly.jpg')} alt="image"/></div>
-                        <div><img src={require('../../img/partners/chankura.jpg')} alt="image"/></div>
-                        <div><img src={require('../../img/partners/hcblockchain.jpg')} alt="image"/></div>
-                        <div><img src={require('../../img/partners/game-board.jpg')} alt="image"/></div>
-                        <div><img src={require('../../img/partners/jaxx.jpg')} alt="image"/></div>
-                      </div>*/}
+
+                      <div>
+                        <Slider {...settings}>
+                          <div><img src={require('../../img/partners/azure.jpg')} alt="image"/></div>
+                          <div><img src={require('../../img/partners/bizspark.jpg')} alt="image"/></div>
+                          <div><img src={require('../../img/partners/centurylink.jpg')} alt="image"/></div>
+                          <div><img src={require('../../img/partners/changelly.jpg')} alt="image"/></div>
+                          <div><img src={require('../../img/partners/chankura.jpg')} alt="image"/></div>
+                          <div><img src={require('../../img/partners/hcblockchain.jpg')} alt="image"/></div>
+                          <div><img src={require('../../img/partners/game-board.jpg')} alt="image"/></div>
+                          <div><img src={require('../../img/partners/jaxx.jpg')} alt="image"/></div>
+                        </Slider>
+                      </div>
 
                     </div>
                   </div>
