@@ -6,7 +6,8 @@
  * @version 1.1
  * Because the bug of chrome V 46.0.2490.86, I have to render the text after animation, so guilty.
  * I have reported this issue to google, hoping it would be sovled in the new version.
- */
+ *//* eslint-disable */
+
 
 (function($) {
     $.fn.waterbubble = function(options) {

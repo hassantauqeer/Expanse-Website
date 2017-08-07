@@ -13,7 +13,7 @@ class Team extends React.Component {
             dots: true,
             infinite: true,
             slidesToShow: 3,
-            // autoplay: true,
+            autoplay: true,
             slidesToScroll: 3,
             autoplaySpeed: 2000
         }
