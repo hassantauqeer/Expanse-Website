@@ -41,12 +41,14 @@ import LanguageProvider from 'containers/LanguageProvider';
 
 
 
+
 import './js/particles';
 import "./js/jquery.initialize.js";
-import './js/typed';
+ import './js/typed';
 import './js/app';
-import './js/newScript';
-import './js/main';
+//import './js/newScript';
+// import './js/main';
+// import './js/main';
 
 
 
@@ -123,6 +125,7 @@ if (!window.Intl) {
   }))
     .then(() => Promise.all([
       import('intl/locale-data/jsonp/en.js'),
+      import('intl/locale-data/jsonp/zh.js')
     ]))
     .then(() => render(translationMessages))
     .catch((err) => {
