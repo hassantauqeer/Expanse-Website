@@ -27,6 +27,6 @@
   "app.components.About.presskit " : "presskit ",
   "app.components.About.our partners"  : "our partners",
 
-  "boilerplate.containers.LocaleToggle.zh": "zh",
-  "boilerplate.containers.LocaleToggle.en": "en"
+  "boilerplate.containers.LocaleToggle.zh": "chinese",
+  "boilerplate.containers.LocaleToggle.en": "english"
 }
