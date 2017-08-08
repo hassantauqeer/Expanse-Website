@@ -44,8 +44,7 @@ import LanguageProvider from 'containers/LanguageProvider';
 
 import './js/particles';
 import "./js/jquery.initialize.js";
-<<<<<<< HEAD
-=======
+
 // import './js/waterbubble';
 import './js/wow.min';
 import './js/plugins';
@@ -53,12 +52,12 @@ import './js/owl.carousel.min';
 import './js/jquery.slicknav.min';
 import './js/jquery.scrollUp.min';
 import './js/bootstrap.min';
->>>>>>> a317ed0bef97bb962e2d9bde4ca4330289020885
+
 import './js/app';
 import './js/newScript';
 import './js/main';
  import './js/typed';
-<<<<<<< HEAD
+
 import './js/app';
 //import './js/newScript';
 // import './js/typed';
@@ -66,9 +65,6 @@ import './js/app';
 import './js/newScript';
 // import './js/main';
 // import './js/main';
-=======
-
->>>>>>> a317ed0bef97bb962e2d9bde4ca4330289020885
 
 
 
