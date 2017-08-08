@@ -10,6 +10,7 @@ import React from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
+import Reveal from 'react-reveal';
 
 class Buy extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
@@ -21,7 +22,9 @@ class Buy extends React.Component { // eslint-disable-line react/prefer-stateles
                 {/*<!--section heading area-text-->*/}
                 <div className="col-lg-12 col-md-12">
                   <div className="section-title wow fadeInUp" data-wow-delay="0.1s">
-                    <h4>Exchanges</h4>
+                    <Reveal effect="animated fadeInUp">
+                      <h4>Exchanges</h4>
+                    </Reveal>
                     <div>
                       <a href="https://www.coinmarketcap.com/currencies/expanse/"><img src={require('../../img/chart.png')}/></a>
                     </div>

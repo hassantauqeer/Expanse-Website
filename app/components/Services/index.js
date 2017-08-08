@@ -6,6 +6,7 @@
 
 import React from 'react';
 // import styled from 'styled-components';
+import Reveal from 'react-reveal';
 
 
 class Services extends React.Component { // eslint-disable-line react/prefer-stateless-function
@@ -18,7 +19,9 @@ class Services extends React.Component { // eslint-disable-line react/prefer-sta
                  {/* section heading area-text*/}
                 <div className="col-lg-12 col-md-12">
                   <div className="section-title wow fadeInUp" data-wow-delay="0.1s">
-                    <h4>dApps (decentralized applications)</h4>
+                    <Reveal effect="animated fadeInUp">
+                      <h4>dApps (decentralized applications)</h4>
+                    </Reveal>
                   </div>
                 </div>
                 {/*<!--single work experience area-->*/}
