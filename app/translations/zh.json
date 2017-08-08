@@ -1,0 +1,33 @@
+{
+
+  "app.components.Navigation.home"    : "家",
+  "app.components.Navigation.about"     : "关于",
+  "app.components.Navigation.Mining"      : "矿业",
+  "app.components.Navigation.EXPPOOL"      : "EXP.POOL",
+  "app.components.Navigation.suprnova"      : "suprnova",
+  "app.components.Navigation.dwarfpool"     : "dwarfpool",
+  "app.components.Navigation.akasha"      : "阿卡莎",
+  "app.components.Navigation.Digger_ws"     : "挖掘机.ws",
+  "app.components.Navigation.buy"     : "购买",
+  "app.components.Navigation.explore"     : "探索",
+  "app.components.Navigation.docs"      : "文档",
+  "app.components.Navigation.news"      : "新闻",
+  "app.components.Navigation.contact" : "联系",
+
+  "app.components.Header.welcome_to_expanse" : "欢迎来到广阔.高科技",
+  "app.components.Header.Expanse_is" : "膨胀是",
+  "app.components.Header.download_wallet" : "下载钱包",
+
+  "app.components.About.our story" : "我们的故事",
+  "app.components.About.paragraph_1"  : "广阔.高科技™作为复仇的最早的稳定分支之一，由最早的blockchain开发人员和加密安全性企业家克里斯托弗·弗兰科创建。 联合创始人詹姆斯·克莱顿（詹姆斯·克莱顿）也是Cryptocurrency收藏家俱乐部（CCC）的创始人，CCC是Facebook的上最大和最受欢迎的Cryptocurrency集团。 具有丰富经验的另一个集团专家丹·康威很快加入了第三创始人，为项目带来了大量的人才，平衡和专长。",
+  "app.components.About.paragraph_2"  : "广阔被建立为一个没有ICO的社区项目（初始硬币提供），并且是块链接不可知论。 这个想法是使用尖端的块链技术来建立社区和团队可以想象的任何东西 - 使用权力下放的自治组织（DAO），以自筹资金的设计来保持真正的权力下放。 通过这种方式，扩大社区可以发展壮大，同时奖励持有人，合作伙伴和投资者。",
+  "app.components.About.paragraph_3" : "扩展平台现在具有两年持续增长和稳定的历史。 从小开始，但是有了很大的想法，团队正在成长，其他项目正在上架，帮助梦想成为现实，只有通过参与旅程的全球各地人群的想象力和才能才能实现。 每个新的社区成员和合作伙伴都为未来带来新的想法和愿景。 广阔.技术计划成为世界上最大的块链项目之一。 你不会加入我们这次冒险吗？ 开始学习更多关于今天的广阔！",
+  "app.components.About.wallet " : "钱包",
+  "app.components.About.roadmap "  : "路线图",
+  "app.components.About.whitepaper " : "白皮书",
+  "app.components.About.presskit " : "新闻资料袋",
+  "app.components.About.our_partners"  : "我们的伙伴",
+
+  "boilerplate.containers.LocaleToggle.zh": "",
+  "boilerplate.containers.LocaleToggle.en": ""
+}
