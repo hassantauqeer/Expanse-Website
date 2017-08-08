@@ -6,6 +6,7 @@ import React, {Component} from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
+ import Reveal from 'react-reveal';
 
 class Team extends React.Component {
     render() {
@@ -24,7 +25,9 @@ class Team extends React.Component {
                             <div className="row">
                                 <div className="col-lg-12 col-md-12">
                                     <div className="section-title wow fadeInUp" data-wow-delay="0.1s">
-                                        <h4>our team</h4>
+                                        <Reveal effect="animated fadeInUp">
+                                            <h4>our team</h4>
+                                        </Reveal>
                                     </div>
                                 </div>
                             </div>

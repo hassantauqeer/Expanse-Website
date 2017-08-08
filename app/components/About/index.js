@@ -7,10 +7,10 @@
 
 import React from 'react';
 // import styled from 'styled-components';
-import ReactSlider from 'react-slider'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
+import Reveal from 'react-reveal';
 class About extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
       var settings = {
@@ -38,8 +38,10 @@ class About extends React.Component { // eslint-disable-line react/prefer-statel
                 <div className="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                   <div className="about-text">
                       {/*     <!--section heading area-text-->*/}
-                    <div className="portion-heading wow fadeInUp" data-wow-delay="0.1s">
+                    <div className="portion-heading"  data-animation="fadeInUp">
+                      <Reveal effect="animated fadeInUp">
                       <h3>our story</h3>
+                    </Reveal>
                     </div>
                     <div className="portion-content">
                       <p>
@@ -87,7 +89,9 @@ class About extends React.Component { // eslint-disable-line react/prefer-statel
 
                       <div className="portion-heading wow fadeInUp" data-wow-delay="0.1s">
                         <br/><br/><br/>
-                        <h3>our partners</h3>
+                        <Reveal effect="animated fadeInUp">
+                           <h3>our partners</h3>
+                        </Reveal>
                       </div>
 
                       <div>
