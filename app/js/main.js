@@ -5,7 +5,7 @@
     /*----------------------------
      jQuery Slickmenu
     ------------------------------ */
-    $('#menu').slicknav();
+    // $('#menu').slicknav();
     /*----------------------------
      jQuery Stickymenu
     ------------------------------ */
@@ -527,14 +527,14 @@
     /*----------------------------
      Smooth Scrool
     ------------------------------ */
-    // $('ul#menu > li > a').on('click', function (event) {
-    //     var $anchor = $($(this).attr('href')).offset().top - 60;
-    //     $('body, html').animate({
-    //         scrollTop: $anchor
-    //     }, 1500);
-    //     event.preventDefault();
-    //     return false;
-    // });
+    $('ul#menu > li > a').on('click', function (event) {
+        var $anchor = $($(this).attr('href')).offset().top - 60;
+        $('body, html').animate({
+            scrollTop: $anchor
+        }, 1500);
+        event.preventDefault();
+        return false;
+    });
 
     /*----------------------------
      Water JS Skill Box
@@ -574,10 +574,10 @@
     // });
     /*----------------------------
      Preloader
-    // ------------------------------ */
-    // $(window).on('load',function () {
-    //     $("#status").on('fadeOut',"slow");
-    //     $("#preloader").on('delay',500).on('fadeOut',"slow").remove();
-    // })
+     ------------------------------ */
+     $(window).on('load',function () {
+         $("#status").on('fadeOut',"slow");
+         $("#preloader").on('delay',500).on('fadeOut',"slow").remove();
+     })
 
 })(jQuery);

@@ -331,14 +331,21 @@ i {
     color: #fff;
     font-weight: 600;
 }
-
-.intro-text h3 span {
-    text-transform: uppercase;
-    font-size: 27px;
-    letter-spacing: 2px;
-    color: #fff;
-    font-weight: 600;
+.react-rotating-text-cursor {
+    /*animation: blinker 0.5s linear infinite;*/
+    animation: blinker 0.5s cubic-bezier(0.4, 0, 1, 1) infinite
 }
+@keyframes blinker {
+    100% { opacity: 0; }
+}
+
+/*.intro-text h3 span {*/
+    /*text-transform: uppercase;*/
+    /*font-size: 27px;*/
+    /*letter-spacing: 2px;*/
+    /*color: #fff;*/
+    /*font-weight: 600;*/
+/*}*/
 
 
 /*3.2. typing animation > .typed-cursor*/

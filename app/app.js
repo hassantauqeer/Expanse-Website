@@ -43,11 +43,9 @@ import LanguageProvider from 'containers/LanguageProvider';
 
 import './js/particles';
 import "./js/jquery.initialize.js";
-// import './js/typed';
 import './js/app';
 import './js/newScript';
-// import './js/main';
-// import './js/main';
+import './js/main';
 
 
 
