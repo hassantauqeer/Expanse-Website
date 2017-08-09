@@ -17,6 +17,7 @@ import { changeLocale } from '../../containers/LanguageProvider/actions';
 import { makeSelectLocale } from '../../containers/LanguageProvider/selectors';
 import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
+import { Dropdown } from 'semantic-ui-react';
 
 var Link       = Scroll.Link;
 var Element    = Scroll.Element;
@@ -26,6 +27,12 @@ var scrollSpy  = Scroll.scrollSpy;
 
 
 class Navigation extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            country: ''
+        }
+    }
 
     componentDidMount() {
         Events.scrollEvent.register('begin', function(to, element) {
@@ -57,7 +64,10 @@ class Navigation extends React.Component {
     handleSetActive(to) {
         console.log(to);
     }
-
+    handleChange(evt) {
+        console.log(evt)
+        this.props.onLocaleToggle('en')
+    }
     render() {
         return (
             <div>
@@ -124,39 +134,47 @@ class Navigation extends React.Component {
                                     </div>
 
                                 </div>
+
                                 <div className="col-lg-1 col-md-1 col-sm-1 col-xs-12" id="expanse_lang">
                                     <div className="lang-container">
-                                        <div className="btn-group bootstrap-select btn-cta fit-width">
-                                            <button type="button" className="btn dropdown-toggle btn-new" data-toggle="dropdown" role="button" title="English">
-                                                <span className="filter-option pull-left">
-                                                    <span className="flag-icon flag-icon-us"></span>
-                                                    English
-                                                </span>&nbsp;
-                                                <span className="bs-caret">
-                                                    <span className="caret"></span>
-                                                </span>
-                                            </button>
-                                            <div className="dropdown-menu open" role="combobox">
-                                                <ul className="dropdown-menu inner" role="listbox" aria-expanded="false">
-                                                    <li data-original-index="0" className="selected">
-                                                        <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">
-                                                            <span className="flag-icon flag-icon-us"></span>
-                                                            English
-                                                            <span className="glyphicon glyphicon-ok check-mark"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li data-original-index="1" onClick={this.props.onLocaleToggle('zh')}>
-                                                        <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false">
-                                                            <span className="flag-icon flag-icon-cn"></span>
-                                                            中文
-                                                            <span className="glyphicon glyphicon-ok check-mark"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li data-original-index="2">
-                                                        <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-jp"></span> 日本語<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="3"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-mx"></span> Español<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="4"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-kr"></span> 한국어<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="5"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-ru"></span> русский<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="6"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-de"></span> Deutsche<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="7"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-fr"></span> français<span className="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div>
-                                            <LocaleToggle /></div>
+                                        <LocaleToggle />
                                     </div>
                                 </div>
+
+                                {/*<div className="btn-group bootstrap-select btn-cta fit-width">*/}
+                                {/*<button type="button" className="btn dropdown-toggle btn-new" data-toggle="dropdown" role="button" title="English">*/}
+                                {/*<span className="filter-option pull-left">*/}
+                                {/*<span className="flag-icon flag-icon-us"></span>*/}
+                                {/*English*/}
+                                {/*</span>&nbsp;*/}
+                                {/*<span className="bs-caret">*/}
+                                {/*<span className="caret"></span>*/}
+                                {/*</span>*/}
+                                {/*</button>*/}
+
+                                {/*/!*<Dropdown placeholder='Select Friend' fluid selection options={friendOptions} />*!/*/}
+
+                                {/*/!*<div className="dropdown-menu open" role="combobox">*!/*/}
+                                {/*/!*<ul className="dropdown-menu inner" role="listbox" aria-expanded="false" value={this.state.country} onClick={this.handleChange.bind(this)}>*!/*/}
+                                {/*/!*<li data-original-index="0" className="selected">*!/*/}
+                                {/*/!*<a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">*!/*/}
+                                {/*/!*<span className="flag-icon flag-icon-us"></span>*!/*/}
+                                {/*/!*English*!/*/}
+                                {/*/!*<span className="glyphicon glyphicon-ok check-mark"></span>*!/*/}
+                                {/*/!*</a>*!/*/}
+                                {/*/!*</li>*!/*/}
+                                {/*/!*<li data-original-index="1">*!/*/}
+                                {/*/!*<a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false">*!/*/}
+                                {/*/!*<span className="flag-icon flag-icon-cn"></span>*!/*/}
+                                {/*/!*中文*!/*/}
+                                {/*/!*<span className="glyphicon glyphicon-ok check-mark"></span>*!/*/}
+                                {/*/!*</a>*!/*/}
+                                {/*/!*</li>*!/*/}
+                                {/*/!*<li data-original-index="2">*!/*/}
+                                {/*/!*<a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-jp"></span> 日本語<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="3"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-mx"></span> Español<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="4"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-kr"></span> 한국어<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="5"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-ru"></span> русский<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="6"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-de"></span> Deutsche<span className="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="7"><a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-fr"></span> français<span className="glyphicon glyphicon-ok check-mark"></span></a></li>*!/*/}
+                                {/*/!*</ul>*!/*/}
+                                {/*/!*</div>*!/*/}
+                                {/*</div>*/}
                             </div>
                         </div>
                     </div>
