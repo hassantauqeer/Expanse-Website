@@ -144,14 +144,14 @@ class Navigation extends React.Component {
                                             </button>
                                             <div className="dropdown-menu open" role="combobox">
                                                 <ul className="dropdown-menu inner" role="listbox" aria-expanded="false">
-                                                    <li data-original-index="0" className="selected">
+                                                    <li data-original-index="0">
                                                         <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">
-                                                            <span className="flag-icon flag-icon-us"></span>
+                                                            <span className="flag-icon flag-icon-us"  ></span>
                                                             English
                                                             <span className="glyphicon glyphicon-ok check-mark"></span>
                                                         </a>
                                                     </li>
-                                                    <li data-original-index="1" onClick={this.props.onLocaleToggle('zh')}>
+                                                    <li data-original-index="1"  className="selected">
                                                         <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false">
                                                             <span className="flag-icon flag-icon-cn"></span>
                                                             中文
