@@ -57,21 +57,13 @@ import './js/bootstrap.min';
 import './js/app';
 import './js/newScript';
 import './js/main';
-<<<<<<< HEAD
 import './js/typed';
-=======
  import './js/typed';
 
->>>>>>> 5cbcd3131f30fd2d2be16eb046dd79f1006b9a2b
 import './js/app';
 import './js/app';
 import './js/newScript';
-<<<<<<< HEAD
-=======
-// import './js/main';
-// import './js/main';
 
->>>>>>> 5cbcd3131f30fd2d2be16eb046dd79f1006b9a2b
 
 
 

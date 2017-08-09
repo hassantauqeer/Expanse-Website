@@ -17,7 +17,7 @@ addLocaleData(enLocaleData);
 addLocaleData(zhLocaleData);
 
 export const appLocales = [
-    'en',
+    'English',
     'zh',
 ];
 
@@ -37,6 +37,6 @@ export const formatTranslationMessages = (locale, messages) => {
 };
 
 export const translationMessages = {
-    en: formatTranslationMessages('english', enTranslationMessages),
+    English: formatTranslationMessages('english', enTranslationMessages),
     zh: formatTranslationMessages('chinese', zhTranslationMessages),
 };

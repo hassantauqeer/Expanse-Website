@@ -6,7 +6,7 @@
 import { defineMessages } from 'react-intl';
 
 export default defineMessages({
-    en: {
+    English: {
         id: 'boilerplate.containers.LocaleToggle.en',
         defaultMessage: 'english',
     },

@@ -22,7 +22,7 @@ import { makeSelectLocale } from '../LanguageProvider/selectors';
 // import { DropdownButton, MenuItem } from 'react-bootstrap';
 import { Dropdown } from 'semantic-ui-react'
 
-
+import us from "../../img/flags/flag-400.png"
 export class LocaleToggle extends React.PureComponent {
     constructor(props){
         super(props);
@@ -35,19 +35,74 @@ export class LocaleToggle extends React.PureComponent {
         var friendOptions = [
             {
                 key: 'en',
-                text: 'en',
-                value: 'en'
+                text: 'English',
+                value: 'en',
+                image: { avater: 'true', src: '/img/flags/flag-400.png'}
             },
             {
                 key: 'zh',
-                text: 'zh',
+                text: 'Chinese',
                 value: 'zh'
             }
         ]
         let x = 1;
         return (
-            <Dropdown placeholder={this.props.locale} onChange={(event, data)=>this.handleChange(data)} fluid selection options={friendOptions} />
 
+            <div className="btn-group bootstrap-select btn-cta fit-width">
+                <button type="button" className="btn dropdown-toggle btn-new" data-toggle="dropdown" role="button" title={this.props.locale}>
+                                                <span className="filter-option pull-left">
+                                                    <span className="flag-icon flag-icon-us"></span>
+                                                    {this.props.locale}
+                                                </span>&nbsp;
+                    <span className="bs-caret">
+                                                    <span className="caret"></span>
+                                                </span>
+                </button>
+                <div className="dropdown-menu open" role="combobox">
+                    <ul className="dropdown-menu inner" role="listbox" aria-expanded="false">
+                        <li data-original-index="0" onClick={()=> {this.props.changeLocale('English')}}>
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">
+                                <span className="flag-icon flag-icon-us"  ></span>
+                                English
+                                <span className="glyphicon glyphicon-ok check-mark"></span>
+                            </a>
+                        </li>
+                        <li data-original-index="1"  className="selected" onClick={()=> {this.props.changeLocale('zh')}}>
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false">
+                                <span className="flag-icon flag-icon-cn"></span>
+                                中文
+                                <span className="glyphicon glyphicon-ok check-mark"></span>
+                            </a>
+                        </li>
+                        <li data-original-index="2">
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-jp"></span> 日本語<span className="glyphicon glyphicon-ok check-mark"></span></a>
+                        </li>
+
+                        <li data-original-index="3">
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-mx"></span> Español<span className="glyphicon glyphicon-ok check-mark"></span></a>
+                        </li>
+
+                        <li data-original-index="4">
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-kr"></span> 한국어<span className="glyphicon glyphicon-ok check-mark"></span></a>
+                        </li>
+
+                        <li data-original-index="5">
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-ru"></span> русский<span className="glyphicon glyphicon-ok check-mark"></span></a>
+                        </li>
+
+                        <li data-original-index="6">
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-de"></span> Deutsche<span className="glyphicon glyphicon-ok check-mark"></span></a>
+                        </li>
+
+                        <li data-original-index="7">
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-fr"></span> français<span className="glyphicon glyphicon-ok check-mark"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            //{/*<Dropdown placeholder={this.props.locale} onChange={(event, data)=>this.handleChange(data)} fluid selection options={friendOptions} />*/}
         //{/*<Toggle value={this.props.locale} values={appLocales} messages={messages} onToggle={this.props.onLocaleToggle} />*/}
         );
     }
@@ -65,7 +120,7 @@ const mapStateToProps = createSelector(
 
 export function mapDispatchToProps(dispatch) {
     return {
-        changeLocale: (data) => dispatch(changeLocale(data.value)),
+        changeLocale: (locale) => dispatch(changeLocale(locale)),
         dispatch,
     };
 }
