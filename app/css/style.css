@@ -57,10 +57,13 @@ ul {
 }
 
 i {
-    font-family: fontawesome;
+    font-family: fontawesome !important;
 }
 
-
+.resume-btn a{
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+}
 /*1.1 ajax preloading > #preloader*/
 
 #preloader {
