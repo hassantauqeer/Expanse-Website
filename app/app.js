@@ -17,17 +17,18 @@ import { applyRouterMiddleware, Router, browserHistory } from 'react-router';
 import { syncHistoryWithStore } from 'react-router-redux';
 import { useScroll } from 'react-router-scroll';
 import 'sanitize.css/sanitize.css';
-import './css/style.css';
-import './css/animate.css';
 import './css/bootstrap.min.css';
-import './css/main.css';
-import './css/normalize.css';
 import './css/owl.carousel.css';
 import './css/owl.theme.css';
 import './css/owl.transitions.css';
-import './css/responsive.css';
 import './css/slicknav.css';
+import './css/animate.css';
+import './css/normalize.css';
+import './css/main.css';
+import './css/style.css';
+import './css/responsive.css';
 
+import './css/fonts.css';
 
 
 // Import root app
@@ -82,7 +83,7 @@ import configureStore from './store';
 import { translationMessages } from './i18n';
 
 // Import CSS reset and Global Styles
-import './global-styles';
+
 
 // Import root routes
 import createRoutes from './routes';
