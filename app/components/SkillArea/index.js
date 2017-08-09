@@ -26,28 +26,28 @@ class SkillArea extends React.Component { // eslint-disable-line react/prefer-st
                 </div>
                 {/*<!--single skill area-->*/}
                 <div className="col-lg-3 col-md-3 col-sm-6 skill-bottom skill-mobile-mb">
-                  <canvas id="demo-1"></canvas>
+                  <img src={require('../../img/skills/blockchain.png')} alt="client"/>
                   <div className="skill-item">
                     <h5>distributed ledger</h5>
                   </div>
                 </div>
                 {/*<!--single skill area-->*/}
                 <div className="col-lg-3 col-md-3 col-sm-6 skill-bottom skill-mobile-mb">
-                  <canvas id="demo-2"></canvas>
+                  <img src={require('../../img/skills/solidity.png')} alt="client"/>
                   <div className="skill-item">
                     <h5>smart contracts</h5>
                   </div>
                 </div>
                 {/*<!--single skill area-->*/}
                 <div className="col-lg-3 col-md-3 col-sm-6 skill-mobile-mb">
-                  <canvas id="demo-3"></canvas>
+                  <img src={require('../../img/skills/evm.png')} alt="client"/>
                   <div className="skill-item">
                     <h5>ethereum virtual machine</h5>
                   </div>
                 </div>
                 {/*<!--single skill area-->*/}
                 <div className="col-lg-3 col-md-3 col-sm-6">
-                  <canvas id="demo-4"></canvas>
+                  <img src={require('../../img/skills/goland.png')} alt="client"/>
                   <div className="skill-item">
                     <h5>cmd line interface</h5>
                   </div>

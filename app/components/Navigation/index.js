@@ -9,7 +9,6 @@ import SkillArea from '../SkillArea';
 import Buy from '../Buy';
 import Contact from '../ContactUs';
 import Footer from '../Footer';
-import ScrollEvent from 'react-onscroll';
 import Team from '../Team';
 import messages from './messages';
 import LocaleToggle from 'containers/LocaleToggle';
@@ -38,9 +37,6 @@ class Navigation extends React.Component {
         });
 
         scrollSpy.update();
-
-
-
     }
     componentWillUnmount() {
         Events.scrollEvent.remove('begin');
@@ -63,10 +59,8 @@ class Navigation extends React.Component {
     }
 
     render() {
-       // (generaterParticles())
         return (
             <div>
-
                 <header id="home">
                     <div className="main-navigation sticky-header">
                         <div className="container">
