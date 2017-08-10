@@ -31,28 +31,33 @@ export class LocaleToggle extends React.PureComponent {
     handleChange(data) {
         this.props.changeLocale(data);
     }
+    handleCountry() {
+        switch(this.props.locale)
+        {
+            case 'en':
+                return (
+                    <div>
+                        <span className="flag-icon flag-icon-us"></span>
+                        English
+                    </div>
+                )
+
+            case 'zh':
+                return (
+                    <div>
+                        <span className="flag-icon flag-icon-cn"></span>
+                        Chinese
+                    </div>
+                )
+        };
+    }
     render() {
-        var friendOptions = [
-            {
-                key: 'en',
-                text: 'English',
-                value: 'en',
-                image: { avater: 'true', src: '/img/flags/flag-400.png'}
-            },
-            {
-                key: 'zh',
-                text: 'Chinese',
-                value: 'zh'
-            }
-        ]
-        let x = 1;
         return (
 
             <div className="btn-group bootstrap-select btn-cta fit-width">
                 <button type="button" className="btn dropdown-toggle btn-new" data-toggle="dropdown" role="button" title={this.props.locale}>
                                                 <span className="filter-option pull-left">
-                                                    <span className="flag-icon flag-icon-us"></span>
-                                                    {this.props.locale}
+                                                    {this.handleCountry()}
                                                 </span>&nbsp;
                     <span className="bs-caret">
                                                     <span className="caret"></span>
@@ -60,7 +65,7 @@ export class LocaleToggle extends React.PureComponent {
                 </button>
                 <div className="dropdown-menu open" role="combobox">
                     <ul className="dropdown-menu inner" role="listbox" aria-expanded="false">
-                        <li data-original-index="0" onClick={()=> {this.props.changeLocale('English')}}>
+                        <li data-original-index="0" onClick={()=> {this.props.changeLocale('en')}}>
                             <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">
                                 <span className="flag-icon flag-icon-us"  ></span>
                                 English
