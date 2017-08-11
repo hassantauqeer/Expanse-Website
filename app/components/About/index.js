@@ -3,15 +3,13 @@
 * About
 *
 */
-/* eslint-disable */
 
 import React from 'react';
-// import styled from 'styled-components';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import Reveal from 'react-reveal';
-class About extends React.Component { // eslint-disable-line react/prefer-stateless-function
+class About extends React.Component {
   render() {
       var settings = {
           dots: true,
@@ -41,7 +39,7 @@ class About extends React.Component { // eslint-disable-line react/prefer-statel
                     <div className="portion-heading"  data-animation="fadeInUp">
                       <Reveal effect="animated fadeInUp">
                       <h3>our story</h3>
-                    </Reveal>
+                      </Reveal>
                     </div>
                     <div className="portion-content">
                       <p>
@@ -118,19 +116,4 @@ class About extends React.Component { // eslint-disable-line react/prefer-statel
   }
 }
 
-About.propTypes = {
-
-};
-
 export default About;
-
-{/*<div className="client-carousel owl-partners">*/}
-  {/*<div><img src={require('../../img/partners/azure.jpg')} alt="image"/></div>*/}
-  {/*<div><img src={require('../../img/partners/bizspark.jpg')} alt="image"/></div>*/}
-  {/*<div><img src={require('../../img/partners/centurylink.jpg')} alt="image"/></div>*/}
-  {/*<div><img src={require('../../img/partners/changelly.jpg')} alt="image"/></div>*/}
-  {/*<div><img src={require('../../img/partners/chankura.jpg')} alt="image"/></div>*/}
-  {/*<div><img src={require('../../img/partners/hcblockchain.jpg')} alt="image"/></div>*/}
-  {/*<div><img src={require('../../img/partners/game-board.jpg')} alt="image"/></div>*/}
-  {/*<div><img src={require('../../img/partners/jaxx.jpg')} alt="image"/></div>*/}
-{/*</div>*/}

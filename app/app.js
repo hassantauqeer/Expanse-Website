@@ -1,4 +1,3 @@
-/* eslint-disable */
 /**
  * app.js
  *
@@ -27,7 +26,6 @@ import './css/normalize.css';
 import './css/main.css';
 import './css/style.css';
 import './css/responsive.css';
-
 import './css/fonts.css';
 
 
@@ -45,23 +43,14 @@ import LanguageProvider from 'containers/LanguageProvider';
 
 import './js/particles';
 import "./js/jquery.initialize.js";
-
 import './js/waterbubble';
-import './js/wow.min';
-import './js/plugins';
-import './js/owl.carousel.min';
+// import './js/wow.min';
 import './js/jquery.slicknav.min';
-import './js/jquery.scrollUp.min';
 import './js/bootstrap.min';
-
 import './js/app';
 import './js/newScript';
 import './js/main';
-import './js/typed';
- import './js/typed';
 
-import './js/app';
-import './js/app';
 import './js/newScript';
 
 

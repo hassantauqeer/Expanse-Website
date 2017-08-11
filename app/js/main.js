@@ -4,7 +4,7 @@
     /*----------------------------
      jQuery Slickmenu
      ------------------------------ */
-    $('#menu').slicknav();
+    // $('#menu').slicknav();
     /*----------------------------
      jQuery Stickymenu
      ------------------------------ */
@@ -23,29 +23,29 @@
     /*----------------------------
      owl active
      ------------------------------ */
-    $(".owl-demo").owlCarousel({
-        autoPlay: true,
-        slideSpeed: 2000,
-        pagination: true,
-        navigation: false,
-        items: 3,
-        itemsDesktop: [1199, 2],
-        itemsDesktopSmall: [980, 2],
-        itemsTablet: [768, 1],
-        itemsMobile: [479, 1]
-    });
-
-    $(".owl-partners").owlCarousel({
-        autoPlay: true,
-        slideSpeed: 2000,
-        pagination: true,
-        navigation: false,
-        items: 4,
-        itemsDesktop: [1199, 2],
-        itemsDesktopSmall: [980, 2],
-        itemsTablet: [768, 1],
-        itemsMobile: [479, 1]
-    });
+    // $(".owl-demo").owlCarousel({
+    //     autoPlay: true,
+    //     slideSpeed: 2000,
+    //     pagination: true,
+    //     navigation: false,
+    //     items: 3,
+    //     itemsDesktop: [1199, 2],
+    //     itemsDesktopSmall: [980, 2],
+    //     itemsTablet: [768, 1],
+    //     itemsMobile: [479, 1]
+    // });
+    //
+    // $(".owl-partners").owlCarousel({
+    //     autoPlay: true,
+    //     slideSpeed: 2000,
+    //     pagination: true,
+    //     navigation: false,
+    //     items: 4,
+    //     itemsDesktop: [1199, 2],
+    //     itemsDesktopSmall: [980, 2],
+    //     itemsTablet: [768, 1],
+    //     itemsMobile: [479, 1]
+    // });
     /*----------------------------
      type active
      ------------------------------ */
@@ -59,14 +59,14 @@
     /*----------------------------
      Smooth Scrool
      ------------------------------ */
-    $('ul#menu > li > a').on('click', function (event) {
-        var $anchor = $($(this).attr('href')).offset().top - 60;
-        $('body, html').animate({
-            scrollTop: $anchor
-        }, 1500);
-        event.preventDefault();
-        return false;
-    });
+    // $('ul#menu > li > a').on('click', function (event) {
+    //     var $anchor = $($(this).attr('href')).offset().top - 60;
+    //     $('body, html').animate({
+    //         scrollTop: $anchor
+    //     }, 1500);
+    //     event.preventDefault();
+    //     return false;
+    // });
 
     /*----------------------------
      Water JS Skill Box
@@ -98,18 +98,18 @@
     /*--------------------------
      scrollUp
      ---------------------------- */
-    $.scrollUp({
-        scrollText: '<i class="fa fa-angle-up"></i>',
-        easingType: 'linear',
-        scrollSpeed: 1500,
-        animation: 'fade'
-    });
-    /*----------------------------
-     Preloader
-     ------------------------------ */
-    $(window).on('load',function () {
-        $("#status").on('fadeOut',"slow");
-        $("#preloader").on('delay',500).on('fadeOut',"slow").remove();
-    })
+    // $.scrollUp({
+    //     scrollText: '<i class="fa fa-angle-up"></i>',
+    //     easingType: 'linear',
+    //     scrollSpeed: 1500,
+    //     animation: 'fade'
+    // });
+    // /*----------------------------
+    //  Preloader
+    //  ------------------------------ */
+    // $(window).on('load',function () {
+    //     $("#status").on('fadeOut',"slow");
+    //     $("#preloader").on('delay',500).on('fadeOut',"slow").remove();
+    // })
 
 })(jQuery);
