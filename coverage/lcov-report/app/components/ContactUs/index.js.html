@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/ContactUs/index.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app/components/ContactUs</a> index.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/34</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/33</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/6</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+*
+* ContactUs
+*
+*/
+&nbsp;
+import React from 'react';
+// import styled from 'styled-components';
+import Reveal from 'react-reveal';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+&nbsp;
+class ContactUs extends React.Component { // eslint-disable-line react/prefer-stateless-function
+  render() {
+    return (<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span>
+        &lt;section id=<span class="fstat-no" title="function not covered" >"contac</span>t"&gt;<span class="cstat-no" title="statement not covered" ></span>
+          &lt;div className="contact-area"&gt;
+            &lt;div className="container"&gt;
+              &lt;div className="row"&gt;
+                {/*&lt;!--section heading area-text--&gt;*/}
+                &lt;div className="col-lg-12 col-md-12"&gt;
+                  &lt;div className="section-title wow fadeInUp" data-wow-delay="0.1s"&gt;
+                    &lt;Reveal effect="animated fadeInUp"&gt;
+                      &lt;h4&gt;get in touch&lt;/h4&gt;
+                    &lt;/Reveal&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+&nbsp;
+&nbsp;
+                {/*&lt;!--contact form area--&gt;*/}
+                &lt;div className="col-lg-8 col-md-8 col-sm-8"&gt;
+                  &lt;div className="row"&gt;
+                    &lt;form&gt;
+                      &lt;div className="col-lg-6 col-md-6 padding-reduce"&gt;
+                        &lt;div className="form-group"&gt;
+                          &lt;input type="text" className="form-control" id="yname" name="yname" placeholder="Your Name" required /&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;div className="col-lg-6 col-md-6"&gt;
+                        &lt;div className="form-group"&gt;
+                          &lt;input type="email" className="form-control" id="yemail" name="yemail" placeholder="Type Your Email" required /&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;div className="col-lg-12 col-md-12"&gt;
+                        &lt;div className="form-group"&gt;
+                          &lt;textarea className="form-control" rows="7" id="ycomment" name="ycomment" placeholder= "Write Message" required&gt;&lt;/textarea&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;div className="col-lg-12 col-md-12"&gt;
+                        &lt;div className="submit-btn"&gt;
+                          &lt;input type="submit"  value="send" id="send"/&gt;
+&nbsp;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/form&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                {/*&lt;!--contact info area--&gt;*/}
+                &lt;div className="col-lg-4 col-md-4 col-sm-4"&gt;
+                  &lt;div className="contact-info"&gt;
+                    &lt;h5&gt;contact info&lt;/h5&gt;
+                    &lt;p&gt;If you have any questions or would like to get in contact with someone from our team use this form.&lt;/p&gt;
+                    &lt;address&gt;
+                      www.expanse.tech&lt;br/&gt;
+                      Call me +1(252)495-0363&lt;br/&gt;
+                      P.O. Box 2703, Washington, NC. USA
+                    &lt;/address&gt;
+                    &lt;div className="social-link"&gt;
+                      &lt;a href="https://www.facebook.com/groups/expanseofficial"&gt;&lt;i className="fa fa-facebook" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;
+                      &lt;a href="https://twitter.com/expanseofficial"&gt;&lt;i className="fa fa-twitter" aria-hidden="true"&gt;&lt;/i&gt; &lt;/a&gt;
+                      &lt;a href="https://www.reddit.com/r/ExpanseOfficial"&gt;&lt;i className="fa fa-reddit" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;
+                      &lt;a href="https://www.github.com/expanse-org"&gt;&lt;i className="fa fa-github" aria-hidden="true"&gt;&lt;/i&gt; &lt;/a&gt;
+                      &lt;a href="http://slack.expanse.tech/"&gt;&lt;i className="fa fa-slack" aria-hidden="true"&gt;&lt;/i&gt; &lt;/a&gt;
+                      &lt;a href="https://telegram.me/ExpanseTech"&gt;&lt;i className="fa fa-telegram" aria-hidden="true"&gt;&lt;/i&gt; &lt;/a&gt;
+                      &lt;a href="https://bitcointalk.org/index.php?topic=1173722.new#new"&gt;&lt;i className="fa fa-bitcoin" aria-hidden="true"&gt;&lt;/i&gt; &lt;/a&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div className="container"&gt;
+                &lt;div className="portion-heading wow fadeInUp" data-wow-delay="0.1s"&gt;
+                  &lt;br/&gt;&lt;br/&gt;
+                    &lt;center&gt;
+&nbsp;
+                      &lt;Reveal effect="animated fadeInUp"&gt;
+                        &lt;h3&gt;Events&lt;/h3&gt;
+                      &lt;/Reveal&gt;
+                    &lt;/center&gt;
+                &lt;/div&gt;
+                &lt;ul className="nav nav-tabs"&gt;
+                  &lt;li className="active"&gt;&lt;a data-toggle="tab" data-target="#menu1"&gt;Recent Events&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a data-toggle="tab" data-target="#menu2"&gt;Upcoming Events&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+&nbsp;
+                &lt;div className="tab-content"&gt;
+&nbsp;
+&nbsp;
+                  &lt;div id="menu1" className="tab-pane fade in active"&gt;
+                    &lt;div className="list-group"&gt;
+                      &lt;a href="#" className="list-group-item"&gt;
+                        &lt;h4 className="list-group-item-heading"&gt;Collision 2017&lt;/h4&gt;
+                        &lt;p className="list-group-item-text"&gt;May 2-4, 2017  &lt;br/&gt; New Orleans, USA&lt;/p&gt;
+                      &lt;/a&gt;
+                    &lt;/div&gt;
+&nbsp;
+                    &lt;div className="list-group"&gt;
+                      &lt;a href="#" className="list-group-item"&gt;
+                        &lt;h4 className="list-group-item-heading"&gt;Consensus&lt;/h4&gt;
+                        &lt;p className="list-group-item-text"&gt;May 22-24, 2017  &lt;br/&gt; NYC, USA&lt;/p&gt;
+                      &lt;/a&gt;
+                    &lt;/div&gt;
+&nbsp;
+                    &lt;div className="list-group"&gt;
+                      &lt;a href="#" className="list-group-item"&gt;
+                        &lt;h4 className="list-group-item-heading"&gt;Token Summit&lt;/h4&gt;
+                        &lt;p className="list-group-item-text"&gt;May 25, 2017&lt;br/&gt; NYC, USA&lt;/p&gt;
+                      &lt;/a&gt;
+                    &lt;/div&gt;
+&nbsp;
+                    &lt;div className="list-group"&gt;
+                      &lt;a href="#" className="list-group-item"&gt;
+                        &lt;h4 className="list-group-item-heading"&gt;Money Conf &lt;/h4&gt;
+                        &lt;p className="list-group-item-text"&gt;June 6th, 2017&lt;br/&gt;MADRID, SPAIN&lt;/p&gt;
+                      &lt;/a&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+&nbsp;
+                  &lt;div id="menu2" className="tab-pane fade"&gt;
+&nbsp;
+                    &lt;div className="list-group"&gt;
+                      &lt;a href="#" className="list-group-item"&gt;
+                        &lt;h4 className="list-group-item-heading"&gt;CoinAgenda&lt;/h4&gt;
+                        &lt;p className="list-group-item-text"&gt;July 16-18, 2017&lt;br/&gt; Barcelona, SPAIN&lt;/p&gt;
+                      &lt;/a&gt;
+                    &lt;/div&gt;
+&nbsp;
+                    &lt;div className="list-group"&gt;
+                      &lt;a href="#" className="list-group-item"&gt;
+                        &lt;h4 className="list-group-item-heading"&gt;Washington DC Blockchain Conference&lt;/h4&gt;
+                        &lt;p className="list-group-item-text"&gt;July 28, 2017&lt;br/&gt; Washington DC, USA&lt;/p&gt;
+                      &lt;/a&gt;
+                    &lt;/div&gt;
+&nbsp;
+                    &lt;div className="list-group"&gt;
+                      &lt;a href="#" className="list-group-item"&gt;
+                        &lt;h4 className="list-group-item-heading"&gt;Blockchain &amp; Bitcoin Conference Stockholm&lt;/h4&gt;
+                        &lt;p className="list-group-item-text"&gt;Sept 7, 2017&lt;br/&gt;Stockholm, SWEDEN&lt;/p&gt;
+                      &lt;/a&gt;
+                    &lt;/div&gt;
+&nbsp;
+&nbsp;
+                    &lt;div className="list-group"&gt;
+                      &lt;a href="#" className="list-group-item"&gt;
+                        &lt;h4 className="list-group-item-heading"&gt;Web Summit&lt;/h4&gt;
+                        &lt;p className="list-group-item-text"&gt; Nov 6-9, 2017&lt;br/&gt; Lisbon, PORTUGAL&lt;/p&gt;
+                      &lt;/a&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+&nbsp;
+                &lt;/div&gt;
+              &lt;/div&gt;
+&nbsp;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/section&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >ContactUs.propTypes = {</span>
+&nbsp;
+};
+&nbsp;
+export default ContactUs;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Fri Aug 11 2017 12:47:52 GMT+0500 (PKT)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/About/index.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app/components/About</a> index.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/34</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/33</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/5</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+*
+* About
+*
+*/
+&nbsp;
+import React from 'react';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+import Reveal from 'react-reveal';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+class About extends React.Component {
+  render() {
+      var settings = {
+          dots: true,<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span>
+          infinite: true,
+          slidesToShow: 4,
+&nbsp;
+          slidesToScroll: 4,
+          autoplay: true,
+          autoplaySpeed: 2000
+      }
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+        &lt;section id="about"&gt;
+&nbsp;
+          &lt;div className="about-area"&gt;
+            &lt;div className="container"&gt;
+              &lt;div className="row"&gt;
+                  {/*&lt;!-- about image-area--&gt;*/}
+                &lt;div className="col-lg-4 col-md-4 col-sm-4 col-xs-12"&gt;
+                  &lt;div className="about-image"&gt;
+                    &lt;img src={require('../../img/about-me.png')} alt="about-me"/&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                  {/*&lt;!-- about text-area--&gt;*/}
+                &lt;div className="col-lg-8 col-md-8 col-sm-8 col-xs-12"&gt;
+                  &lt;div className="about-text"&gt;
+                      {/*     &lt;!--section heading area-text--&gt;*/}
+                    &lt;div className="portion-heading"  data-animation="fadeInUp"&gt;
+                      &lt;Reveal effect="animated fadeInUp"&gt;
+                      &lt;h3&gt;our story&lt;/h3&gt;
+                      &lt;/Reveal&gt;
+                    &lt;/div&gt;
+                    &lt;div className="portion-content"&gt;
+                      &lt;p&gt;
+                        Expanse.Tech™ was created as the first stable fork of Ethereum by one of the earliest blockchain developers and cryptocurrency entrepreneurs out there, Christopher Franko. Co-founder James Clayton is also the founder of the Cryptocurrency Collectors Club, (CCC), which is the largest and most popular Cryptocurrency group on Facebook. Dan Conway, another blockchain expert with extensive experience, soon joined the team as the third founder, bringing a great deal of talent, balance, and expertise to the project.
+&nbsp;
+                      &lt;/p&gt;
+                      &lt;p&gt;
+                        Expanse was built as a community-based project without an ICO, (Initial Coin Offering), and is blockchain agnostic. The idea is to use cutting-edge blockchain technology to build anything the community and team can imagine—using a Decentralized Autonomous Organization, (DAO), with a self-funded design to keep it truly decentralized. This way, the Expanse community can evolve and grow while rewarding holders, partners, and investors.
+&nbsp;
+                      &lt;/p&gt;
+                      &lt;p&gt;
+                        The Expanse platform now has a two-year history of consistent growth and stability. Starting out small, but with big ideas, the team is growing and other projects are now coming on board to help make the dream a reality—limited only by the imagination and talent of all the diverse people around the world involved in the journey. Each new community member and partner brings new ideas and visions for the future. Expanse.Tech plans to be one of the top blockchain projects in the world. Won’t you join us on this adventure? Start learning more about Expanse today!
+&nbsp;
+                      &lt;/p&gt;
+                    &lt;/div&gt;
+                      {/*&lt;!-- about social icon-area--&gt;*/}
+                    &lt;div className="portion-contact-info"&gt;
+                        {/* &lt;!-- resume button-area--&gt;*/}
+                      &lt;div className="resume-btn"&gt;
+                        &lt;a href="http://www.github.com/expanse-org/mist/releases"&gt;wallet&lt;i className="fa fa-download"&gt;&lt;/i&gt; &lt;/a&gt;
+                      &lt;/div&gt;
+&nbsp;
+                      &lt;div className="resume-btn"&gt;
+                        &lt;a href="https://docs.google.com/document/d/1XcJNygLspYbpgI6RKX1gZekavz2lViYBWZF8574k_60/pub"&gt;roadmap&lt;i className="fa fa-download"&gt;&lt;/i&gt; &lt;/a&gt;
+                      &lt;/div&gt;
+&nbsp;
+                      &lt;div className="resume-btn"&gt;
+                        &lt;a href="http://www.expanse.tech/docs/whitepaper.pdf"&gt;whitepaper&lt;i className="fa fa-download"&gt;&lt;/i&gt; &lt;/a&gt;
+                      &lt;/div&gt;
+&nbsp;
+                      &lt;div className="resume-btn"&gt;
+                        &lt;a href="http://www.expanse.tech/docs/Presskit.zip"&gt;presskit&lt;i className="fa fa-download"&gt;&lt;/i&gt; &lt;/a&gt;
+                      &lt;/div&gt;
+&nbsp;
+                      &lt;br/&gt;&lt;br/&gt;
+&nbsp;
+                      &lt;div className="social-link"&gt;
+                        &lt;a href="https://twitter.com/expanseofficial"&gt;&lt;i className="fa fa-twitter" aria-hidden="true"&gt;&lt;/i&gt; &lt;/a&gt;
+                        &lt;a href="https://www.reddit.com/r/ExpanseOfficial"&gt;&lt;i className="fa fa-reddit" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;
+                        &lt;a href="https://www.github.com/expanse-org"&gt;&lt;i className="fa fa-github" aria-hidden="true"&gt;&lt;/i&gt; &lt;/a&gt;
+                        &lt;a href="http://slack.expanse.tech/"&gt;&lt;i className="fa fa-slack" aria-hidden="true"&gt;&lt;/i&gt; &lt;/a&gt;
+                        &lt;a href="https://telegram.me/ExpanseTech"&gt;&lt;i className="fa fa-telegram" aria-hidden="true"&gt;&lt;/i&gt; &lt;/a&gt;
+                        &lt;a href="https://bitcointalk.org/index.php?topic=1173722.new#new"&gt;&lt;i className="fa fa-bitcoin" aria-hidden="true"&gt;&lt;/i&gt; &lt;/a&gt;
+                      &lt;/div&gt;
+&nbsp;
+                      &lt;div className="portion-heading wow fadeInUp" data-wow-delay="0.1s"&gt;
+                        &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+                        &lt;Reveal effect="animated fadeInUp"&gt;
+                           &lt;h3&gt;our partners&lt;/h3&gt;
+                        &lt;/Reveal&gt;
+                      &lt;/div&gt;
+&nbsp;
+                      &lt;div&gt;
+                        &lt;Slider {...settings}&gt;
+                          &lt;div&gt;&lt;img src={require('../../img/partners/azure.jpg')} alt="image"/&gt;&lt;/div&gt;
+                          &lt;div&gt;&lt;img src={require('../../img/partners/bizspark.jpg')} alt="image"/&gt;&lt;/div&gt;
+                          &lt;div&gt;&lt;img src={require('../../img/partners/centurylink.jpg')} alt="image"/&gt;&lt;/div&gt;
+                          &lt;div&gt;&lt;img src={require('../../img/partners/changelly.jpg')} alt="image"/&gt;&lt;/div&gt;
+                          &lt;div&gt;&lt;img src={require('../../img/partners/chankura.jpg')} alt="image"/&gt;&lt;/div&gt;
+                          &lt;div&gt;&lt;img src={require('../../img/partners/hcblockchain.jpg')} alt="image"/&gt;&lt;/div&gt;
+                          &lt;div&gt;&lt;img src={require('../../img/partners/game-board.jpg')} alt="image"/&gt;&lt;/div&gt;
+                          &lt;div&gt;&lt;img src={require('../../img/partners/jaxx.jpg')} alt="image"/&gt;&lt;/div&gt;
+                        &lt;/Slider&gt;
+                      &lt;/div&gt;
+&nbsp;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/section&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+export default About;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Fri Aug 11 2017 12:47:52 GMT+0500 (PKT)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>
