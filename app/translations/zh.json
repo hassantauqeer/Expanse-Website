@@ -120,7 +120,7 @@
   "app.components.Service.Stockholm_SWEDEN"	: "瑞典斯德哥尔摩",
   "app.components.Service.Web_Summit"	: "网站峰会",
   "app.components.Service.Nov_6_9_2017"	: "2017年11月6日-9日",
-  "app.components.Service.copyright"	: "版权保留所有权利 广阔.高科技"
+  "app.components.Service.copyright"	: "版权保留所有权利 广阔.高科技",
 
   "boilerplate.containers.LocaleToggle.zh": "",
   "boilerplate.containers.LocaleToggle.en": ""
