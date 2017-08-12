@@ -33,7 +33,7 @@
 
   "app.components.Service.dApps_title": "dApps（分散应用程序）",
   "app.components.Service.ebs"	: "扩展债券系统（EBS）",
-  "app.components.Service.our_partners.Hold:Expanse"	: "持有膨胀 赚取收益",
+  "app.components.Service.our_partners_Hold_Expanse"	: "持有膨胀 赚取收益",
   "app.components.Service.dapp_first_tab"	: "扩张债券系统（EBS）是一种创新的方法，用于奖励在预定义时间段内购买和持有扩展令牌。 与传统的基于货币的债券系统不同，EBS仅使用本地EXP来奖励参与者。 功能类似于自有资金，安全的令牌储蓄账户，它使用分布式开源参数在块上使用基于契约的智能模拟桩。 通过访问我们的网站广阔e.高科技了解更多。",
 
   "app.components.Service.Borderless_Identity_Management"	: "无边界身份管理",
@@ -70,7 +70,7 @@
   "app.components.Service.Advisory_Board_Member"	: "咨询委员会成员",
   "app.components.Service.Ahmad_Siddiqi_detail"	: "艾马德·西迪奇（艾哈迈德·西迪奇）是一个成功的密码投资者和爱好者。 他自2013年以来一直积极参与密码经济。凭借15年的软件开发和财务经验，他处于独特的地位，可以了解加密资产的优势。 他目前正在扩大在 广阔和复仇块链上的智能合同生态系统，以及诸如ReactJS和Aspnet核心等尖端技术。",
   "app.components.Service.Timothy_Suggs"	: "蒂莫西·苏格斯",
-  "app.components.Service.Advisory_Board_Member"	: "咨询委员会成员",
+
   "app.components.Service.Timothy_detail"	: "蒂莫西·苏格斯是一家电脑软件企业家，专门从事网络和电视视频制作，网页开发和刷新网络营销（PPC / SEO /社会）。 蒂莫西还经验丰富的软件和卷筒纸应用程序开发，互联网营销策略和营销咨询。",
   "app.components.Service.Maurice_Beutnagel"	: "莫里斯·贝特纳格尔",
   "app.components.Service.Maurice_Beutnagel_detail"	: "M莫里斯·贝特纳格尔拥有创新管理硕士学位，一直帮助不同行业（空间，保险，游戏）的公司发展业务。 重点是在市场上实施新产品和服务。 十多年的投资经验。 把密码看作是前景最好的部门之一。",
@@ -100,8 +100,8 @@
   "app.components.Service.NYC_USA"	: "纽约，美国",
 
   "app.components.Service.MADRID_SPAIN"	: "马德里，西班牙",
-  "app.components.Service.May_2_4_2017 "	: "2017年5月2日至4日",
-  "app.components.Service.May_22_24_2017 "	: "2017年5月22日至24日",
+  "app.components.Service.May_2_4_2017"	: "2017年5月2日至4日",
+  "app.components.Service.May_22_24_2017"	: "2017年5月22日至24日",
   "app.components.Service.May_25_2017"	:"2017年5月25日",
   "app.components.Service.June_6th_2017"	: "2017年6月6日",
   "app.components.Service.send"	: "发送",
