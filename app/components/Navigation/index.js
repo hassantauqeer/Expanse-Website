@@ -108,22 +108,23 @@ class Navigation extends React.Component {
                                                         <li><a href="http://pool.expanse.tech/"><FormattedMessage {...messages.EXPPOOL} /></a></li>
                                                         <li><a href="https://exp.suprnova.cc/">suprnova</a></li>
                                                         <li><a href="http://dwarfpool.com/exp">dwarfpool</a></li>
-                                                        <li><a href="http://exp.akasha-pool.eu/">akasha</a></li>
-                                                        <li><a href="http://exp.digger.ws/">Digger.ws</a></li>
+                                                        <li><a href="http://exp.akasha-pool.eu/"><FormattedMessage {...messages.akasha} /></a></li>
+                                                        <li><a href="http://exp.digger.ws/"><FormattedMessage {...messages.Digger_ws} /></a></li>
+                                                        <li><a href="http://exp.minandoando.com">minandoando</a></li>
                                                     </ul>
                                                 </li>
 
                                                 <li>
                                                     <Link to="buy" spy={true} smooth={true} duration={500}>
-                                                        buy
+                                                        <FormattedMessage {...messages.buy} />
                                                     </Link>
                                                 </li>
-                                                <li><a href="http://explorer.expanse.tech">explore</a></li>
-                                                <li><a href="http://docs.expanse.tech">docs</a></li>
-                                                <li><a href="http://blog.expanse.tech">news</a></li>
+                                                <li><a href="http://explorer.expanse.tech"><FormattedMessage {...messages.explore} /></a></li>
+                                                <li><a href="http://docs.expanse.tech"><FormattedMessage {...messages.docs} /></a></li>
+                                                <li><a href="http://blog.expanse.tech"><FormattedMessage {...messages.news} /></a></li>
                                                 <li>
                                                     <Link to="contact" spy={true} smooth={true} duration={500}>
-                                                        contact
+                                                        <FormattedMessage {...messages.contact} />
                                                     </Link>
                                                 </li>
 

@@ -16,6 +16,9 @@
 
   "app.components.Header.welcome_to_expanse" : "欢迎来到广阔.高科技",
   "app.components.Header.Expanse_is" : "膨胀是",
+  "app.components.Header.string_one" : "一个聪明的合同的块",
+  "app.components.Header.string_two" : "基于艾瑟利",
+  "app.components.Header.string_three" : "一个聪明的合同的块|",
   "app.components.Header.download_wallet" : "下载钱包",
 
   "app.components.About.our story" : "我们的故事",

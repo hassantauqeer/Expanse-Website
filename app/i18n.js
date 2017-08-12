@@ -7,18 +7,22 @@
 import { addLocaleData } from 'react-intl';
 import enLocaleData from 'react-intl/locale-data/en';
 import zhLocaleData from 'react-intl/locale-data/zh';
+import frLocaleData from 'react-intl/locale-data/fr';
 
 import { DEFAULT_LOCALE } from './containers/App/constants'; // eslint-disable-line
 import * as enTranslationMessages from './translations/en.json';
 import * as zhTranslationMessages from './translations/zh.json';
+import * as frTranslationMessages from './translations/fr.json';
 
 
 addLocaleData(enLocaleData);
 addLocaleData(zhLocaleData);
+addLocaleData(frLocaleData);
 
 export const appLocales = [
-    'English',
+    'en',
     'zh',
+    'fr'
 ];
 
 
@@ -37,6 +41,7 @@ export const formatTranslationMessages = (locale, messages) => {
 };
 
 export const translationMessages = {
-    English: formatTranslationMessages('english', enTranslationMessages),
-    zh: formatTranslationMessages('chinese', zhTranslationMessages),
+    en: formatTranslationMessages('en', enTranslationMessages),
+    zh: formatTranslationMessages('zh', zhTranslationMessages),
+    fr: formatTranslationMessages('fr', frTranslationMessages),
 };

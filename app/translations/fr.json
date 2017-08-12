@@ -1,4 +1,35 @@
 {
-  "app.components.HomePage.header": "",
-  "app.components.NotFoundPage.header": ""
+  "app.components.Navigation.home": "home333",
+  "app.components.Navigation.about": "about",
+  "app.components.Navigation.Mining": "Mining",
+  "app.components.Navigation.EXPPOOL": "EXP.POOL",
+  "app.components.Navigation.suprnova": "suprnova",
+  "app.components.Navigation.dwarfpool": "dwarfpool",
+  "app.components.Navigation.akasha": "akasha",
+  "app.components.Navigation.Digger_ws": "Digger.ws",
+  "app.components.Navigation.buy": "buy",
+  "app.components.Navigation.explore": "explore",
+  "app.components.Navigation.docs": "docs",
+  "app.components.Navigation.news": "news",
+  "app.components.Navigation.contact": "contact",
+
+  "app.components.Header.welcome_to_expanse": "welcome to expanse.tech",
+  "app.components.Header.Expanse_is": "Expanse is ",
+  "app.components.Header.string_one" : "一个聪明的合同的块",
+  "app.components.Header.string_two" : "基于艾瑟利",
+  "app.components.Header.string_three" : "一个聪明的合同的块|",
+  "app.components.Header.download_wallet": "download wallet",
+
+  "app.components.About.our story" : "our story",
+  "app.components.About.paragraph_1"  : "Expanse.Tech™ was created as the first stable fork of Ethereum by one of the earliest blockchain developers and cryptocurrency entrepreneurs out there, Christopher Franko. Co-founder James Clayton is also the founder of the Cryptocurrency Collectors Club, (CCC), which is the largest and most popular Cryptocurrency group on Facebook. Dan Conway, another blockchain expert with extensive experience, soon joined the team as the third founder, bringing a great deal of talent, balance, and expertise to the project.",
+  "app.components.About.paragraph_2"  : "Expanse was built as a community-based project without an ICO, (Initial Coin Offering), and is blockchain agnostic. The idea is to use cutting-edge blockchain technology to build anything the community and team can imagine—using a Decentralized Autonomous Organization, (DAO), with a self-funded design to keep it truly decentralized. This way, the Expanse community can evolve and grow while rewarding holders, partners, and investors.",
+  "app.components.About.paragraph_3" : "The Expanse platform now has a two-year history of consistent growth and stability. Starting out small, but with big ideas, the team is growing and other projects are now coming on board to help make the dream a reality—limited only by the imagination and talent of all the diverse people around the world involved in the journey. Each new community member and partner brings new ideas and visions for the future. Expanse.Tech plans to be one of the top blockchain projects in the world. Won’t you join us on this adventure? Start learning more about Expanse today!",
+  "app.components.About.wallet " : "wallet ",
+  "app.components.About.roadmap "  : "roadmap ",
+  "app.components.About.whitepaper " : "whitepaper ",
+  "app.components.About.presskit " : "presskit ",
+  "app.components.About.our partners"  : "our partners",
+
+  "boilerplate.containers.LocaleToggle.zh": "chinese",
+  "boilerplate.containers.LocaleToggle.en": "english"
 }

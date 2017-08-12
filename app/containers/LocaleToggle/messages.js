@@ -14,4 +14,8 @@ export default defineMessages({
         id: 'boilerplate.containers.LocaleToggle.Chinese',
         defaultMessage: 'Chinese',
     },
+    Francis: {
+        id: 'boilerplate.containers.LocaleToggle.Francis',
+        defaultMessage: 'Francis',
+    },
 });

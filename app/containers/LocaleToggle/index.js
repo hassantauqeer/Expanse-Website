@@ -46,7 +46,15 @@ export class LocaleToggle extends React.PureComponent {
                 return (
                     <div>
                         <span className="flag-icon flag-icon-cn"></span>
-                        Chinese
+                        中文
+                    </div>
+                )
+
+            case 'fr':
+                return (
+                    <div>
+                        <span className="flag-icon flag-icon-fr"></span>
+                        français
                     </div>
                 )
         };
@@ -99,7 +107,7 @@ export class LocaleToggle extends React.PureComponent {
                             <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-de"></span> Deutsche<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
 
-                        <li data-original-index="7">
+                        <li data-original-index="7" onClick={()=> {this.props.changeLocale('fr')}}>
                             <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-fr"></span> français<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
                     </ul>
