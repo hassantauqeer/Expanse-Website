@@ -1,4 +1,6 @@
 {
+  /*French language */
+
   /* Naivgation */
 
   "app.components.Navigation.home"		: "maison",
@@ -73,7 +75,7 @@
   "app.components.OurTeam.Marcia_Danzeisen_detail"	: "Marcia Danzeisen a dirigé le marketing et la stratégie pour certaines des plus grandes sociétés de banques et de services financiers dans le monde. Écrivain accompli, Danzeisen a vu comment la technologie crypto currency et blockchain ont changé le monde traditionnel de FinTech.",
   "app.components.OurTeam.Sandro_Ieva"	: "Sandro Ieva",
   "app.components.OurTeam.Director_of_Art"	: "Directeur de l'art",
-  "app.components.OurTeam.Sandro-detail"	: "Sandro a travaillé avec plusieurs sociétés de bloc-blocs du monde entier. Il est compétent en matière de conceptualisation visuelle et de conception. Un expert dans la création d'interfaces, de sites Web, de graphiques animés, de 3D et d'art créatif.",
+  "app.components.OurTeam.Sandro_detail"	: "Sandro a travaillé avec plusieurs sociétés de bloc-blocs du monde entier. Il est compétent en matière de conceptualisation visuelle et de conception. Un expert dans la création d'interfaces, de sites Web, de graphiques animés, de 3D et d'art créatif.",
   "app.components.OurTeam.Scott_Williams"	: "Scott Williams",
   "app.components.OurTeam.Director_of_Brand_Awareness"	: "Directeur de la sensibilisation à la marque",
   "app.components.OurTeam.Scott_detail"	: "Scott apporte de nombreuses expériences à Expansion avec ses conseils commerciaux et ses compétences en matière de sensibilisation à la marque. Il a un MBA de l'Université du Nord-Est, est actuellement un Liaison mondiale pour les services partagés, un partenaire pour Briefcaseit Network, et il est le Directeur des opérations pour Borderless Charity qui a été construit sur la plate-forme Expanse.",
@@ -138,7 +140,7 @@
 
   /*Footer*/
 
-  "app.components.Footer.copyright"	: "Droit d'auteur réservé par | Expanse.tech"
+  "app.components.Footer.copyright"	: "Droit d'auteur réservé par | Expanse.tech",
 
   "boilerplate.containers.LocaleToggle.zh": "chinese",
   "boilerplate.containers.LocaleToggle.en": "english"

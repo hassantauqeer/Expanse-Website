@@ -1,4 +1,6 @@
 {
+  /*English language */
+
   /* Naivgation */
   "app.components.Navigation.home": "home",
   "app.components.Navigation.about": "about",
@@ -66,7 +68,7 @@
   "app.components.OurTeam.Marcia_Danzeisen_detail"	: "Marcia Danzeisen has led marketing and strategy for some of the largest banks and financial services technology companies in the world. An accomplished writer, Danzeisen saw how crypto currency and blockchain technology have changed the traditional FinTech world.",
   "app.components.OurTeam.Sandro_Ieva"	: "Sandro Ieva",
   "app.components.OurTeam.Director_of_Art"	: "Director of Art",
-  "app.components.OurTeam.Sandro-detail"	: "Sandro has worked with several blockchain companies from around the world. He is skilled with visual conceptualization and design. An expert at creating interfaces, websites, motion graphics, 3D, and creative art.",
+  "app.components.OurTeam.Sandro_detail"	: "Sandro has worked with several blockchain companies from around the world. He is skilled with visual conceptualization and design. An expert at creating interfaces, websites, motion graphics, 3D, and creative art.",
   "app.components.OurTeam.Scott_Williams"	: "Scott Williams",
   "app.components.OurTeam.Director_of_Brand_Awareness"	: "Director of Brand Awareness",
   "app.components.OurTeam.Scott_detail"	: "Scott brings a wealth of experience to Expanse with his business consulting and expertise in brand awareness. He has an MBA from Northeastern University, is currently a Global Liaison for Shared Services, a partner for Briefcaseit Network, and he is the Director of Operations for Borderless Charity that was built on the Expanse platform.",

@@ -1,4 +1,6 @@
 {
+  /*Chinese language */
+
   /* Naivgation */
 
   "app.components.Navigation.home": "家",
@@ -76,7 +78,7 @@
   "app.components.OurTeam.Marcia_Danzeisen_detail": "玛西娅·丹泽森为世界上一些最大的银行和金融服务技术公司带来了营销和策略。 一位成功的作家，丹泽森（Danzeisen）看到，加密货币和封锁技术如何改变了传统的FinTech世界。",
   "app.components.OurTeam.Sandro_Ieva": "桑德罗伊夫娃",
   "app.components.OurTeam.Director_of_Art": "艺术总监",
-  "app.components.OurTeam.Sandro-detail": "桑德罗与来自世界各地的几家公司合作。 他熟练的视觉概念和设计。 创建界面，网站，运动图形，3D和创意艺术的专家。",
+  "app.components.OurTeam.Sandro_detail": "桑德罗与来自世界各地的几家公司合作。 他熟练的视觉概念和设计。 创建界面，网站，运动图形，3D和创意艺术的专家。",
   "app.components.OurTeam.Scott_Williams": "斯科特·威廉姆斯",
   "app.components.OurTeam.Director_of_Brand_Awareness": "品牌意识总监",
   "app.components.OurTeam.Scott_detail": "斯科特凭借自己的商业咨询和品牌意识的专业知识，为 广阔带来了丰富的经验。 他拥有东北大学的工商管理硕士学位，目前是全球共享服务联络人，公司简介网络合作伙伴，他是以广阔平台为基础的无国界慈善运营总监。",
