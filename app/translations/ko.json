@@ -29,7 +29,7 @@
   "app.components.About.walletwhitepaper "	: "백서",
   "app.components.About.walletpresskit "	: "보도 자료 ",
   "app.components.About.walletour partners"	: "우리의 파트너",
-  /* About */
+  /* Service */
   "app.components.Service.dApps_title"	: "Dapps (분산 응용 프로그램)",
   "app.components.Service.ebs"	: "본드 시스템 창공 (EBS)",
   "app.components.Service.our_partners_Hold_Expanse"	: "창 공을 잡고; 창공 적립됩니다.",
@@ -81,7 +81,7 @@
   "app.components.OurTeam.Maurice_Beutnagel_detail"	: "모리스 Beutnagel 혁신 관리에서 석사 학위를 취득하고 그들의 비즈니스를 성장하기 위해 다양한 산업 분야 (공간, 보험, 게임) 회사를 돕는-하고있다. 초점은 시장에서 구현하는 새로운 제품과 서비스에 있습니다. 경험을 투자하고 10 년 동안. 전진 가장 유망한 분야 중 하나 암호을 본다.",
   "app.components.OurTeam.Nikola_Šaric"	: "니콜라 사 리치",
   "app.components.OurTeam.General_Practice_Physician"	: "일반 진료 의사",
-  "app.components.OurTeam.Nikola Šarić_detail"	: "니콜라 사릭의 솜 보르 근처의 작은 마을 스타니시치의 의사 (의사, 일반 진료)로 작동합니다. 나는 다른 통화 시스템, 소셜 네트워킹, 협력 적 소비에 관심이있다. 커뮤니티 통화 개발자, 로컬 교환을 위해 다른 시스템을 설계 경험 5 년. 알바 대체 통화의 설립자.",
+  "app.components.OurTeam.Nikola_Šarić_detail"	: "니콜라 사릭의 솜 보르 근처의 작은 마을 스타니시치의 의사 (의사, 일반 진료)로 작동합니다. 나는 다른 통화 시스템, 소셜 네트워킹, 협력 적 소비에 관심이있다. 커뮤니티 통화 개발자, 로컬 교환을 위해 다른 시스템을 설계 경험 5 년. 알바 대체 통화의 설립자.",
   "app.components.OurTeam.Soopnon"	: "Soopnon",
   "app.components.OurTeam.Chinese_Ambassador"	: "중국 대사",
   "app.components.OurTeam.Soopnon_detail"	: "Soopnon는 창 공 중국에 추가하기에 대한 뉴스 레터, 공지 사항, 작업을, 창 공에 대한 소식을 전파 중국에서 대화를 시작, 번역 나는 중국에서 마케팅의 그의 팀과 함께 창공 작업됩니다 Hongico.com에서 중국 대사입니다 교환. 와 Soopnon는 슈퍼 넷, PivX, 코모도을 열심히 중국에서 성공 프로젝트를 만드는 광범위한 경험을 가지고있다.",

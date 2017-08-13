@@ -1,0 +1,137 @@
+{
+  /*Russian language */
+
+  /* Naivgation */
+  "app.components.Navigation.home"		: "Главная",
+  "app.components.Navigation.about"			: "около",
+  "app.components.Navigation.Mining"			: "Добыча",
+  "app.components.Navigation.EXPPOOL"			: "EXP.БАССЕЙН",
+  "app.components.Navigation.suprnova"			: "suprnova",
+  "app.components.Navigation.dwarfpool"			: "dwarfpool",
+  "app.components.Navigation.akasha"			: "акаша",
+  "app.components.Navigation.Digger_ws"			: "копатель.ws",
+  "app.components.Navigation.buy"			: "купить",
+  "app.components.Navigation.explore"			: "исследовать",
+  "app.components.Navigation.docs"			: "документы",
+  "app.components.Navigation.news"			: "Новости",
+  "app.components.Navigation.contact"	: "контакт",
+  /* Home */
+  "app.components.Header.welcome_to_expanse"	: "Добро пожаловать в раздолье.тек",
+  "app.components.Header.Expanse_is"	: "раздолье - это",
+  "app.components.Header.download_wallet"	: "Скачать кошелек",
+  /* About */
+  "app.components.About.our story"	: "Наша история",
+  "app.components.About.paragraph_1"	: "раздолье.Технология™ был создан в качестве первой стабильной вилки Ethereum одним из самых ранних разработчиков блочной цепи и предпринимателями-криптовалютами, Кристофером Франко. Соучредитель Джеймс Клейтон также является основателем криптовалюта Коллекторы Клуб (CCC), который является самой большой и популярной группой Cryptocurrency на Facebook. Дэн Конвей, еще один эксперт по блоч-цепочке с большим опытом, вскоре присоединился к команде в качестве третьего основателя, привлек к проекту много талантов, баланса и опыта.",
+  "app.components.About.paragraph_2"	: "раздолье был построен как проект, основанный на сообществах, без ICO, (Первоначальное предложение монет) и является агностик-блочным. Идея состоит в том, чтобы использовать новейшую технологию blockchain для создания всего, что может представить сообщество и команда, используя децентрализованную автономную организацию (DAO) с самофинансируемым дизайном, чтобы сохранить ее по-настоящему децентрализованной. Таким образом, сообщество Expanse может развиваться и расти, поощряя владельцев, партнеров и инвесторов.",
+  "app.components.About.paragraph_3"	: "Платформа раздолье теперь имеет двухлетнюю историю постоянного роста и стабильности. Начиная с небольших, но с большими идеями, команда растет, и теперь на борту идут другие проекты, которые помогают сделать мечту реальностью, ограниченной только воображением и талантом всех разнообразных людей во всем мире, участвующих в путешествии. Каждый новый член сообщества и партнер приносит новые идеи и видения на будущее. Expanse.Tech планирует стать одним из лучших блоков-проектов в мире. Вы не присоединитесь к нам в этом приключении? Начните больше узнать о Expanse сегодня!",
+  "app.components.About.wallet "	: "бумажник",
+  "app.components.About.roadmap "	: "дорожная карта",
+  "app.components.About.whitepaper "	: "белая бумага",
+  "app.components.About.presskit "	: "пресс-кит",
+  "app.components.About.our partners"	: "наши партнеры",
+  /* Service */
+  "app.components.Service.dApps_title"	: "DApps (децентрализованные приложения)",
+  "app.components.Service.ebs"	: "раздолье облигация система （EBS）",
+  "app.components.Service.our_partners_Hold_Expanse"	: "Держать раздолье; Заработайте разворот.",
+  "app.components.Service.dapp_first_tab"	: "Система раздолье облигация система (EBS) - это инновационный метод вознаграждения за покупку и проведение токенов раздолье в течение заранее определенного периода времени. В отличие от традиционных систем облигаций на основе валюты, EBS использует только собственный EXP, чтобы вознаграждать тех, кто участвует. Функционирование, аналогичное самофинансируемому, защищенному накопителю на токенах, использует интеллектуальную контрактную симуляцию на блочной цепочке с децентрализованными параметрами открытого источника. Узнайте больше, посетив наш веб-сайт по адресу раздолье.тек.",
+  "app.components.Service.Borderless_Identity_Management"	: "Управление идентификацией без полей",
+  "app.components.Service.dapp_second_tab"	: "безграничный.ек - это революционная платформа децентрализованного управления услугами, которая может предлагать разнообразные услуги бесплатно или практически без затрат, где угодно и легко. Такие услуги, как гражданство, личность, нотариус, брак, управление правами на активы и т. Д., Могут легко адаптироваться к конкретным потребностям различных групп, которые сами выбирают свои собственные способы быть свободными. Эти dApps - всего лишь два примера того, где потенциал раздолье полностью превосходит любую другую децентрализованную платформу приложений на основе блокчин.",
+  "app.components.Service.voting_on_the_blockchain"	: "Голосование по блочной цепи",
+  "app.components.Service.dapp_third_tab"	: "Патентное голосование dApp, VoteLock ™, основанное на патентовании, имеет право изменять динамику выборов, внушать доверие к процессу голосования и исключать возможность «фальсификации» голосования. Это простой, точный и защищенный от несанкционированного доступа метод Для проведения выборов во всем мире. Благодаря подлинной системе идентификации в разработке, раздолье прототипировал почти идеальную систему. Один человек, один голос.",
+
+  /* Skill Area */
+
+  "app.components.SkillArea.our_technology_stack"	: "Наш технологический стек",
+  "app.components.SkillArea.distributed_ledger"	: "Распределенная книга",
+  "app.components.SkillArea.smart_contracts"	: "Умные контракты",
+  "app.components.SkillArea.ethereum_virtual_machine"	: "Виртуальная машина Эфириума",
+  "app.components.SkillArea.cmd_line_interface"	: "Интерфейс командной строки cmd",
+
+  /* Buy */
+
+  "Exchanges"	: "Обмены",
+
+  /* Our Teamy */
+
+  "app.components.OurTeam.our_team"	: "Наша команда",
+  "app.components.OurTeam.Christopher_Frankoo"	: "Кристофер Франко",
+  "app.components.OurTeam.Co_founder_Lead Developer"	: "Соучредитель / ведущий разработчик",
+  "app.components.OurTeam.Christopher_Franko_detail"	: "Опытный разработчик криптовалютики, обладающий знаниями об уровне технологии blockchain на уровне экспертов, Крис имеет многообразное понимание отрасли и давней репутации в сообществе. Единственная миссия Кристофера в жизни - дать людям возможность интуитивно понятного и экономически эффективного децентрализованного программного обеспечения.",
+  "app.components.OurTeam.James_Clayton"	: "Джеймс Клейтон",
+  "app.components.OurTeam.Co_founder_Community_Manager"	: "Соучредитель / менеджер сообщества",
+  "app.components.OurTeam.James_Clayton_detail"	: "Джеймс является аналитиком криптовалюты и инвестором, который основал одно из крупнейших активных сообществ для обсуждения криптовалюта в мире. Джеймс также является одним из основателей раздолье, а также опытным консультантом по криптографическим рынкам, писателем и менеджером сообщества Джеймсом служил в командах с несколькими хорошо зарекомендовавшими себя технологическими технологиями blockchain.",
+  "app.components.OurTeam.Dan_Conway"	: "Дэн Конвей",
+  "app.components.OurTeam.Co_founder_Senior_Developer"	: "Соучредитель / старший разработчик",
+  "app.components.OurTeam.Dan_detail"	: "Дэн является защитником технологий и разработчиком блочной цепи, предоставляя консультации для ряда проектов и компаний в области криптовалюты и блокнопов.",
+  "app.components.OurTeam.Marcia_Danzeisen"	: "Марсия Данзейзен",
+  "app.components.OurTeam.Marketing_Strategy"	: "Маркетинговая стратегия",
+  "app.components.OurTeam.Marcia_Danzeisen_detail"	: "Марсия Данзейсен возглавила маркетинг и стратегию для некоторых крупнейших банков и компаний, предоставляющих финансовые услуги в мире. Завершенный писатель, Danzeisen видел, как криптовалюта и технология blockchain изменили традиционный мир FinTech.",
+  "app.components.OurTeam.Sandro_Ieva"	: "Сандро Иева",
+  "app.components.OurTeam.Director_of_Art"	: "Директор по искусству",
+  "app.components.OurTeam.Sandro_detail"	: "Сандро работал с несколькими компаниями блокчейнов со всего мира. Он обладает навыками визуальной концептуализации и дизайна. Эксперт по созданию интерфейсов, веб-сайтов, графики движения, 3D и творческого искусства.",
+  "app.components.OurTeam.Scott_Williams"	: "Скотт Уильямс",
+  "app.components.OurTeam.Director_of_Brand_Awareness"	: "Директор по осведомленности о бренде",
+  "app.components.OurTeam.Scott_detail"	: "Скотт приносит богатый опыт раздолье с его бизнес-консалтингом и опытом в области узнаваемости бренда. Он имеет степень MBA из Северо-Восточного университета, в настоящее время является глобальной связью для общих служб, партнером сети Briefcaseit, и он является Директором по операциям в сфере благотворительности без границ, который был построен на платформе раздолье.",
+  "app.components.OurTeam.Ahmad_Siddiqi"	: "Ахмад Сиддики",
+  "app.components.OurTeam.Advisory_Board_Member"	: "Член консультативного совета",
+  "app.components.OurTeam.Ahmad_Siddiqi_detail"	: "Ахмад Сиддики - успешный инвестор и энтузиаст криптовалюты. Он активно участвует в криптоэкономической деятельности с 2013 года. С 15-летним опытом разработки программного обеспечения и финансов под его руководством он имеет уникальную возможность понять преимущества криптоактивных активов. В настоящее время он работает над расширением экосистемы Smart-Contract на блокпанах раздолье и Эфириума в сочетании с передовыми технологиями, такими как ReactJS и ядро Aspnet.",
+  "app.components.OurTeam.Timothy_Suggs"	: "Тимоти Саггс",
+  "app.components.OurTeam.Timothy_detail"	: "Тимоти Саггс является предпринимателем по компьютерному программному обеспечению, специализирующимся на производстве веб-и телевизионных видео, веб-разработке и обновлении интернет-маркетинга (КПП / SEO / Социальное). Тимоти также имеет опыт разработки программного обеспечения и веб-приложений, стратегии интернет-маркетинга и маркетингового консалтинга.",
+  "app.components.OurTeam.Maurice_Beutnagel"	: "Морис Беутнагель",
+  "app.components.OurTeam.Maurice_Beutnagel_detail"	: "Maurice Beutnagel имеет степень магистра в области управления инновациями и помогает компаниям в разных отраслях (космос, страхование, игры) развивать свой бизнес. Основное внимание уделяется внедрению новых продуктов и услуг на рынке. Более 10 лет опыта инвестирования. Видит криптоны как один из наиболее перспективных секторов, продвигающихся вперед.",
+  "app.components.OurTeam.Nikola_Šaric"	: "Никола Шарич",
+  "app.components.OurTeam.General_Practice_Physician"	: "Врач общей практики",
+  "app.components.OurTeam.Nikola_Šarić_detail"	: "Никола Шарич работает врачом (врач, общая практика) в небольшой деревне Станишич, недалеко от Сомбора, Сербия. Его интересуют альтернативные валютные системы, социальные сети, совместное потребление. Разработчик образовательных программ для сообщества, 5-летний опыт разработки альтернативных систем для местной биржи. Основатель Alva Альтернативная валюта.",
+  "app.components.OurTeam.Soopnon"	: "Soopnon",
+  "app.components.OurTeam.Chinese_Ambassador"	: "Посол Китая",
+  "app.components.OurTeam.Soopnon_detail"	: "Соопнон - посол Китая из Hongico.com, он будет работать с раздолье вместе со своей командой маркетологов в Китае, чтобы распространять новости об Expanse, начинать обсуждения в Китае, переводить информационные бюллетени, анонсы и работать над тем, чтобы раздолье добавили на китайский язык Обмены. Soopnon работал с Supernet, PIVX, Комодо и имеет большой опыт успешной реализации проектов в Китае.",
+  "app.components.OurTeam.Asim_Ashfaq"	: "Асим Ашфак",
+  "app.components.OurTeam.Senior_Developer"	: "Ведущий разработчик",
+  "app.components.OurTeam.asim_detail"	: "Увлеченный энтузиазмом криптовалюты, Асим увлечен созданием децентрализованных приложений следующего поколения. У него огромный опыт работы в качестве разработчика полного стека в самых сложных условиях, где он помогал решать сложные проблемы. Асим вместе со своей командой стремится сделать раздолье более распространенным и более доступным для более широкой аудитории. В качестве хобби он также запускает горную вышку на 30 GPU дома.",
+
+  /*Contact Us*/
+
+  "app.components.Contact.get_in_touch"	: "связаться",
+  "app.components.Contact.Your_Name"	: "Ваше имя",
+  "app.components.Contact.Type_Your_Email"	: "Введите адрес электронной почты",
+  "app.components.Contact.Write_Message"	: "Написать сообщение",
+  "app.components.Contact.contact_info"	: "Контактная информация",
+  "app.components.Contact.any_question_text"	: "Если у вас есть вопросы или вы хотите связаться с кем-то из нашей команды, используйте эту форму.",
+  "app.components.Contact.call_us"	: "Позвоните мне +1 (252)495-0363",
+  "app.components.Contact.po_box_address"	: "Старшина Box 2703, Вашингтон, штат Северная Каролина. США",
+
+  /*Events*/
+
+  "app.components.Events.upcoming_events"	: "Предстоящие События",
+  "app.components.Events.Collision_2017"	: "Столкновение 2017",
+  "app.components.Events.New_Orleans_USA"	: "Новый Орлеан, США",
+  "app.components.Events.Consensus"	: "консенсус",
+  "app.components.Events.Token_Summit"	: "Токен-саммит",
+  "app.components.Events.MADRID_SPAIN"	: "МАДРИД, ИСПАНИЯ",
+  "app.components.Events.Money_Conf"	: "Деньги Conf",
+  "app.components.Events.NYC_USA"	: "Нью-Йорк, США",
+  "app.components.Events.May_2_4_2017"	: "2-4 мая 2017 года",
+  "app.components.Events.May_22_24_2017"	: "222-24 мая 2017 года",
+  "app.components.Events.May_25_2017"	: "25 мая 2017 г.",
+  "app.components.Events.June_6th_2017"	: "6 июня 2017 года",
+  "app.components.Events.send" : "послать",
+  "app.components.Events.Recent_Events"	: "Недавние события",
+  "app.components.Events.Events"	: "Мероприятия",
+  "app.components.Events.Upcoming_Events"	: "Предстоящие События",
+  "app.components.Events.CoinAgenda"	: "Монета",
+  "app.components.Events.July_16_18_2017"	: "16-18 июля 2017 г.",
+  "app.components.Events.Washington_DC_Blockchain_Conference"	: "Конференция DC Цепочка блоков в Вашингтоне",
+  "app.components.Events.July_28_2017"	: "28 июля 2017 г.",
+  "app.components.Events.Blockchain_Bitcoin_Conference_Stockholm"	: "Конференция Цепочка блоков & биткойн Стокгольм",
+  "app.components.Events.Sept_7_2017"	: "7 сентября 2017 года",
+  "app.components.Events.Web_Summit"	: "Веб-саммит",
+  "app.components.Events.Barcelona_SPAIN"	: "Барселона, ИСПАНИЯ",
+  "app.components.Events.Lisbon_PORTUGAL"	: "Лиссабон, ПОРТУГАЛИЯ",
+  "app.components.Events.Washington_DC_USA"	: "Вашингтон, США",
+  "app.components.Events.Stockholm_SWEDEN"	: "Стокгольм, Швеция",
+  "app.components.Events.Nov_6_9_2017"	: "6-9 ноября 2017 г.",
+
+  /*Footer*/
+
+  "app.components.Footer.copyright"	: "Авторское право Все права защищены | раздолье.тек"
+}

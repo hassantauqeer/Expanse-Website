@@ -29,7 +29,7 @@
   "app.components.About.whitepaper "	: "白書",
   "app.components.About.presskit "	: "プレスキット",
   "app.components.About.our partners"	: "当社のパートナー",
-  /* About */
+  /* Service */
   "app.components.Service.dApps_title"	: "dApps（分散アプリケーション）",
   "app.components.Service.ebs"	: "E広域債券システム（EBS）",
   "app.components.Service.our_partners_Hold_Expanse"	: "ホールド・エクスパンション; 広大な利益を得る",
@@ -81,7 +81,7 @@
   "app.components.OurTeam.Maurice_Beutnagel_detail"	: "モーリス・ビュトナゲルは、イノベーションマネジメントの修士号を取得し、さまざまな業界の企業（宇宙、保険、ゲーム）のビジネスを成長させるのを手伝ってきました。 市場に新製品やサービスを導入することに重点を置いています。 10年以上の投資経験 暗号は、最も有望なセクターの1つとして前進しています。",
   "app.components.OurTeam.Nikola_Šaric"	: "ニコラシュアーリック",
   "app.components.OurTeam.General_Practice_Physician"	: "一般練習医師",
-  "app.components.OurTeam.Nikola Šarić_detail"	: "ニコラ・シュリッチは、セルビアのソンボル近郊のスタニシチの小さな村で医師（医師、一般慣行）として働いています。 彼は、代替通貨システム、ソーシャルネットワーキング、協調的消費に興味があります。 地域通貨開発者、現地交換のための代替システムの設計経験5年。 アルバ代替通貨の創設者。",
+  "app.components.OurTeam.Nikola_Šarić_detail"	: "ニコラ・シュリッチは、セルビアのソンボル近郊のスタニシチの小さな村で医師（医師、一般慣行）として働いています。 彼は、代替通貨システム、ソーシャルネットワーキング、協調的消費に興味があります。 地域通貨開発者、現地交換のための代替システムの設計経験5年。 アルバ代替通貨の創設者。",
   "app.components.OurTeam.Soopnon"	: "Soopnon",
   "app.components.OurTeam.Chinese_Ambassador"	: "中国大使",
   "app.components.OurTeam.Soopnon_detail"	: "SoopnonはHongico.comの中国大使で、広がりと中国のマーケターチームと協力して、広がりに関するニュースを広め、中国で議論を開始し、ニュースレターやアナウンスを翻訳し、Expanseを中国語に追加する作業を行います 交換。 Soopnonはスーパーネット、PIVX、コモドで働いており、プロジェクトを中国で成功させるという豊富な経験を持っています。",

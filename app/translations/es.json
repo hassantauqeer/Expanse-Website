@@ -29,7 +29,7 @@
   "app.components.About.whitepaper "	: "papel blanco ",
   "app.components.About.presskit "	: "carpeta de prensa ",
   "app.components.About.our_partners"	: "nuestros compañeros",
-  /* About */
+  /* Service */
   "app.components.Service.dApps_title"	: "DApps (aplicaciones descentralizadas)",
   "app.components.Service.ebs"	: "Sistema de enlace de expansión (EBS)",
   "app.components.Service.our_partners_Hold_Expanse"	: "Sostenga la extensión; Gana Extensión.",
@@ -81,7 +81,7 @@
   "app.components.OurTeam.Maurice_Beutnagel_detail"	: "Maurice Beutnagel tiene una maestría en gestión de la innovación y ha estado ayudando a las empresas de diferentes industrias (espacio, seguros, juegos) para hacer crecer su negocio. El foco está en la implementación de nuevos productos y servicios en el mercado. Más de 10 años de experiencia en inversión. Ve a los cryptos como uno de los sectores más prometedores que se mueven hacia adelante.",
   "app.components.OurTeam.Nikola_Šaric"	: "Nikola Šaric",
   "app.components.OurTeam.General_Practice_Physician"	: "Médico de Práctica General",
-  "app.components.OurTeam.Nikola Šarić_detail"	: "Nikola Šarić trabaja como médico (médico, médico general) en un pequeño pueblo de Stanišić cerca de Sombor, Serbia. Está interesado en sistemas monetarios alternativos, redes sociales, consumo colaborativo. Desarrollador de moneda comunitaria, 5 años de experiencia en el diseño de sistemas alternativos para el intercambio local. Fundador de Alva Divisa alternativa.",
+  "app.components.OurTeam.Nikola_Šarić_detail"	: "Nikola Šarić trabaja como médico (médico, médico general) en un pequeño pueblo de Stanišić cerca de Sombor, Serbia. Está interesado en sistemas monetarios alternativos, redes sociales, consumo colaborativo. Desarrollador de moneda comunitaria, 5 años de experiencia en el diseño de sistemas alternativos para el intercambio local. Fundador de Alva Divisa alternativa.",
   "app.components.OurTeam.Soopnon"	: "Soopnon",
   "app.components.OurTeam.Chinese_Ambassador"	: "Embajador chino",
   "app.components.OurTeam.Soopnon_detail"	: "Soopnon es el embajador chino de Hongico.com, trabajará con extensión junto con su equipo de comercializadores en China para difundir las noticias sobre extensión, iniciar discusiones en China, traducir Newsletters, Anuncios y trabajar para conseguir que Expanse se agregue al chino Intercambios. Soopnon ha trabajado con Supernet, PIVX, Komodo, y tiene una amplia experiencia en la fabricación de proyectos de éxito en China.",

@@ -29,7 +29,7 @@
   "app.components.About.whitepaper" : "whitepaper ",
   "app.components.About.presskit" : "presskit ",
   "app.components.About.our partners"  : "our partners",
-  /* About */
+  /* Service */
   "app.components.Service.dApps_title"	: "dApps (decentralized applications)",
   "app.components.Service.ebs"	: "Expanse Bond System (EBS)",
   "app.components.Service.our_partners_Hold_Expanse"	: "Hold Expanse; Earn Expanse.",
@@ -81,7 +81,7 @@
   "app.components.OurTeam.Maurice_Beutnagel_detail"	: "Maurice Beutnagel holds a masters degree in innovation management and has been helping companies in different industries (space, insurance, gaming) to grow their business. Focus is on implementing new products and services in the market. Over 10 years of investing experience. Sees cryptos as one of the most promising sectors moving forward.",
   "app.components.OurTeam.Nikola_Šaric"	: "Nikola Šaric",
   "app.components.OurTeam.General_Practice_Physician"	: "General Practice Physician",
-  "app.components.OurTeam.Nikola Šarić_detail"	: "Nikola Šarić works as a medical doctor (physician, general practice) in a small village of Stanišić near Sombor, Serbia. He is interested in alternative currency systems, social networking, collaborative consumption. Community currency developer, 5 years of experience in designing alternative systems for local exchange. Founder of Alva Alternative currency.",
+  "app.components.OurTeam.Nikola_Šarić_detail"	: "Nikola Šarić works as a medical doctor (physician, general practice) in a small village of Stanišić near Sombor, Serbia. He is interested in alternative currency systems, social networking, collaborative consumption. Community currency developer, 5 years of experience in designing alternative systems for local exchange. Founder of Alva Alternative currency.",
   "app.components.OurTeam.Soopnon"	: "Soopnon",
   "app.components.OurTeam.Chinese_Ambassador"	: "Chinese Ambassador",
   "app.components.OurTeam.Soopnon_detail"	: "Soopnon is the Chinese Ambassador from Hongico.com, he will be working with the Expanse along with his team of marketers in China to spread the news about Expanse, start discussions in China, translate Newsletters, Announcements, and work on getting Expanse added to Chinese Exchanges. Soopnon has worked with Supernet, PIVX, Komodo, and has extensive experience with making projects a success in China.",

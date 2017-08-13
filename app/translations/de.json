@@ -29,7 +29,7 @@
   "app.components.About.whitepaper "	: "weißes Papier",
   "app.components.About.presskit "	: "Pressemappe",
   "app.components.About.our partners"	: "unsere Partner",
-  /* About */
+  /* Service */
   "app.components.Service.dApps_title"	: "DApps (dezentrale Anwendungen)",
   "app.components.Service.ebs"	: "Expanse Bond System (EBS)",
   "app.components.Service.our_partners_Hold_Expanse"	: "Halten Sie Expanse; Verdienen Sie sich.",
