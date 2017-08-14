@@ -7,10 +7,18 @@
 import React from 'react';
 // import styled from 'styled-components';
 import Reveal from 'react-reveal';
+import { FormattedMessage } from 'react-intl';
+import messages from './messages';
+import { injectIntl, intlShape } from 'react-intl';
 
 
 class ContactUs extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
+    let namePlaceHolder = this.props.intl.formatMessage(messages.Your_Name);
+    let emailPlaceHolder = this.props.intl.formatMessage(messages.Type_Your_Email);
+    let messagesPlaceHolder = this.props.intl.formatMessage(messages.Write_Message);
+    let sendButton = this.props.intl.formatMessage(messages.send_button);
+
     return (
         <section id="contact">
           <div className="contact-area">
@@ -20,7 +28,7 @@ class ContactUs extends React.Component { // eslint-disable-line react/prefer-st
                 <div className="col-lg-12 col-md-12">
                   <div className="section-title wow fadeInUp" data-wow-delay="0.1s">
                     <Reveal effect="animated fadeInUp">
-                      <h4>get in touch</h4>
+                      <h4><FormattedMessage {...messages.get_in_touch} /></h4>
                     </Reveal>
                   </div>
                 </div>
@@ -32,22 +40,22 @@ class ContactUs extends React.Component { // eslint-disable-line react/prefer-st
                     <form>
                       <div className="col-lg-6 col-md-6 padding-reduce">
                         <div className="form-group">
-                          <input type="text" className="form-control" id="yname" name="yname" placeholder="Your Name" required />
+                          <input type="text" className="form-control" id="yname" name="yname" placeholder={namePlaceHolder} required />
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="form-group">
-                          <input type="email" className="form-control" id="yemail" name="yemail" placeholder="Type Your Email" required />
+                          <input type="email" className="form-control" id="yemail" name="yemail" placeholder={emailPlaceHolder} required />
                         </div>
                       </div>
                       <div className="col-lg-12 col-md-12">
                         <div className="form-group">
-                          <textarea className="form-control" rows="7" id="ycomment" name="ycomment" placeholder= "Write Message" required></textarea>
+                          <textarea className="form-control" rows="7" id="ycomment" name="ycomment" placeholder={messagesPlaceHolder} required></textarea>
                         </div>
                       </div>
                       <div className="col-lg-12 col-md-12">
                         <div className="submit-btn">
-                          <input type="submit"  value="send" id="send"/>
+                          <input type="submit"  value={sendButton} id="send"/>
 
                         </div>
                       </div>
@@ -57,12 +65,12 @@ class ContactUs extends React.Component { // eslint-disable-line react/prefer-st
                 {/*<!--contact info area-->*/}
                 <div className="col-lg-4 col-md-4 col-sm-4">
                   <div className="contact-info">
-                    <h5>contact info</h5>
-                    <p>If you have any questions or would like to get in contact with someone from our team use this form.</p>
+                    <h5><FormattedMessage {...messages.contact_info} /></h5>
+                    <p><FormattedMessage {...messages.any_question_text} /></p>
                     <address>
                       www.expanse.tech<br/>
-                      Call me +1(252)495-0363<br/>
-                      P.O. Box 2703, Washington, NC. USA
+                      <FormattedMessage {...messages.call_us} /> +1(252)495-0363<br/>
+                      <FormattedMessage {...messages.po_box_address} />
                     </address>
                     <div className="social-link">
                       <a href="https://www.facebook.com/groups/expanseofficial"><i className="fa fa-facebook" aria-hidden="true"></i></a>
@@ -82,13 +90,13 @@ class ContactUs extends React.Component { // eslint-disable-line react/prefer-st
                     <center>
 
                       <Reveal effect="animated fadeInUp">
-                        <h3>Events</h3>
+                        <h3><FormattedMessage {...messages.Events} /></h3>
                       </Reveal>
                     </center>
                 </div>
                 <ul className="nav nav-tabs">
-                  <li className="active"><a data-toggle="tab" data-target="#menu1">Recent Events</a></li>
-                  <li><a data-toggle="tab" data-target="#menu2">Upcoming Events</a></li>
+                  <li className="active"><a data-toggle="tab" data-target="#menu1"><FormattedMessage {...messages.Recent_Events} /></a></li>
+                  <li><a data-toggle="tab" data-target="#menu2"><FormattedMessage {...messages.upcoming_events} /></a></li>
                 </ul>
 
                 <div className="tab-content">
@@ -97,29 +105,29 @@ class ContactUs extends React.Component { // eslint-disable-line react/prefer-st
                   <div id="menu1" className="tab-pane fade in active">
                     <div className="list-group">
                       <a href="#" className="list-group-item">
-                        <h4 className="list-group-item-heading">Collision 2017</h4>
-                        <p className="list-group-item-text">May 2-4, 2017  <br/> New Orleans, USA</p>
+                        <h4 className="list-group-item-heading"><FormattedMessage {...messages.Collision_2017} /></h4>
+                        <p className="list-group-item-text"> <FormattedMessage {...messages.May_2_4_2017} /> <br/> <FormattedMessage {...messages.New_Orleans_USA} /> </p>
                       </a>
                     </div>
 
                     <div className="list-group">
                       <a href="#" className="list-group-item">
-                        <h4 className="list-group-item-heading">Consensus</h4>
-                        <p className="list-group-item-text">May 22-24, 2017  <br/> NYC, USA</p>
+                        <h4 className="list-group-item-heading"><FormattedMessage {...messages.Consensus} /></h4>
+                        <p className="list-group-item-text"><FormattedMessage {...messages.May_22_24_2017} /><br/><FormattedMessage {...messages.NYC_USA} /> </p>
                       </a>
                     </div>
 
                     <div className="list-group">
                       <a href="#" className="list-group-item">
-                        <h4 className="list-group-item-heading">Token Summit</h4>
-                        <p className="list-group-item-text">May 25, 2017<br/> NYC, USA</p>
+                        <h4 className="list-group-item-heading"><FormattedMessage {...messages.Token_Summit} /></h4>
+                        <p className="list-group-item-text"><FormattedMessage {...messages.May_25_2017} /><br/><FormattedMessage {...messages.NYC_USA} /></p>
                       </a>
                     </div>
 
                     <div className="list-group">
                       <a href="#" className="list-group-item">
-                        <h4 className="list-group-item-heading">Money Conf </h4>
-                        <p className="list-group-item-text">June 6th, 2017<br/>MADRID, SPAIN</p>
+                        <h4 className="list-group-item-heading"><FormattedMessage {...messages.Money_Conf} /></h4>
+                        <p className="list-group-item-text"><FormattedMessage {...messages.June_6th_2017} /><br/><FormattedMessage {...messages.MADRID_SPAIN} /></p>
                       </a>
                     </div>
                   </div>
@@ -128,30 +136,30 @@ class ContactUs extends React.Component { // eslint-disable-line react/prefer-st
 
                     <div className="list-group">
                       <a href="#" className="list-group-item">
-                        <h4 className="list-group-item-heading">CoinAgenda</h4>
-                        <p className="list-group-item-text">July 16-18, 2017<br/> Barcelona, SPAIN</p>
+                        <h4 className="list-group-item-heading"><FormattedMessage {...messages.CoinAgenda} /></h4>
+                        <p className="list-group-item-text"><FormattedMessage {...messages.July_16_18_2017} /><br/> <FormattedMessage {...messages.Barcelona_SPAIN} /></p>
                       </a>
                     </div>
 
                     <div className="list-group">
                       <a href="#" className="list-group-item">
-                        <h4 className="list-group-item-heading">Washington DC Blockchain Conference</h4>
-                        <p className="list-group-item-text">July 28, 2017<br/> Washington DC, USA</p>
+                        <h4 className="list-group-item-heading"><FormattedMessage {...messages.Washington_DC_Blockchain_Conference} /></h4>
+                        <p className="list-group-item-text"><FormattedMessage {...messages.July_28_2017} /><br/><FormattedMessage {...messages.Washington_DC_USA} /></p>
                       </a>
                     </div>
 
                     <div className="list-group">
                       <a href="#" className="list-group-item">
-                        <h4 className="list-group-item-heading">Blockchain & Bitcoin Conference Stockholm</h4>
-                        <p className="list-group-item-text">Sept 7, 2017<br/>Stockholm, SWEDEN</p>
+                        <h4 className="list-group-item-heading"><FormattedMessage {...messages.Blockchain_Bitcoin_Conference_Stockholm} /></h4>
+                        <p className="list-group-item-text"><FormattedMessage {...messages.Sept_7_2017} /><br/><FormattedMessage {...messages.Stockholm_SWEDEN} /></p>
                       </a>
                     </div>
 
 
                     <div className="list-group">
                       <a href="#" className="list-group-item">
-                        <h4 className="list-group-item-heading">Web Summit</h4>
-                        <p className="list-group-item-text"> Nov 6-9, 2017<br/> Lisbon, PORTUGAL</p>
+                        <h4 className="list-group-item-heading"><FormattedMessage {...messages.Web_Summit} /></h4>
+                        <p className="list-group-item-text"> <FormattedMessage {...messages.Nov_6_9_2017} /><br/><FormattedMessage {...messages.Lisbon_PORTUGAL} /></p>
                       </a>
                     </div>
                   </div>
@@ -166,8 +174,8 @@ class ContactUs extends React.Component { // eslint-disable-line react/prefer-st
   }
 }
 
-ContactUs.propTypes = {
+ContactUs.protoTypes = {
+    intl: intlShape.isRequired
+}
 
-};
-
-export default ContactUs;
+export default injectIntl(ContactUs);

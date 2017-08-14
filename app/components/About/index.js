@@ -9,6 +9,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import Reveal from 'react-reveal';
+import { FormattedMessage } from 'react-intl';
+import messages from './messages';
+import { injectIntl, intlShape } from 'react-intl';
+
 class About extends React.Component {
   render() {
       var settings = {
@@ -38,40 +42,37 @@ class About extends React.Component {
                       {/*     <!--section heading area-text-->*/}
                     <div className="portion-heading"  data-animation="fadeInUp">
                       <Reveal effect="animated fadeInUp">
-                      <h3>our story</h3>
+                      <h3><FormattedMessage {...messages.our_story} /></h3>
                       </Reveal>
                     </div>
                     <div className="portion-content">
                       <p>
-                        Expanse.Tech™ was created as the first stable fork of Ethereum by one of the earliest blockchain developers and cryptocurrency entrepreneurs out there, Christopher Franko. Co-founder James Clayton is also the founder of the Cryptocurrency Collectors Club, (CCC), which is the largest and most popular Cryptocurrency group on Facebook. Dan Conway, another blockchain expert with extensive experience, soon joined the team as the third founder, bringing a great deal of talent, balance, and expertise to the project.
-
+                          <FormattedMessage {...messages.paragraph_1} />
                       </p>
                       <p>
-                        Expanse was built as a community-based project without an ICO, (Initial Coin Offering), and is blockchain agnostic. The idea is to use cutting-edge blockchain technology to build anything the community and team can imagine—using a Decentralized Autonomous Organization, (DAO), with a self-funded design to keep it truly decentralized. This way, the Expanse community can evolve and grow while rewarding holders, partners, and investors.
-
+                          <FormattedMessage {...messages.paragraph_2} />
                       </p>
                       <p>
-                        The Expanse platform now has a two-year history of consistent growth and stability. Starting out small, but with big ideas, the team is growing and other projects are now coming on board to help make the dream a reality—limited only by the imagination and talent of all the diverse people around the world involved in the journey. Each new community member and partner brings new ideas and visions for the future. Expanse.Tech plans to be one of the top blockchain projects in the world. Won’t you join us on this adventure? Start learning more about Expanse today!
-
+                          <FormattedMessage {...messages.paragraph_3} />
                       </p>
                     </div>
                       {/*<!-- about social icon-area-->*/}
                     <div className="portion-contact-info">
                         {/* <!-- resume button-area-->*/}
                       <div className="resume-btn">
-                        <a href="http://www.github.com/expanse-org/mist/releases">wallet<i className="fa fa-download"></i> </a>
+                        <a href="http://www.github.com/expanse-org/mist/releases"><FormattedMessage {...messages.wallet} /> <i className="fa fa-download"></i> </a>
                       </div>
 
                       <div className="resume-btn">
-                        <a href="https://docs.google.com/document/d/1XcJNygLspYbpgI6RKX1gZekavz2lViYBWZF8574k_60/pub">roadmap<i className="fa fa-download"></i> </a>
+                        <a href="https://docs.google.com/document/d/1XcJNygLspYbpgI6RKX1gZekavz2lViYBWZF8574k_60/pub"><FormattedMessage {...messages.roadmap} /><i className="fa fa-download"></i> </a>
                       </div>
 
                       <div className="resume-btn">
-                        <a href="http://www.expanse.tech/docs/whitepaper.pdf">whitepaper<i className="fa fa-download"></i> </a>
+                        <a href="http://www.expanse.tech/docs/whitepaper.pdf"><FormattedMessage {...messages.whitepaper} /><i className="fa fa-download"></i> </a>
                       </div>
 
                       <div className="resume-btn">
-                        <a href="http://www.expanse.tech/docs/Presskit.zip">presskit<i className="fa fa-download"></i> </a>
+                        <a href="http://www.expanse.tech/docs/Presskit.zip"><FormattedMessage {...messages.presskit} /><i className="fa fa-download"></i> </a>
                       </div>
 
                       <br/><br/>
@@ -88,7 +89,7 @@ class About extends React.Component {
                       <div className="portion-heading wow fadeInUp" data-wow-delay="0.1s">
                         <br/><br/><br/>
                         <Reveal effect="animated fadeInUp">
-                           <h3>our partners</h3>
+                           <h3><FormattedMessage {...messages.our_partners} /></h3>
                         </Reveal>
                       </div>
 
@@ -116,4 +117,9 @@ class About extends React.Component {
   }
 }
 
-export default About;
+
+About.protoTypes = {
+    intl: intlShape.isRequired
+}
+
+export default injectIntl(About);

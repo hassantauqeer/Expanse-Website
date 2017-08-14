@@ -11,6 +11,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import Reveal from 'react-reveal';
+import { FormattedMessage } from 'react-intl';
+import messages from './messages';
 
 class Buy extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
@@ -23,7 +25,7 @@ class Buy extends React.Component { // eslint-disable-line react/prefer-stateles
                 <div className="col-lg-12 col-md-12">
                   <div className="section-title wow fadeInUp" data-wow-delay="0.1s">
                     <Reveal effect="animated fadeInUp">
-                      <h4>Exchanges</h4>
+                      <h4><FormattedMessage {...messages.Exchanges} /></h4>
                     </Reveal>
                     <div>
                       <a href="https://www.coinmarketcap.com/currencies/expanse/"><img src={require('../../img/chart.png')}/></a>

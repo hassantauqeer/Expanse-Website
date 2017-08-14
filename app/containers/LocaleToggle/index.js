@@ -10,19 +10,9 @@ import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
 import 'semantic-ui-css/semantic.min.css';
 import '../../../node_modules/semantic-ui/dist/semantic.min.css';
-
-import Toggle from 'components/Toggle';
-import Wrapper from './Wrapper';
-import messages from './messages';
-import { appLocales } from '../../i18n';
 import { changeLocale } from '../LanguageProvider/actions';
 import { makeSelectLocale } from '../LanguageProvider/selectors';
-// import { Dropdown } from 'semantic-ui-react';
-// import { Select } from 'semantic-ui-react'
-// import { DropdownButton, MenuItem } from 'react-bootstrap';
-import { Dropdown } from 'semantic-ui-react'
 
-import us from "../../img/flags/flag-400.png"
 export class LocaleToggle extends React.PureComponent {
     constructor(props){
         super(props);
@@ -47,6 +37,46 @@ export class LocaleToggle extends React.PureComponent {
                     <div>
                         <span className="flag-icon flag-icon-cn"></span>
                         中文
+                    </div>
+                )
+
+            case 'es':
+                return (
+                    <div>
+                        <span className="flag-icon flag-icon-mx"></span>
+                        Español
+                    </div>
+                )
+
+            case 'ru':
+                return (
+                    <div>
+                        <span className="flag-icon flag-icon-ru"></span>
+                        русский
+                    </div>
+                )
+
+            case 'de':
+                return (
+                    <div>
+                        <span className="flag-icon flag-icon-de"></span>
+                        Deutsche
+                    </div>
+                )
+
+            case 'ja':
+                return (
+                    <div>
+                        <span className="flag-icon flag-icon-jp"></span>
+                        日本語
+                    </div>
+                )
+
+            case 'ko':
+                return (
+                    <div>
+                        <span className="flag-icon flag-icon-kr"></span>
+                        한국어
                     </div>
                 )
 
@@ -87,23 +117,23 @@ export class LocaleToggle extends React.PureComponent {
                                 <span className="glyphicon glyphicon-ok check-mark"></span>
                             </a>
                         </li>
-                        <li data-original-index="2">
+                        <li data-original-index="2" onClick={()=> {this.props.changeLocale('ja')}}>
                             <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-jp"></span> 日本語<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
 
-                        <li data-original-index="3">
+                        <li data-original-index="3" onClick={()=> {this.props.changeLocale('es')}}>
                             <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-mx"></span> Español<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
 
-                        <li data-original-index="4">
+                        <li data-original-index="4" onClick={()=> {this.props.changeLocale('ko')}}>
                             <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-kr"></span> 한국어<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
 
-                        <li data-original-index="5">
+                        <li data-original-index="5" onClick={()=> {this.props.changeLocale('ru')}}>
                             <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-ru"></span> русский<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
 
-                        <li data-original-index="6">
+                        <li data-original-index="6" onClick={()=> {this.props.changeLocale('de')}}>
                             <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-de"></span> Deutsche<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
 

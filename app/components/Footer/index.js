@@ -6,7 +6,8 @@
 
 import React from 'react';
 // import styled from 'styled-components';
-
+import { FormattedMessage } from 'react-intl';
+import messages from './messages';
 
 class Footer extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
@@ -17,7 +18,7 @@ class Footer extends React.Component { // eslint-disable-line react/prefer-state
               <div className="row">
                 <div className="col-lg-12 col-md-12">
                   <div className="copyright-text text-right">
-                    <p>@ copyright all right reserved by | expanse.tech</p>
+                    <p><FormattedMessage {...messages.copyright} /></p>
                   </div>
                 </div>
               </div>
