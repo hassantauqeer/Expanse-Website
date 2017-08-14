@@ -1,40 +1,5 @@
 {
-<<<<<<< HEAD
-  "app.components.Navigation.home": "home",
-  "app.components.Navigation.about": "about",
-  "app.components.Navigation.Mining": "Mining",
-  "app.components.Navigation.EXPPOOL": "EXP.POOL",
-  "app.components.Navigation.suprnova": "suprnova",
-  "app.components.Navigation.dwarfpool": "dwarfpool",
-  "app.components.Navigation.akasha": "akasha",
-  "app.components.Navigation.Digger_ws": "Digger.ws",
-  "app.components.Navigation.buy": "buy",
-  "app.components.Navigation.explore": "explore",
-  "app.components.Navigation.docs": "docs",
-  "app.components.Navigation.news": "news",
-  "app.components.Navigation.contact": "contact",
 
-  "app.components.Header.welcome_to_expanse": "welcome to expanse.tech",
-  "app.components.Header.Expanse_is": "Expanse is ",
-  "app.components.Header.download_wallet": "download wallet",
-
-  "app.components.About.our story" : "our story",
-  "app.components.About.paragraph_1"  : "Expanse.Tech™ was created as the first stable fork of Ethereum by one of the earliest blockchain developers and cryptocurrency entrepreneurs out there, Christopher Franko. Co-founder James Clayton is also the founder of the Cryptocurrency Collectors Club, (CCC), which is the largest and most popular Cryptocurrency group on Facebook. Dan Conway, another blockchain expert with extensive experience, soon joined the team as the third founder, bringing a great deal of talent, balance, and expertise to the project.",
-  "app.components.About.paragraph_2"  : "Expanse was built as a community-based project without an ICO, (Initial Coin Offering), and is blockchain agnostic. The idea is to use cutting-edge blockchain technology to build anything the community and team can imagine—using a Decentralized Autonomous Organization, (DAO), with a self-funded design to keep it truly decentralized. This way, the Expanse community can evolve and grow while rewarding holders, partners, and investors.",
-  "app.components.About.paragraph_3" : "The Expanse platform now has a two-year history of consistent growth and stability. Starting out small, but with big ideas, the team is growing and other projects are now coming on board to help make the dream a reality—limited only by the imagination and talent of all the diverse people around the world involved in the journey. Each new community member and partner brings new ideas and visions for the future. Expanse.Tech plans to be one of the top blockchain projects in the world. Won’t you join us on this adventure? Start learning more about Expanse today!",
-  "app.components.About.wallet " : "wallet ",
-  "app.components.About.roadmap "  : "roadmap ",
-  "app.components.About.whitepaper " : "whitepaper ",
-  "app.components.About.presskit " : "presskit ",
-  "app.components.About.our partners"  : "our partners",
-
-  "boilerplate.containers.LocaleToggle.zh": "chinese",
-  "boilerplate.containers.LocaleToggle.en": "english"
-}
-=======
-  /*Japanese language */
-
-  /* Naivgation */
   "app.components.Navigation.home"		: "ホーム",
   "app.components.Navigation.about"			: "Expanseについて",
   "app.components.Navigation.Mining"			: "マイニング",
@@ -48,31 +13,33 @@
   "app.components.Navigation.docs"			: "ドキュメント",
   "app.components.Navigation.news"			: "ニュース",
   "app.components.Navigation.contact"	: "連絡先",
-  /* Home */
+
   "app.components.Header.welcome_to_expanse"	: "expanse.techへようこそ",
   "app.components.Header.Expanse_is"	: "Expanseは",
   "app.components.Header.download_wallet"	: "ウォレットをダウンロード",
-  /* About */
-  "app.components.About.our story"	: "私たちの物語",
+  "app.components.Header.string_one": "スマートコントラクトのためのブロックチェーン",
+  "app.components.Header.string_two": "エテリアムに基づい",
+  "app.components.Header.string_three": "すべての人のために",
+
+  "app.components.About.our_story"	: "私たちの物語",
   "app.components.About.paragraph_1"	: "Expanse.Tech™は、最初期のブロックチェーン開発者の一人であり仮想通貨起業家でもあるクリストファー・フランコによって、Ethereumの最初の安定したフォークとして作られました。共同創業者のジェームス・クレイトンは、Cryptocurrency Collectors Club（CCC）の設立者でもあります。CCCは、Facebookにおいて最も大きく人気のある仮想通貨のグループです。もう一人の経験豊富なブロックチェーンの専門家であるダン・コンウェイは、プロジェクトに多大な才能、調和そして専門性をもたらす為に、三人目の共同創業者として間も無くチームに参加しました。",
   "app.components.About.paragraph_2"	: "広がりは、ICOのないコミュニティベースのプロジェクトとして構築されました（初期コイン・オファリング）。ブロックチェイン・アグノスティックです。 アイデアは、分散型自治組織（DAO）を使用して自治体とチームが想像することのできるものを構築するために、最先端のブロックチェーン技術を使用して、自立型設計で真の分散化を図っていくことです。 このように、広がりコミュニティは、保有者、パートナー、投資家に報いながら進化し、成長することができます。",
   "app.components.About.paragraph_3"	: "広がりプラットフォームは、今や一貫した成長と安定性の2年の歴史を持っています。 小さなアイデアから始まって、チームは成長しています。他のプロジェクトは現在、夢を現実に限定するために上陸しています。旅行に携わる世界中の多様な人々の想像力と才能によってのみ制限されています。 新しいコミュニティメンバーとパートナーは、それぞれ新しいアイデアや未来のビジョンをもたらします。 広がり.ハイテクは、世界でトップクラスのブロックチェーンプロジェクトの1つになる予定です。 この冒険に参加しませんか？ 今日広がりについてもっと学び始める！",
-  "app.components.About.wallet "	: "財布",
-  "app.components.About.roadmap "	: "ロードマップ",
-  "app.components.About.whitepaper "	: "白書",
-  "app.components.About.presskit "	: "プレスキット",
-  "app.components.About.our partners"	: "当社のパートナー",
-  /* Service */
+  "app.components.About.wallet"	: "財布",
+  "app.components.About.roadmap"	: "ロードマップ",
+  "app.components.About.whitepaper"	: "白書",
+  "app.components.About.presskit"	: "プレスキット",
+  "app.components.About.our_partners"	: "当社のパートナー",
+
   "app.components.Service.dApps_title"	: "dApps（分散アプリケーション）",
   "app.components.Service.ebs"	: "E広域債券システム（EBS）",
-  "app.components.Service.our_partners_Hold_Expanse"	: "ホールド・エクスパンション; 広大な利益を得る",
+  "app.components.Service.our_partners.Hold_Expanse"	: "ホールド・エクスパンション; 広大な利益を得る",
   "app.components.Service.dapp_first_tab"	: "広大なボンドシステム（EBS）は、定義済み期間に広がりトークンを購入し保留することに報酬を与える革新的な方法です。 従来の通貨ベースの債券システムとは異なり、EBSはネイティブEXPのみを使用して参加者に報酬を与えます。 自己資金で保護されたトークン貯蓄口座と同様に機能し、分散型のオープンソースパラメータを持つブロックチェーン上でスマートな契約ベースのシミュレーションステークを使用します。 弊社のウェブサイト広がり.ハイテクをご覧ください。",
   "app.components.Service.Borderless_Identity_Management"	: "ボーダレスID管理",
   "app.components.Service.dapp_second_tab"	: "フチ無し.ハイテクは、革新的な分散型ガバナンスサービスプラットフォームです。さまざまなサービスを無償で、またはコストをかけずにどこでも簡単に提供できます。 市民権、身分証明書、公証人、結婚、資産権管理などのサービスは、自由になる方法を選択しているさまざまなグループの特定のニーズに容易に適応できます。 これらのdAppは、広がりの可能性が他の分散型ブロックチェーンベースのアプリケーションプラットフォームよりも優れている場合の2つの例に過ぎません。",
   "app.components.Service.voting_on_the_blockchain"	: "ブロックチェーンに投票する",
   "app.components.Service.dapp_third_tab"	: "特許申請中のブロックチェーンベースの投票dApp、VoteLock™は、選挙の動向を変え、投票プロセスへの信頼を浸透させ、投票の可能性を排除する力を持っています。これは簡単で正確で改ざんのない方法です 世界中の選挙に雇用する。 真のアイデンティティシステムを開発している広がりは、ほぼ完全な投票システムを試作しています。 一人、一票。",
 
-  /* Skill Area */
 
   "app.components.SkillArea.our_technology_stack"	: "当社のテクノロジースタック",
   "app.components.SkillArea.distributed_ledger"	: "分散元帳",
@@ -80,15 +47,13 @@
   "app.components.SkillArea.ethereum_virtual_machine"	: "エーテル仮想マシン",
   "app.components.SkillArea.cmd_line_interface"	: "cmdラインインタフェース",
 
-  /* Buy */
 
   "app.components.Buy.Exchanges"	: "交流",
 
-  /* Our Teamy */
 
   "app.components.OurTeam.our_team"	: "私たちのチーム",
-  "app.components.OurTeam.Christopher_Frankoo"	: "クリストファーフランコ",
-  "app.components.OurTeam.Co_founder_Lead Developer"	: "共同設立者/リード開発者",
+  "app.components.OurTeam.Christopher_Franko"	: "クリストファーフランコ",
+  "app.components.OurTeam.Co_founder_Lead_Developer"	: "共同設立者/リード開発者",
   "app.components.OurTeam.Christopher_Franko_detail"	: "ブロックチェーン技術の専門家レベルの知識を持つ経験豊富な暗号性開発者であるクリスは、業界の多様な理解とコミュニティでの長年の評判を持っています。 人生におけるクリストファーの唯一の使命は、直感的かつ費用対効果の高い分散ソフトウェアを個人に与えることです。",
   "app.components.OurTeam.James_Clayton"	: "ジェームズクレイトン",
   "app.components.OurTeam.Co_founder_Community_Manager"	: "共同設立者/コミュニティマネージャー",
@@ -122,7 +87,6 @@
   "app.components.OurTeam.Senior_Developer"	: "シニア開発者",
   "app.components.OurTeam.asim_detail"	: "暗号化の愛好家であるAsimは、次世代分散アプリケーションの開発に熱心です。 彼は、複雑な問題の解決に貢献した最も困難な環境の中で、完全なスタック開発者として働いていた膨大な経験を持っています。 Asimは、彼のチームと一緒に、より広範なオーディエンスのために広がりをより普及させ、よりアクセスしやすくすることを目指しています。 趣味として、彼は自宅で30-GPUの鉱業機械も運営しています。",
 
-  /*Contact Us*/
 
   "app.components.Contact.get_in_touch"	: "連絡する",
   "app.components.Contact.Your_Name"	: "あなたの名前",
@@ -132,8 +96,8 @@
   "app.components.Contact.any_question_text"	: "ご不明な点や、弊社チームの担当者と連絡を取りたい場合は、このフォームを使用してください。",
   "app.components.Contact.call_us"	: "私に電話する+1（225）495-0363",
   "app.components.Contact.po_box_address"	: "P.O. ボックス2703、ワシントン、ノースカロライナ州。 アメリカ合衆国",
+  "app.components.Contact.send_button"	: "send",
 
-  /*Events*/
 
   "app.components.Events.upcoming_events"	: "П今後のイベント",
   "app.components.Events.Collision_2017"	: "衝突2017",
@@ -164,8 +128,6 @@
   "app.components.Events.Nov_6_9_2017"	: "2017年11月6〜9日",
   "app.components.Events.send" : "送ります",
 
-  /*Footer*/
 
   "app.components.Footer.copyright"	: "著作権はすべて予約| 広がり.ハイテク"
 }
->>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5

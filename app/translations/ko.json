@@ -1,40 +1,4 @@
 {
-<<<<<<< HEAD
-  "app.components.Navigation.home": "home",
-  "app.components.Navigation.about": "about",
-  "app.components.Navigation.Mining": "Mining",
-  "app.components.Navigation.EXPPOOL": "EXP.POOL",
-  "app.components.Navigation.suprnova": "suprnova",
-  "app.components.Navigation.dwarfpool": "dwarfpool",
-  "app.components.Navigation.akasha": "akasha",
-  "app.components.Navigation.Digger_ws": "Digger.ws",
-  "app.components.Navigation.buy": "buy",
-  "app.components.Navigation.explore": "explore",
-  "app.components.Navigation.docs": "docs",
-  "app.components.Navigation.news": "news",
-  "app.components.Navigation.contact": "contact",
-
-  "app.components.Header.welcome_to_expanse": "welcome to expanse.tech",
-  "app.components.Header.Expanse_is": "Expanse is ",
-  "app.components.Header.download_wallet": "download wallet",
-
-  "app.components.About.our story" : "our story",
-  "app.components.About.paragraph_1"  : "Expanse.Tech™ was created as the first stable fork of Ethereum by one of the earliest blockchain developers and cryptocurrency entrepreneurs out there, Christopher Franko. Co-founder James Clayton is also the founder of the Cryptocurrency Collectors Club, (CCC), which is the largest and most popular Cryptocurrency group on Facebook. Dan Conway, another blockchain expert with extensive experience, soon joined the team as the third founder, bringing a great deal of talent, balance, and expertise to the project.",
-  "app.components.About.paragraph_2"  : "Expanse was built as a community-based project without an ICO, (Initial Coin Offering), and is blockchain agnostic. The idea is to use cutting-edge blockchain technology to build anything the community and team can imagine—using a Decentralized Autonomous Organization, (DAO), with a self-funded design to keep it truly decentralized. This way, the Expanse community can evolve and grow while rewarding holders, partners, and investors.",
-  "app.components.About.paragraph_3" : "The Expanse platform now has a two-year history of consistent growth and stability. Starting out small, but with big ideas, the team is growing and other projects are now coming on board to help make the dream a reality—limited only by the imagination and talent of all the diverse people around the world involved in the journey. Each new community member and partner brings new ideas and visions for the future. Expanse.Tech plans to be one of the top blockchain projects in the world. Won’t you join us on this adventure? Start learning more about Expanse today!",
-  "app.components.About.wallet " : "wallet ",
-  "app.components.About.roadmap "  : "roadmap ",
-  "app.components.About.whitepaper " : "whitepaper ",
-  "app.components.About.presskit " : "presskit ",
-  "app.components.About.our partners"  : "our partners",
-
-  "boilerplate.containers.LocaleToggle.zh": "chinese",
-  "boilerplate.containers.LocaleToggle.en": "english"
-}
-=======
-  /*Korean language */
-
-  /* Naivgation */
   "app.components.Navigation.home"		: "홈",
   "app.components.Navigation.about"			: "약",
   "app.components.Navigation.Mining"			: "채광",
@@ -48,31 +12,35 @@
   "app.components.Navigation.docs"			: "문서",
   "app.components.Navigation.news"			: "뉴스",
   "app.components.Navigation.contact"	: "접촉",
-  /* Home */
+
+
   "app.components.Header.welcome_to_expanse"	: "팽창.기술에 오신 것을 환영합니다",
   "app.components.Header.Expanse_is"	: "창공은",
   "app.components.Header.download_wallet"	: "다운로드 지갑",
-  /* About */
-  "app.components.About.our story"	: "우리의 이야기",
+  "app.components.Header.string_one": "스마트 계약 블록 체인하",
+  "app.components.Header.string_two": "에테 리움에 따",
+  "app.components.Header.string_three": "모두를위",
+
+
+  "app.components.About.our_story"	: "우리의 이야기",
   "app.components.About.paragraph_1"	: "팽창.기술 ™는 거기에 최초의 개발자와 암호 화폐의 블록 체인의 기업 중 하나 인 크리스토퍼 프랭코에 의해 에테 리움의 첫 번째 안정적인 포크로 만들었습니다. 공동 설립자 제임스 클레이튼은 페이스 북에서 가장 크고 가장 인기있는 암호 화폐 그룹 인 과거의 암호 화폐 수집가 클럽 (CCC)의 창시자이다. 댄 콘웨이, 폭 넓은 경험을 바탕으로 또 다른 전문가 블록 체인 곧 프로젝트에 재능, 균형, 전문 지식의 큰 거래를 가져 오는 세 번째 창시자로 팀에 합류했다.",
   "app.components.About.paragraph_2"	: "창공은 ICO (동전 초기 제공하는)없이 지역 사회에 기반을 둔 프로젝트로 만들어진, 그리고 불가지론 blockchain된다. 개념은 진정한 분산을 유지하기 위해 자체 자금 설계, 상상-사용 할 수있는 분산 형 자율기구 (DAO)를 지역 사회와 팀 블록 체인 무엇을 구축하는 첨단 기술을 사용하는 것입니다. 이 방법은, 창공의 사회는 진화하고 보람 홀더, 파트너 및 투자자 동안 성장할 수 있습니다.",
   "app.components.About.paragraph_3"	: "창공 플랫폼은 지금 일관 성장과 안정의 2 년의 역사를 가지고 있습니다. 밖으로부터 작지만 큰 아이디어, 팀은 성장하고 다른 프로젝트는 이제 꿈을 현실로 제한 여행에 관련된 전 세계 다양한 사람들의 상상력과 재능으로 만 활용할 수 있도록 보드에오고있다. 각각의 새로운 커뮤니티 회원 및 파트너는 미래를위한 새로운 아이디어와 비전을 가져옵니다. 팽창.기술는 세계 최고의 blockchain 프로젝트 중 하나가 될 예정이다. 당신은이 모험에 우리와 함께하지 않을까요? 오늘 창 공에 대해 더 자세히 알고 시작!",
-  "app.components.About.walletwallet "	: "지갑",
-  "app.components.About.walletroadmap "	: "로드맵",
-  "app.components.About.walletwhitepaper "	: "백서",
-  "app.components.About.walletpresskit "	: "보도 자료 ",
-  "app.components.About.walletour partners"	: "우리의 파트너",
-  /* Service */
+  "app.components.About.wallet"	: "지갑",
+  "app.components.About.roadmap"	: "로드맵",
+  "app.components.About.whitepaper"	: "백서",
+  "app.components.About.presskit"	: "보도 자료 ",
+  "app.components.About.our_partners"	: "우리의 파트너",
+
   "app.components.Service.dApps_title"	: "Dapps (분산 응용 프로그램)",
   "app.components.Service.ebs"	: "본드 시스템 창공 (EBS)",
-  "app.components.Service.our_partners_Hold_Expanse"	: "창 공을 잡고; 창공 적립됩니다.",
+  "app.components.Service.our_partners.Hold_Expanse"	: "창 공을 잡고; 창공 적립됩니다.",
   "app.components.Service.dapp_first_tab"	: "창공 본드 시스템 (EBS)를 구매를 보상하기위한 혁신적인 방법 및 넓이를 유지하는 미리 정의 된 시간 동안 토큰. 기존의 채권 통화 기반의 시스템과는 달리, 참여하는 사람들에게 네이티브 EBS의 EXP 보상을 사용합니다. 자기 자금, 보안 토큰 예금 계좌와 비슷한 기능, 분산 된 오픈 소스 매개 변수를 사용하여 블록 체인에에게 스마트 계약 기반의 시뮬레이션 스테이 킹을 사용합니다. 팽창.기술에서 우리의 웹 사이트를 방문하여 자세한 내용을 알아보십시오.",
   "app.components.Service.Borderless_Identity_Management"	: "경계선 ID 관리",
   "app.components.Service.dapp_second_tab"	: "무제한.기술은 거의 비용, 어디서나 쉽게 무료로 다양한 서비스를 제공하거나, 할 수있는 혁신적인 분산 관리 플랫폼 서비스-하나입니다. 서비스 : 같은 시민권, 정체성, 공증, 결혼, 자산 관리 및 더 많은 권한 등은 무료로 자신의 방법을 선택하는 다양한 그룹의 쉽게 특정 요구에 적응할 수 있습니다. 이들은 창 공의 가능성이 다른 분산 블록 체인 기반 응용 프로그램 플랫폼으로 완전히 우수 경우의 두 가지 예에 불과합니다 Dapps 있습니다.",
   "app.components.Service.voting_on_the_blockchain"	: "블록 체인에 투표",
   "app.components.Service.dapp_third_tab"	: "특허 출원중인 blockchain 기반 투표 Dapp, VoteLock ™는 투표 과정에 신뢰를 심어 투표의 가능성을 제거, 선거의 역학을 변화시킬 힘을 가지고 '담합을.'그것은에 쉽고 정확하고 변조 방지 방법입니다 전 세계적으로 선거를 사용합니다. 개발의 진정한 정체성 시스템으로, 창 공은 거의 perfectvoting 시스템을 프로토 타입하고있다. 한 사람, 한 표.",
 
-  /* Skill Area */
 
   "app.components.SkillArea.our_technology_stack"	: "우리의 기술 스택",
   "app.components.SkillArea.distributed_ledger"	: "분산 원장",
@@ -80,15 +48,13 @@
   "app.components.SkillArea.ethereum_virtual_machine"	: "에테 리움 가상 머신",
   "app.components.SkillArea.cmd_line_interface"	: "명령 줄 인터페이스",
 
-  /* Buy */
 
   "app.components.Buy.Exchanges"	: "교환",
 
-  /* Our Teamy */
 
   "app.components.OurTeam.our_team"	: "우리 팀",
-  "app.components.OurTeam.Christopher_Frankoo"	: "크리스토퍼 프랭코",
-  "app.components.OurTeam.Co_founder_Lead Developer"	: "공동 설립자 / 수석 개발자",
+  "app.components.OurTeam.Christopher_Franko"	: "크리스토퍼 프랭코",
+  "app.components.OurTeam.Co_founder_Lead_Developer"	: "공동 설립자 / 수석 개발자",
   "app.components.OurTeam.Christopher_Franko_detail"	: "기술의 블록 체인 전문가 수준의 지식과 경험이 풍부한 개발자 암호 화폐 크리스는 업계와 지역 사회에서 오랜 명성의 다양한 이해를 가지고있다. 인생에서 크리스토퍼의 유일한 임무는 직관적이고 비용 효율적인 분산 소프트웨어와 개인에게 권한을 부여하는 것입니다.",
   "app.components.OurTeam.James_Clayton"	: "제임스 클레이튼",
   "app.components.OurTeam.Co_founder_Community_Manager"	: "공동 설립자 / 커뮤니티 관리자",
@@ -122,7 +88,6 @@
   "app.components.OurTeam.Senior_Developer"	: "수석 개발자",
   "app.components.OurTeam.asim_detail"	: "마음에 의한 암호 화폐 매니아, 아심은 분산 차세대 응용 프로그램을 만드는 방법에 대한 열정이다. 그는 내가 복잡한 문제를 해결 도운 경우 가장 까다로운 환경의 일부에서 전체 스택 개발자로 일하고 광대 한 경험을 가지고 있습니다. 아심은 그의 팀과 함께 공에 더 유행하고 광범위한 청중에 대한 접근성 목적 확인합니다. 취미, 나는 또한 집에서 30 GPU 마이닝 장비를 실행합니다.",
 
-  /*Contact Us*/
 
   "app.components.Contact.get_in_touch"	: "연락",
   "app.components.Contact.Your_Name"	: "당신의 이름",
@@ -132,8 +97,8 @@
   "app.components.Contact.any_question_text"	: "당신은 질문이 있거나 우리 팀의 사용이 양식에서 누군가와 상담을하고자합니다.",
   "app.components.Contact.call_us"	: "전화 해 +1(252)495-0363",
   "app.components.Contact.po_box_address"	: "P.O. 박스 2703, 워싱턴, 노스 캐롤라이나. 미국",
+  "app.components.Contact.send_button": "发送",
 
-  /*Events*/
 
   "app.components.Events.upcoming_events"	: "다가오는 이벤트",
   "app.components.Events.Collision_2017"	: "2017 충돌",
@@ -165,8 +130,6 @@
   "app.components.Events.Stockholm_SWEDEN"	: "스톡홀름, 스웨덴",
   "app.components.Events.Nov_6_9_2017"	: "2017 년 11 월 6-9 일",
 
-  /*Footer*/
 
   "app.components.Footer.copyright"	: "| 저작권 모든 권리가 보유 팽창.기술"
 }
->>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5

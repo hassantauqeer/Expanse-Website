@@ -1,7 +1,5 @@
 {
-  /*French language */
 
-  /* Naivgation */
 
   "app.components.Navigation.home"		: "maison",
   "app.components.Navigation.about"			: "sur",
@@ -17,15 +15,16 @@
   "app.components.Navigation.news"			: "nouvelles",
   "app.components.Navigation.contact"	: "contact",
 
-  /* Home */
 
   "app.components.Header.welcome_to_expanse"	: "Bienvenue dans expanse.tech",
   "app.components.Header.Expanse_is"	: "L'extension est",
   "app.components.Header.download_wallet"	: "Télécharger le portefeuille",
+  "app.components.Header.string_one": "Une chaîne de blocs pour les contrats intelligents",
+  "app.components.Header.string_two": "Basé sur Ethereum",
+  "app.components.Header.string_three": "pour tout le monde",
 
-  /* About */
 
-  "app.components.About.our story"	: "notre histoire",
+  "app.components.About.our_story"	: "notre histoire",
   "app.components.About.paragraph_1"	: "Expanse.Tech ™ a été créé comme la première fourchette stable d'Ethereum par l'un des premiers développeurs de chaînes de blocs et les entrepreneurs en cryptocurrence, Christopher Franko. Le cofondateur James Clayton est également le fondateur du Cryptocurrency Collectors Club (CCC), qui est le plus grand et le plus populaire groupe Cryptocurrency sur Facebook. Dan Conway, un autre expert en blocs avec une vaste expérience, a rapidement rejoint l'équipe en tant que troisième fondateur, apportant beaucoup de talent, d'équilibre et d'expertise au projet.",
   "app.components.About.paragraph_2"	: "Expanse a été construit en tant que projet communautaire sans ICO, (Initial Coin Offering), et est block-chain agnostic. L'idée est d'utiliser la technologie de chaîne de blocs de pointe pour construire tout ce que la communauté et l'équipe peuvent imaginer, en utilisant une organisation autonome décentralisée (DAO), avec un design autofinancé pour la maintenir décentralisée. De cette façon, la communauté Expanse peut évoluer et grandir tout en récompensant les détenteurs, les partenaires et les investisseurs.",
   "app.components.About.paragraph_3"	: "La plate-forme Expanse présente maintenant deux ans d'histoire de croissance et de stabilité constante. En commençant petit, mais avec de grandes idées, l'équipe grandit et d'autres projets entrent à bord pour aider à rendre le rêve réel, limité uniquement par l'imagination et le talent de toutes les personnes diverses impliquées dans le voyage. Chaque nouveau membre et partenaire de la communauté apporte de nouvelles idées et des visions pour l'avenir. Expanse.Tech prévoit être l'un des meilleurs projets de blocs de blocs dans le monde. Ne vous rejoignez-vous pas sur cette aventure? Commencez à apprendre plus sur Expanse aujourd'hui!",
@@ -33,20 +32,18 @@
   "app.components.About.roadmap"	: "Feuille de route",
   "app.components.About.whitepaper"	: "papier blanc",
   "app.components.About.presskit"	: "dossier de presse",
-  "app.components.About.our partners"	: "nos partenaires",
+  "app.components.About.our_partners"	: "nos partenaires",
 
-  /* Service */
 
   "app.components.Service.dApps_title"	: "DApps (applications décentralisées)",
   "app.components.Service.ebs"	: "Expanse Bond Système(EBS)",
-  "app.components.Service.our_partners_Hold_Expanse"	: "Tenir Expanse; Gagnez l'expansion.",
+  "app.components.Service.our_partners.Hold_Expanse"	: "Tenir Expanse; Gagnez l'expansion.",
   "app.components.Service.dapp_first_tab"	: "The Expanse Bond System, (EBS), est une méthode innovante pour récompenser l'achat et l'utilisation de jetons Expanse pour une durée prédéfinie. Contrairement aux systèmes de caution traditionnels basés sur la monnaie, EBS utilise uniquement EXP natif pour récompenser ceux qui y participent. Fonctionnant comme un compte d'épargne autofinancé, sécurisé, il utilise des jalons simulés basés sur des contrats intelligents sur la chaîne de blocs avec des paramètres open source décentralisés. En savoir plus en visitant notre site Web à l'adresse expanse.tech.",
   "app.components.Service.Borderless_Identity_Management"	: "Gestion d'identité sans bordure",
   "app.components.Service.dapp_second_tab"	: "Borderless.tech est une plate-forme de services de gouvernance décentralisée révolutionnaire, qui peut offrir une variété de services gratuitement, ou presque sans frais, n'importe où et facilement. Les services tels que la citoyenneté, l'identité, le notaire, le mariage, la gestion des droits d'actifs et plus encore, sont facilement capables de s'adapter aux besoins spécifiques de divers groupes qui choisissent leur propre façon d'être libres. Ces dApps ne sont que deux exemples où le potentiel d'Expanse est totalement supérieur à toute autre plate-forme d'application découpée en chaîne de blocs.",
   "app.components.Service.voting_on_the_blockchain"	: "Vote sur la chaine de bloc",
   "app.components.Service.dapp_third_tab"	: "Le vote en bourse en forme de brevet, dApp, VoteLock ™, a le pouvoir de changer la dynamique des élections, instaurant la confiance dans le processus de vote et éliminant la possibilité de 'gréement' de vote. C'est une méthode simple, précise et inviolable pour Emploie pour des élections dans le monde entier. Avec un véritable système d'identité en développement, Expanse a prototypé un système de vote presque parfait. Une personne, un vote.",
 
-  /* Skill Area */
 
   "app.components.SkillArea.our_technology_stack"	: "Notre pile de technologie",
   "app.components.SkillArea.distributed_ledger"	: "Grand livre distribué",
@@ -54,15 +51,13 @@
   "app.components.SkillArea.ethereum_virtual_machine"	: "Machine virtuelle ethereum",
   "app.components.SkillArea.cmd_line_interface"	: "Interface de ligne cmd",
 
-  /* Buy */
 
   "app.components.Buy.Exchanges"	: "des échanges",
 
-  /* Our Teamy */
 
   "app.components.OurTeam.our_team"	: "notre équipe",
-  "app.components.OurTeam.Christopher_Frankoo"	: "Christopher Franko",
-  "app.components.OurTeam.Co_founder_Lead Developer"	: "Co-fondateur / Développeur principal",
+  "app.components.OurTeam.Christopher_Franko"	: "Christopher Franko",
+  "app.components.OurTeam.Co_founder_Lead_Developer"	: "Co-fondateur / Développeur principal",
   "app.components.OurTeam.Christopher_Franko_detail"	: "Un développeur expérimenté de cryptocurrence avec une connaissance approfondie de la technologie blockchain, Chris a une compréhension variée de l'industrie et une réputation de longue date dans la communauté. La seule mission de Christopher dans la vie est de donner aux individus des logiciels décentralisés intuitifs et rentables.",
   "app.components.OurTeam.James_Clayton"	: "James Clayton",
   "app.components.OurTeam.Co_founder_Community_Manager"	: "Co-fondateur / Gestionnaire communautaire",
@@ -96,7 +91,6 @@
   "app.components.OurTeam.Senior_Developer"	: "DEVELOPPEUR sénior",
   "app.components.OurTeam.asim_detail"	: "Un enthousiaste cryptocurrent par cœur, Asim est passionné par la création d'applications décentralisées de prochaine génération. Il a une vaste expérience en tant que développeur de pilotes complets dans certains des environnements les plus difficiles où il a aidé à résoudre des problèmes complexes. Asim, avec son équipe, vise à rendre l'Expanse plus répandue et plus accessible pour un public plus large. En tant que passe-temps, il exploite également une plateforme minière de 30 GPU à la maison.",
 
-  /*Contact Us*/
 
   "app.components.Contact.get_in_touch"	: "entrer en contact",
   "app.components.Contact.Your_Name"	: "votre nom",
@@ -105,9 +99,9 @@
   "app.components.Contact.contact_info"	: "Informations de contact",
   "app.components.Contact.any_question_text"	: "Si vous avez des questions ou si vous souhaitez entrer en contact avec quelqu'un de notre équipe, utilisez ce formulaire.",
   "app.components.Contact.call_us"	: "Appelez-moi +1(252)495-0363",
-  "app.components.Contact.po_box_addressv"	: "P.O. Case 2703, Washington, NC. Etats-Unis",
+  "app.components.Contact.po_box_address"	: "P.O. Case 2703, Washington, NC. Etats-Unis",
+  "app.components.Contact.send_button": "发送",
 
-  /*Events*/
 
   "app.components.Events.upcoming_events"	: "évènements à venir",
   "app.components.Events.Collision_2017"	: "Collision 2017",
@@ -138,10 +132,6 @@
   "app.components.Events.Nov_6_9_2017"	: "6-9 novembre 2017",
   "app.components.Events.send" : "envoyer",
 
-  /*Footer*/
 
-  "app.components.Footer.copyright"	: "Droit d'auteur réservé par | Expanse.tech",
-
-  "boilerplate.containers.LocaleToggle.zh": "chinese",
-  "boilerplate.containers.LocaleToggle.en": "english"
+  "app.components.Footer.copyright"	: "Droit d'auteur réservé par | Expanse.tech"
 }

@@ -1,40 +1,4 @@
 {
-<<<<<<< HEAD
-  "app.components.Navigation.home": "home",
-  "app.components.Navigation.about": "about",
-  "app.components.Navigation.Mining": "Mining",
-  "app.components.Navigation.EXPPOOL": "EXP.POOL",
-  "app.components.Navigation.suprnova": "suprnova",
-  "app.components.Navigation.dwarfpool": "dwarfpool",
-  "app.components.Navigation.akasha": "akasha",
-  "app.components.Navigation.Digger_ws": "Digger.ws",
-  "app.components.Navigation.buy": "buy",
-  "app.components.Navigation.explore": "explore",
-  "app.components.Navigation.docs": "docs",
-  "app.components.Navigation.news": "news",
-  "app.components.Navigation.contact": "contact",
-
-  "app.components.Header.welcome_to_expanse": "welcome to expanse.tech",
-  "app.components.Header.Expanse_is": "Expanse is ",
-  "app.components.Header.download_wallet": "download wallet",
-
-  "app.components.About.our story" : "our story",
-  "app.components.About.paragraph_1"  : "Expanse.Tech™ was created as the first stable fork of Ethereum by one of the earliest blockchain developers and cryptocurrency entrepreneurs out there, Christopher Franko. Co-founder James Clayton is also the founder of the Cryptocurrency Collectors Club, (CCC), which is the largest and most popular Cryptocurrency group on Facebook. Dan Conway, another blockchain expert with extensive experience, soon joined the team as the third founder, bringing a great deal of talent, balance, and expertise to the project.",
-  "app.components.About.paragraph_2"  : "Expanse was built as a community-based project without an ICO, (Initial Coin Offering), and is blockchain agnostic. The idea is to use cutting-edge blockchain technology to build anything the community and team can imagine—using a Decentralized Autonomous Organization, (DAO), with a self-funded design to keep it truly decentralized. This way, the Expanse community can evolve and grow while rewarding holders, partners, and investors.",
-  "app.components.About.paragraph_3" : "The Expanse platform now has a two-year history of consistent growth and stability. Starting out small, but with big ideas, the team is growing and other projects are now coming on board to help make the dream a reality—limited only by the imagination and talent of all the diverse people around the world involved in the journey. Each new community member and partner brings new ideas and visions for the future. Expanse.Tech plans to be one of the top blockchain projects in the world. Won’t you join us on this adventure? Start learning more about Expanse today!",
-  "app.components.About.wallet " : "wallet ",
-  "app.components.About.roadmap "  : "roadmap ",
-  "app.components.About.whitepaper " : "whitepaper ",
-  "app.components.About.presskit " : "presskit ",
-  "app.components.About.our partners"  : "our partners",
-
-  "boilerplate.containers.LocaleToggle.zh": "chinese",
-  "boilerplate.containers.LocaleToggle.en": "english"
-}
-=======
-  /*Russian language */
-
-  /* Naivgation */
   "app.components.Navigation.home"		: "Главная",
   "app.components.Navigation.about"			: "около",
   "app.components.Navigation.Mining"			: "Добыча",
@@ -48,31 +12,36 @@
   "app.components.Navigation.docs"			: "документы",
   "app.components.Navigation.news"			: "Новости",
   "app.components.Navigation.contact"	: "контакт",
-  /* Home */
+
+
   "app.components.Header.welcome_to_expanse"	: "Добро пожаловать в раздолье.тек",
   "app.components.Header.Expanse_is"	: "раздолье - это",
   "app.components.Header.download_wallet"	: "Скачать кошелек",
-  /* About */
-  "app.components.About.our story"	: "Наша история",
+  "app.components.Header.string_one": "一个聪明的合同的块",
+  "app.components.Header.string_two": "基于艾瑟利",
+  "app.components.Header.string_three": "一个聪明的合同的块|",
+
+
+  "app.components.About.our_story"	: "Наша история",
   "app.components.About.paragraph_1"	: "раздолье.Технология™ был создан в качестве первой стабильной вилки Ethereum одним из самых ранних разработчиков блочной цепи и предпринимателями-криптовалютами, Кристофером Франко. Соучредитель Джеймс Клейтон также является основателем криптовалюта Коллекторы Клуб (CCC), который является самой большой и популярной группой Cryptocurrency на Facebook. Дэн Конвей, еще один эксперт по блоч-цепочке с большим опытом, вскоре присоединился к команде в качестве третьего основателя, привлек к проекту много талантов, баланса и опыта.",
   "app.components.About.paragraph_2"	: "раздолье был построен как проект, основанный на сообществах, без ICO, (Первоначальное предложение монет) и является агностик-блочным. Идея состоит в том, чтобы использовать новейшую технологию blockchain для создания всего, что может представить сообщество и команда, используя децентрализованную автономную организацию (DAO) с самофинансируемым дизайном, чтобы сохранить ее по-настоящему децентрализованной. Таким образом, сообщество Expanse может развиваться и расти, поощряя владельцев, партнеров и инвесторов.",
   "app.components.About.paragraph_3"	: "Платформа раздолье теперь имеет двухлетнюю историю постоянного роста и стабильности. Начиная с небольших, но с большими идеями, команда растет, и теперь на борту идут другие проекты, которые помогают сделать мечту реальностью, ограниченной только воображением и талантом всех разнообразных людей во всем мире, участвующих в путешествии. Каждый новый член сообщества и партнер приносит новые идеи и видения на будущее. Expanse.Tech планирует стать одним из лучших блоков-проектов в мире. Вы не присоединитесь к нам в этом приключении? Начните больше узнать о Expanse сегодня!",
-  "app.components.About.wallet "	: "бумажник",
-  "app.components.About.roadmap "	: "дорожная карта",
-  "app.components.About.whitepaper "	: "белая бумага",
-  "app.components.About.presskit "	: "пресс-кит",
-  "app.components.About.our partners"	: "наши партнеры",
-  /* Service */
+  "app.components.About.wallet"	: "бумажник",
+  "app.components.About.roadmap"	: "дорожная карта",
+  "app.components.About.whitepaper"	: "белая бумага",
+  "app.components.About.presskit"	: "пресс-кит",
+  "app.components.About.our_partners"	: "наши партнеры",
+
+
   "app.components.Service.dApps_title"	: "DApps (децентрализованные приложения)",
   "app.components.Service.ebs"	: "раздолье облигация система （EBS）",
-  "app.components.Service.our_partners_Hold_Expanse"	: "Держать раздолье; Заработайте разворот.",
+  "app.components.Service.our_partners.Hold_Expanse": "Держать раздолье; Заработайте разворот.",
   "app.components.Service.dapp_first_tab"	: "Система раздолье облигация система (EBS) - это инновационный метод вознаграждения за покупку и проведение токенов раздолье в течение заранее определенного периода времени. В отличие от традиционных систем облигаций на основе валюты, EBS использует только собственный EXP, чтобы вознаграждать тех, кто участвует. Функционирование, аналогичное самофинансируемому, защищенному накопителю на токенах, использует интеллектуальную контрактную симуляцию на блочной цепочке с децентрализованными параметрами открытого источника. Узнайте больше, посетив наш веб-сайт по адресу раздолье.тек.",
   "app.components.Service.Borderless_Identity_Management"	: "Управление идентификацией без полей",
   "app.components.Service.dapp_second_tab"	: "безграничный.ек - это революционная платформа децентрализованного управления услугами, которая может предлагать разнообразные услуги бесплатно или практически без затрат, где угодно и легко. Такие услуги, как гражданство, личность, нотариус, брак, управление правами на активы и т. Д., Могут легко адаптироваться к конкретным потребностям различных групп, которые сами выбирают свои собственные способы быть свободными. Эти dApps - всего лишь два примера того, где потенциал раздолье полностью превосходит любую другую децентрализованную платформу приложений на основе блокчин.",
   "app.components.Service.voting_on_the_blockchain"	: "Голосование по блочной цепи",
   "app.components.Service.dapp_third_tab"	: "Патентное голосование dApp, VoteLock ™, основанное на патентовании, имеет право изменять динамику выборов, внушать доверие к процессу голосования и исключать возможность «фальсификации» голосования. Это простой, точный и защищенный от несанкционированного доступа метод Для проведения выборов во всем мире. Благодаря подлинной системе идентификации в разработке, раздолье прототипировал почти идеальную систему. Один человек, один голос.",
 
-  /* Skill Area */
 
   "app.components.SkillArea.our_technology_stack"	: "Наш технологический стек",
   "app.components.SkillArea.distributed_ledger"	: "Распределенная книга",
@@ -80,15 +49,13 @@
   "app.components.SkillArea.ethereum_virtual_machine"	: "Виртуальная машина Эфириума",
   "app.components.SkillArea.cmd_line_interface"	: "Интерфейс командной строки cmd",
 
-  /* Buy */
 
-  "Exchanges"	: "Обмены",
+  "app.components.Buy.Exchanges": "交易所",
 
-  /* Our Teamy */
 
   "app.components.OurTeam.our_team"	: "Наша команда",
-  "app.components.OurTeam.Christopher_Frankoo"	: "Кристофер Франко",
-  "app.components.OurTeam.Co_founder_Lead Developer"	: "Соучредитель / ведущий разработчик",
+  "app.components.OurTeam.Christopher_Franko"	: "Кристофер Франко",
+  "app.components.OurTeam.Co_founder_Lead_Developer"	: "Соучредитель / ведущий разработчик",
   "app.components.OurTeam.Christopher_Franko_detail"	: "Опытный разработчик криптовалютики, обладающий знаниями об уровне технологии blockchain на уровне экспертов, Крис имеет многообразное понимание отрасли и давней репутации в сообществе. Единственная миссия Кристофера в жизни - дать людям возможность интуитивно понятного и экономически эффективного децентрализованного программного обеспечения.",
   "app.components.OurTeam.James_Clayton"	: "Джеймс Клейтон",
   "app.components.OurTeam.Co_founder_Community_Manager"	: "Соучредитель / менеджер сообщества",
@@ -122,7 +89,6 @@
   "app.components.OurTeam.Senior_Developer"	: "Ведущий разработчик",
   "app.components.OurTeam.asim_detail"	: "Увлеченный энтузиазмом криптовалюты, Асим увлечен созданием децентрализованных приложений следующего поколения. У него огромный опыт работы в качестве разработчика полного стека в самых сложных условиях, где он помогал решать сложные проблемы. Асим вместе со своей командой стремится сделать раздолье более распространенным и более доступным для более широкой аудитории. В качестве хобби он также запускает горную вышку на 30 GPU дома.",
 
-  /*Contact Us*/
 
   "app.components.Contact.get_in_touch"	: "связаться",
   "app.components.Contact.Your_Name"	: "Ваше имя",
@@ -132,8 +98,8 @@
   "app.components.Contact.any_question_text"	: "Если у вас есть вопросы или вы хотите связаться с кем-то из нашей команды, используйте эту форму.",
   "app.components.Contact.call_us"	: "Позвоните мне +1 (252)495-0363",
   "app.components.Contact.po_box_address"	: "Старшина Box 2703, Вашингтон, штат Северная Каролина. США",
+  "app.components.Contact.send_button"	: "send",
 
-  /*Events*/
 
   "app.components.Events.upcoming_events"	: "Предстоящие События",
   "app.components.Events.Collision_2017"	: "Столкновение 2017",
@@ -164,8 +130,6 @@
   "app.components.Events.Stockholm_SWEDEN"	: "Стокгольм, Швеция",
   "app.components.Events.Nov_6_9_2017"	: "6-9 ноября 2017 г.",
 
-  /*Footer*/
 
   "app.components.Footer.copyright"	: "Авторское право Все права защищены | раздолье.тек"
 }
->>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5

@@ -15,7 +15,7 @@ export default defineMessages({
         defaultMessage: `Expanse is`,
     },
     HoldExpanse: {
-        id: 'app.components.Service.our_partners.Hold:Expanse',
+        id: 'app.components.Service.our_partners.Hold_Expanse',
         defaultMessage: `a blockchain for smart contracts`,
     },
     dapp_first_tab: {

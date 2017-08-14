@@ -1,40 +1,5 @@
 {
-<<<<<<< HEAD
-  "app.components.Navigation.home": "home",
-  "app.components.Navigation.about": "about",
-  "app.components.Navigation.Mining": "Mining",
-  "app.components.Navigation.EXPPOOL": "EXP.POOL",
-  "app.components.Navigation.suprnova": "suprnova",
-  "app.components.Navigation.dwarfpool": "dwarfpool",
-  "app.components.Navigation.akasha": "akasha",
-  "app.components.Navigation.Digger_ws": "Digger.ws",
-  "app.components.Navigation.buy": "buy",
-  "app.components.Navigation.explore": "explore",
-  "app.components.Navigation.docs": "docs",
-  "app.components.Navigation.news": "news",
-  "app.components.Navigation.contact": "contact",
 
-  "app.components.Header.welcome_to_expanse": "welcome to expanse.tech",
-  "app.components.Header.Expanse_is": "Expanse is ",
-  "app.components.Header.download_wallet": "download wallet",
-
-  "app.components.About.our story" : "our story",
-  "app.components.About.paragraph_1"  : "Expanse.Tech™ was created as the first stable fork of Ethereum by one of the earliest blockchain developers and cryptocurrency entrepreneurs out there, Christopher Franko. Co-founder James Clayton is also the founder of the Cryptocurrency Collectors Club, (CCC), which is the largest and most popular Cryptocurrency group on Facebook. Dan Conway, another blockchain expert with extensive experience, soon joined the team as the third founder, bringing a great deal of talent, balance, and expertise to the project.",
-  "app.components.About.paragraph_2"  : "Expanse was built as a community-based project without an ICO, (Initial Coin Offering), and is blockchain agnostic. The idea is to use cutting-edge blockchain technology to build anything the community and team can imagine—using a Decentralized Autonomous Organization, (DAO), with a self-funded design to keep it truly decentralized. This way, the Expanse community can evolve and grow while rewarding holders, partners, and investors.",
-  "app.components.About.paragraph_3" : "The Expanse platform now has a two-year history of consistent growth and stability. Starting out small, but with big ideas, the team is growing and other projects are now coming on board to help make the dream a reality—limited only by the imagination and talent of all the diverse people around the world involved in the journey. Each new community member and partner brings new ideas and visions for the future. Expanse.Tech plans to be one of the top blockchain projects in the world. Won’t you join us on this adventure? Start learning more about Expanse today!",
-  "app.components.About.wallet " : "wallet ",
-  "app.components.About.roadmap "  : "roadmap ",
-  "app.components.About.whitepaper " : "whitepaper ",
-  "app.components.About.presskit " : "presskit ",
-  "app.components.About.our partners"  : "our partners",
-
-  "boilerplate.containers.LocaleToggle.zh": "chinese",
-  "boilerplate.containers.LocaleToggle.en": "english"
-}
-=======
-  /*Spanish language */
-
-  /* Naivgation */
   "app.components.Navigation.home"		: "casa",
   "app.components.Navigation.about"			: "acerca de",
   "app.components.Navigation.Mining"			: "Minería",
@@ -48,31 +13,36 @@
   "app.components.Navigation.docs"			: "docs",
   "app.components.Navigation.news"			: "Noticias",
   "app.components.Navigation.contact"	: "contacto",
-  /* Home */
+
+
   "app.components.Header.welcome_to_expanse"	: "Bienvenido a extensión.Tecnología",
   "app.components.Header.Expanse_is"	: "La extensión es",
   "app.components.Header.download_wallet"	: "Descargar cartera",
-  /* About */
-  "app.components.About.our story"	: "nuestra historia",
+  "app.components.Header.string_one": "一个聪明的合同的块",
+  "app.components.Header.string_two": "基于艾瑟利",
+  "app.components.Header.string_three": "一个聪明的合同的块|",
+
+
+  "app.components.About.our_story"	: "nuestra historia",
   "app.components.About.paragraph_1"	: "extensión.Tecnología ™ fue creado como la primera bifurcación estable de Ethereum por uno de los primeros desarrolladores de bloques de bloques y empresarios de criptografía por ahí, Christopher Franko. El cofundador James Clayton es también el fundador del Club de coleccionista de Cryptocurrency, (CCC), el grupo más grande y popular de Cryptocurrency en Facebook. Dan Conway, otro experto en bloques con una amplia experiencia, pronto se unió al equipo como el tercer fundador, trayendo un gran talento, equilibrio y experiencia al proyecto.",
   "app.components.About.paragraph_2"	: "Expansión fue construida como un proyecto basado en la comunidad sin un ICO, (Initial Coin Offering), y es de cadena bloque agnóstico. La idea es utilizar la tecnología de bloque de vanguardia para construir cualquier cosa que la comunidad y el equipo puedan imaginar, utilizando una Organización Autónoma Descentralizada (DAO), con un diseño autofinanciado para mantenerlo verdaderamente descentralizado. De esta manera, la comunidad de Expansión puede evolucionar y crecer mientras recompensa a los titulares, socios e inversores.",
   "app.components.About.paragraph_3"	: "La plataforma Expansión ahora tiene una historia de dos años de crecimiento y estabilidad constantes. A partir de pequeños, pero con grandes ideas, el equipo está creciendo y otros proyectos ahora están llegando a bordo para ayudar a hacer realidad el sueño-limitada sólo por la imaginación y el talento de todas las personas de todo el mundo involucrados en el viaje. Cada nuevo miembro de la comunidad y socio trae nuevas ideas y visiones para el futuro. Expanse.Tech planea ser uno de los mejores proyectos de bloque de bloques en el mundo. ¿No te unirás a nosotros en esta aventura? ¡Comienza a aprender más sobre Expanse hoy!",
   "app.components.About.wallet"	: "billetera ",
   "app.components.About.roadmap"	: "Hoja de ruta ",
-  "app.components.About.whitepaper "	: "papel blanco ",
-  "app.components.About.presskit "	: "carpeta de prensa ",
+  "app.components.About.whitepaper"	: "papel blanco ",
+  "app.components.About.presskit"	: "carpeta de prensa ",
   "app.components.About.our_partners"	: "nuestros compañeros",
-  /* Service */
+
+
   "app.components.Service.dApps_title"	: "DApps (aplicaciones descentralizadas)",
   "app.components.Service.ebs"	: "Sistema de enlace de expansión (EBS)",
-  "app.components.Service.our_partners_Hold_Expanse"	: "Sostenga la extensión; Gana Extensión.",
+  "app.components.Service.our_partners.Hold_Expanse"	: "Sostenga la extensión; Gana Extensión.",
   "app.components.Service.dapp_first_tab"	: "El Sistema de Enlace de Expanse, (EBS), es un método innovador para recompensar la compra y la celebración de fichas de expansión durante un período de tiempo predefinido. A diferencia de los sistemas tradicionales de bonos basados en divisas, EBS utiliza sólo EXP nativo para recompensar a los participantes. Funcionando de forma similar a una cuenta de ahorros de token autofinanciada y protegida, utiliza un sistema de estacionamiento simulado basado en contratos inteligentes en la cadena de bloques con parámetros de código abierto descentralizados. Para obtener más información, visite nuestro sitio web en extensión.Tecnología.",
   "app.components.Service.Borderless_Identity_Management"	: "Gestión de Identidad sin Fronteras",
   "app.components.Service.dapp_second_tab"	: "Sin bordes.Tecnologíaes una revolucionaria plataforma descentralizada de servicios de gobierno, que puede ofrecer una variedad de servicios de forma gratuita, o casi sin costo, en cualquier lugar y con facilidad. Servicios tales como la ciudadanía, la identidad, el notario, el matrimonio, la gestión de los derechos patrimoniales y más, son fácilmente capaces de adaptarse a las necesidades específicas de los diversos grupos que están eligiendo sus propias maneras de ser libre. Estos dApp son sólo dos ejemplos de donde el potencial de Expanse es totalmente superior a cualquier otra plataforma de aplicación basada en bloques bloqueados descentralizados.",
   "app.components.Service.voting_on_the_blockchain"	: "Votando en la cadena de bloque",
   "app.components.Service.dapp_third_tab"	: "El dApp, VoteLock ™, tiene el poder de cambiar la dinámica de las elecciones, infundir confianza en el proceso de votación y eliminar la posibilidad de 'aparejar' de voto. Es un método fácil, preciso y a prueba de manipulación para Emplear para elecciones en todo el mundo. Con un verdadero sistema de identidad en desarrollo, extensión ha prototipado un sistema casi perfectvoting. Una persona, un voto.",
 
-  /* Skill Area */
 
   "app.components.SkillArea.our_technology_stack"	: "Nuestra pila de tecnología",
   "app.components.SkillArea.distributed_ledger"	: "Libro distribuido",
@@ -80,15 +50,13 @@
   "app.components.SkillArea.ethereum_virtual_machine"	: "Máquina virtual ethereum",
   "app.components.SkillArea.cmd_line_interface"	: "Cmd interfaz de línea",
 
-  /* Buy */
 
   "app.components.Buy.Exchanges"	: "Intercambios",
 
-  /* Our Teamy */
 
   "app.components.OurTeam.our_team"	: "nuestro equipo",
-  "app.components.OurTeam.Christopher_Frankoo"	: "Christopher Franko",
-  "app.components.OurTeam.Co_founder_Lead Developer"	: "Co-fundador / Desarrollador Principal",
+  "app.components.OurTeam.Christopher_Franko"	: "Christopher Franko",
+  "app.components.OurTeam.Co_founder_Lead_Developer"	: "Co-fundador / Desarrollador Principal",
   "app.components.OurTeam.Christopher_Franko_detail"	: "Un experimentado desarrollador de criptocadenas con conocimiento de nivel experto de la tecnología blockchain, Chris tiene una comprensión diversa de la industria y una reputación de larga data en la comunidad. La única misión de Christopher en la vida es capacitar a las personas con software descentralizado intuitivo y rentable.",
   "app.components.OurTeam.James_Clayton"	: "James Clayton",
   "app.components.OurTeam.Co_founder_Community_Manager"	: "Co-fundador / Gerente de la comunidad",
@@ -122,7 +90,6 @@
   "app.components.OurTeam.Senior_Developer"	: "Desarrollador Senior",
   "app.components.OurTeam.asim_detail"	: "Un entusiasta de la criptocurrencia de corazón, Asim es un apasionado de la creación de próxima generación de aplicaciones descentralizadas. Él tiene una vasta experiencia trabajando como desarrollador de pila completa en algunos de los ambientes más desafiantes donde él ayudó a resolver problemas complejos. Asim, junto con su equipo, tiene como objetivo hacer que Expanse sea más frecuente y más accesible para un público más amplio. Como una manía, él también funciona un aparejo de la explotación minera de 30 GPU en el país.",
 
-  /*Contact Us*/
 
   "app.components.Contact.get_in_touch"	: "Estar en contacto",
   "app.components.Contact.Your_Name"	: "Tu nombre",
@@ -132,8 +99,8 @@
   "app.components.Contact.any_question_text"	: "Si tiene alguna pregunta o desea ponerse en contacto con alguien de nuestro equipo, utilice este formulario.",
   "app.components.Contact.call_us"	: "Llámame +1(252)495-0363",
   "app.components.Contact.po_box_address"	: "CORREOS. Box 2703, Washington, NC. Estados Unidos",
+  "app.components.Contact.send_button"	: "send",
 
-  /*Events*/
 
   "app.components.Events.upcoming_events"	: "Próximos Eventos",
   "app.components.Events.Collision_2017"	: "Colisión 2017",
@@ -164,8 +131,6 @@
   "app.components.Events.Stockholm_SWEDEN"	: "Estocolmo, Suiza",
   "app.components.Events.Nov_6_9_2017"	: "Del 6 al 9 de noviembre de 2017",
 
-  /*Footer*/
 
   "app.components.Footer.copyright"	: "Copyright todos los derechos reservados por | extensión.Tecnología"
 }
->>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5
