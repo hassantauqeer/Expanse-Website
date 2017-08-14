@@ -1,5 +1,11 @@
 {
+  /*Chinese language */
 
+<<<<<<< HEAD
+=======
+  /* Naivgation */
+
+>>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5
   "app.components.Navigation.home": "家",
   "app.components.Navigation.about": "关于",
   "app.components.Navigation.Mining": "矿业",
@@ -14,6 +20,10 @@
   "app.components.Navigation.news": "新闻",
   "app.components.Navigation.contact": "联系",
 
+<<<<<<< HEAD
+=======
+  /* Home */
+>>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5
 
   "app.components.Header.welcome_to_expanse": "欢迎来到广阔.高科技",
   "app.components.Header.Expanse_is": "膨胀是",
@@ -22,6 +32,10 @@
   "app.components.Header.string_three": "一个聪明的合同的块|",
   "app.components.Header.download_wallet": "下载钱包",
 
+<<<<<<< HEAD
+=======
+  /* About */
+>>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5
   "app.components.About.our_story": "我们的故事",
   "app.components.About.paragraph_1": "广阔.高科技™作为复仇的最早的稳定分支之一，由最早的blockchain开发人员和加密安全性企业家克里斯托弗·弗兰科创建。 联合创始人詹姆斯·克莱顿（詹姆斯·克莱顿）也是Cryptocurrency收藏家俱乐部（CCC）的创始人，CCC是Facebook的上最大和最受欢迎的Cryptocurrency集团。 具有丰富经验的另一个集团专家丹·康威很快加入了第三创始人，为项目带来了大量的人才，平衡和专长。",
   "app.components.About.paragraph_2": "广阔被建立为一个没有ICO的社区项目（初始硬币提供），并且是块链接不可知论。 这个想法是使用尖端的块链技术来建立社区和团队可以想象的任何东西 - 使用权力下放的自治组织（DAO），以自筹资金的设计来保持真正的权力下放。 通过这种方式，扩大社区可以发展壮大，同时奖励持有人，合作伙伴和投资者。",
@@ -32,6 +46,10 @@
   "app.components.About.presskit": "新闻资料袋",
   "app.components.About.our_partners": "我们的伙伴",
 
+<<<<<<< HEAD
+=======
+  /* Service */
+>>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5
 
   "app.components.Service.dApps_title": "dApps（分散应用程序）",
   "app.components.Service.ebs": "扩展债券系统（EBS）",
@@ -42,6 +60,10 @@
   "app.components.Service.voting_on_the_blockchain": "ق在块上投票",
   "app.components.Service.dapp_third_tab": "ق正在申请专利的基于Blockchain的投票dApp VoteLock™有权改变选举的动力，将信任投入到投票过程中，消除投票的可能性“索引”。这是一种简单，准确和防篡改的方法 雇用全球选举。 凭借真正的身份认证体系，广阔已经建立了几乎完美的投票系统。 一人一票。",
 
+<<<<<<< HEAD
+=======
+  /* Skill Area */
+>>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5
 
   "app.components.SkillArea.our_technology_stack": "我们的技术栈",
   "app.components.SkillArea.distributed_ledger": "分布式分类帐",
@@ -49,14 +71,26 @@
   "app.components.SkillArea.ethereum_virtual_machine": "灵魂虚拟机",
   "app.components.SkillArea.cmd_line_interface": "cmd行界面",
 
+<<<<<<< HEAD
+=======
+  /* Buy */
+>>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5
 
   "app.components.Buy.Exchanges": "交易所",
 
 
+<<<<<<< HEAD
 
   "app.components.OurTeam.our_team": "我们的队伍",
   "app.components.OurTeam.Christopher_Franko": "克里斯托弗·弗兰科",
   "app.components.OurTeam.Co_founder_Lead_Developer": "联合创始人/主管开发人员",
+=======
+  /* Our Teamy */
+
+  "app.components.OurTeam.our_team": "我们的队伍",
+  "app.components.OurTeam.Christopher_Franko": "克里斯托弗·弗兰科",
+  "app.components.OurTeam.Co_founder_Lead Developer": "联合创始人/主管开发人员",
+>>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5
   "app.components.OurTeam.Christopher_Franko_detail": "经验丰富的密码学开发人员拥有专家级的嵌入式技术知识，克里斯对行业有着多种认识在社区长期以来的声誉。 克里斯托弗人生中唯一的使命就是让个人拥有直观而经济有效的分散软件。",
   "app.components.OurTeam.James_Clayton": "詹姆斯·克莱顿",
   "app.components.OurTeam.Co_founder_Community_Manager": "联合创始人/社区经理",
@@ -90,6 +124,10 @@
   "app.components.OurTeam.Senior_Developer": "高级开发人员",
   "app.components.OurTeam.asim_detail": "阿西姆对于创建下一代分散式应用程序充满热情。 他在解决复杂问题的一些最具挑战性的环境中，拥有丰富的经验，可以作为一个全面的堆栈开发人员。 阿西姆与他的团队一起，旨在让更广泛的受众群体扩散和更易于访问。 作为一个业余爱好，他还在家里运行一个30-GPU挖掘机。",
 
+<<<<<<< HEAD
+=======
+  /*Contact Us*/
+>>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5
 
   "app.components.Contact.get_in_touch": "保持联系",
   "app.components.Contact.Your_Name": "你的名字",
@@ -99,8 +137,13 @@
   "app.components.Contact.any_question_text": "如果您有任何问题或希望与我们团队中的某人联系，请使用此表单。",
   "app.components.Contact.call_us": "给我打电话+1（252)495-0363",
   "app.components.Contact.po_box_address": "邮政信箱 框 2703，华盛顿，北卡罗来纳。 美国",
+<<<<<<< HEAD
   "app.components.Contact.send_button": "发送",
 
+=======
+
+  /*Events*/
+>>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5
 
   "app.components.Events.upcoming_events": "即将举行的活动",
   "app.components.Events.Collision_2017": "碰撞2017",
@@ -110,8 +153,13 @@
   "app.components.Events.Money_Conf": "钱财",
   "app.components.Events.NYC_USA": "纽约，美国",
   "app.components.Events.MADRID_SPAIN": "马德里，西班牙",
+<<<<<<< HEAD
   "app.components.Events.May_2_4_2017": "2017年5月2日至4日",
   "app.components.Events.May_22_24_2017": "2017年5月22日至24日",
+=======
+  "app.components.Events.May_2_4_2017 ": "2017年5月2日至4日",
+  "app.components.Events.May_22_24_2017 ": "2017年5月22日至24日",
+>>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5
   "app.components.Events.May_25_2017": "2017年5月25日",
   "app.components.Events.June_6th_2017": "2017年6月6日",
   "app.components.Events.send": "发送",
@@ -131,5 +179,10 @@
   "app.components.Events.Web_Summit": "网站峰会",
   "app.components.Events.Nov_6_9_2017": "2017年11月6日-9日",
 
+<<<<<<< HEAD
   "app.components.Footer.copyright": "@版权保留所有权利 广阔.高科技"
+=======
+  /*Footer*/
+  "app.components.Footer.copyright": "版权保留所有权利 广阔.高科技"
+>>>>>>> e194639cf66bf4f8c8f6581cf26ea3bff0ab44f5
 }
