@@ -12,15 +12,15 @@ export default defineMessages({
     },
     Christopher_Franko: {
         id: 'app.components.OurTeam.Christopher_Franko',
-        defaultMessage: `Expanse is`,
+        defaultMessage: `Christopher Franko`,
     },
     Co_founder_Lead_Developer: {
         id: 'app.components.OurTeam.Co_founder_Lead_Developer',
-        defaultMessage: `a blockchain for smart contracts`,
+        defaultMessage: `Co-founder / Lead Developer`,
     },
     Christopher_Franko_detail: {
         id: 'app.components.OurTeam.Christopher_Franko_detail',
-        defaultMessage: `EXPPOOL`,
+        defaultMessage: ``,
     },
     James_Clayton: {
         id: 'app.components.OurTeam.James_Clayton',

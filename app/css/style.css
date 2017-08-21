@@ -1,13 +1,37 @@
 /* 1. Body Default CSS
 /*-------------------------------------------------*/
 /*mahar css*/
+.tokenlab{
+    width: 100% !important;
+    background-color: #fff;
+}
+.tokenlab .intro-text h3{
+    font-size: 19px !important;
+    color:#000000;
+}
+.tokenlab .intro-text{
+    position: relative !important;
+    padding-top: 14px !important;
+    padding-bottom: 14px;
+}
+.tokenlab .moredetail{
+    position: absolute;
+    top: 18px;
+    margin-left: 15%;
+}
+.tokenlab_logo {
+    position: absolute !important;
+    z-index: 1 !important;
+    margin-top: -10px !important;
+    margin-left: 16% !important;
+}
 .element{
     padding-top: 0px;
 }
 html,
 body {
     height: 100%;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif !important;
     background-color: white;
 }
 
@@ -274,7 +298,7 @@ i {
 }
 
 .slicknav_nav a {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif !important;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
@@ -766,7 +790,7 @@ i {
     width:90px;
 
     height: 100%;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif !important;
 
 }
 select > option{
@@ -1055,10 +1079,10 @@ and (max-width: 1024px)
 /*newletter pop css starts here*/
 
 #wd1_nlpopup_overlay { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#333333; opacity:.8; z-index:9999; }
-#wd1_nlpopup { display:none; position:fixed; width:50%; top:100px; left:50%; margin-left:-25%; z-index:9999; background:#DC5100; -webkit-box-shadow:0 0 20px #000; box-shadow:0 0 20px #000; border-radius:5px; border:5px solid rgba(0, 0, 0, 0.5); -webkit-background-clip:padding-box; background-clip:padding-box; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "HelveticaNeue", "HelveticaNeueLT", Helvetica, Arial, "Lucida Grande", sans-serif; -webkit-transition:all 0.5s ease; -moz-transition:all 0.5s ease; -o-transition:all 0.5s ease; -ms-transition:all 0.5s ease; transition:all 0.5s ease;}
+#wd1_nlpopup { display:none; position:fixed; width:50%; top:100px; left:50%; margin-left:-25%; z-index:9999; background:#DC5100; -webkit-box-shadow:0 0 20px #000; box-shadow:0 0 20px #000; border-radius:5px; border:5px solid rgba(0, 0, 0, 0.5); -webkit-background-clip:padding-box; background-clip:padding-box; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "HelveticaNeue", "HelveticaNeueLT", Helvetica, Arial, "Lucida Grande", sans-serif !important; -webkit-transition:all 0.5s ease; -moz-transition:all 0.5s ease; -o-transition:all 0.5s ease; -ms-transition:all 0.5s ease; transition:all 0.5s ease;}
 
-#wd1_nlpopup_close { position:absolute; top:-12px; right:-9px; display:inline-block; text-align:center; width:35px; height:35px; border-radius:3px; color:white; font-family:sans-serif; font-weight:900; font-size:18px; line-height:21px; background:url("../img/close.png") no-repeat; text-indent:-99999px; }
-#wd1_nlpopup h2 { font-size:22px; line-height:30px; margin:1.2em 3.5em; font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "HelveticaNeue", "HelveticaNeueLT", Helvetica, Arial, "Lucida Grande", sans-serif; text-align:center; color: white; }
+#wd1_nlpopup_close { position:absolute; top:-12px; right:-9px; display:inline-block; text-align:center; width:35px; height:35px; border-radius:3px; color:white; font-family:sans-serif !important; font-weight:900; font-size:18px; line-height:21px; background:url("../img/close.png") no-repeat; text-indent:-99999px; }
+#wd1_nlpopup h2 { font-size:22px; line-height:30px; margin:1.2em 3.5em; font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "HelveticaNeue", "HelveticaNeueLT", Helvetica, Arial, "Lucida Grande", sans-serif !important; text-align:center; color: white; }
 #wd1_nlpopup h2 span { color:#f58220; text-transform:uppercase; }
 #wd1_nlpopup .graybg { padding:10px 30px; background:#f6f6f6; border:1px solid #cccccc; border-left:0; border-right:0; overflow:auto; }
 #wd1_nlpopup .graybg img { float:left; border:1px solid #dddddd; padding:4px; background:white; margin-right:25px; }

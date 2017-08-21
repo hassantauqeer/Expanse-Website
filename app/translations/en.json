@@ -52,7 +52,7 @@
 
   "app.components.OurTeam.our_team"	: "our team",
   "app.components.OurTeam.Christopher_Frankoo"	: "Christopher Franko",
-  "app.components.OurTeam.Co_founder_Lead Developer"	: "Co-founder / Lead Developer",
+  "app.components.OurTeam.Co_founder_Lead_Developer"	: "Co-founder / Lead Developer",
   "app.components.OurTeam.Christopher_Franko_detail"	: "An experienced cryptocurrency developer with expert level knowledge of blockchain technology, Chris has a diverse understanding of the industry and a long-standing reputation in the community. Christopher's only mission in life is to empower individuals with intuitive and cost effective decentralized software.",
   "app.components.OurTeam.James_Clayton"	: "James Clayton",
   "app.components.OurTeam.Co_founder_Community_Manager"	: "Co-founder / Community Manager",
@@ -127,5 +127,5 @@
   "app.components.Events.send" : "send",
 
 
-  "app.components.Footer.copyright"	: "copyright all right reserved by | expanse.tech"
+  "app.components.Footer.copyright"	: "@copyright all right reserved by | expanse.tech"
 }

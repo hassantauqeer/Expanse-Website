@@ -95,7 +95,7 @@ export class LocaleToggle extends React.PureComponent {
             <div className="btn-group bootstrap-select btn-cta fit-width">
                 <button type="button" className="btn dropdown-toggle btn-new" data-toggle="dropdown" role="button" title={this.props.locale}>
                                                 <span className="filter-option pull-left">
-                                                    {this.handleCountry()}
+                                                     {this.handleCountry()}
                                                 </span>&nbsp;
                     <span className="bs-caret">
                                                     <span className="caret"></span>
@@ -105,40 +105,40 @@ export class LocaleToggle extends React.PureComponent {
                     <ul className="dropdown-menu inner" role="listbox" aria-expanded="false">
                         <li data-original-index="0" onClick={()=> {this.props.changeLocale('en')}}>
                             <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">
-                                <span className="flag-icon flag-icon-us"  ></span>
-                                English
+                                <span className="flag-icon flag-icon-us"  > </span>
+                                 English
                                 <span className="glyphicon glyphicon-ok check-mark"></span>
                             </a>
                         </li>
                         <li data-original-index="1"  className="selected" onClick={()=> {this.props.changeLocale('zh')}}>
                             <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false">
                                 <span className="flag-icon flag-icon-cn"></span>
-                                中文
+                                 中文
                                 <span className="glyphicon glyphicon-ok check-mark"></span>
                             </a>
                         </li>
                         <li data-original-index="2" onClick={()=> {this.props.changeLocale('ja')}}>
-                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-jp"></span> 日本語<span className="glyphicon glyphicon-ok check-mark"></span></a>
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-jp"> </span> 日本語<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
 
                         <li data-original-index="3" onClick={()=> {this.props.changeLocale('es')}}>
-                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-mx"></span> Español<span className="glyphicon glyphicon-ok check-mark"></span></a>
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-mx"> </span> Español<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
 
                         <li data-original-index="4" onClick={()=> {this.props.changeLocale('ko')}}>
-                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-kr"></span> 한국어<span className="glyphicon glyphicon-ok check-mark"></span></a>
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-kr"> </span> 한국어<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
 
                         <li data-original-index="5" onClick={()=> {this.props.changeLocale('ru')}}>
-                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-ru"></span> русский<span className="glyphicon glyphicon-ok check-mark"></span></a>
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-ru"> </span> русский<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
 
                         <li data-original-index="6" onClick={()=> {this.props.changeLocale('de')}}>
-                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-de"></span> Deutsche<span className="glyphicon glyphicon-ok check-mark"></span></a>
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-de"> </span> Deutsche<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
 
                         <li data-original-index="7" onClick={()=> {this.props.changeLocale('fr')}}>
-                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-fr"></span> français<span className="glyphicon glyphicon-ok check-mark"></span></a>
+                            <a tabIndex="0" className="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span className="flag-icon flag-icon-fr"> </span> français<span className="glyphicon glyphicon-ok check-mark"></span></a>
                         </li>
                     </ul>
                 </div>

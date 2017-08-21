@@ -72,8 +72,23 @@ class Navigation extends React.Component {
         return (
             <div>
                 <header id="home">
+
                     <div className="main-navigation sticky-header">
+                        <div className="col-lg-2 col-md-2 col-sm-3 col-xs-10 tokenlab_logo" id="expanse_logo">
+                            <div className="logo-area">
+                                <a href="#">
+                                    <img src={require('../../img/token_lab_logo_black.png')} />
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-lg-8 col-md-8 col-sm-7 col-xs-2 tokenlab">
+                            <div className="intro-text">
+                                <h3><span>Tokenlab ICO launching soon...</span></h3> <a href="http://tokenlab.io" className="moredetail">more detail</a>
+                            </div>
+
+                        </div>
                         <div className="container">
+
                             <div className="row">
 
                                 <div className="col-lg-2 col-md-2 col-sm-3 col-xs-10" id="expanse_logo">
